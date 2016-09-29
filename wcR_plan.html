@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+  <meta charset="UTF-8">
+  <title>wcR plan</title>
+</head>
+<body>
+  <h1>wcR plan v0.1</h1>
+  <p>
+    wc的复仇是是前《深度娱乐》的重制版，用科学的编程规范编写，重新对已有的单位属性进行平衡，修复一些bug，提高可移植性。
+    下面是制作计划。制作周期肯定会非常漫长，而且中间随时可能暂停。
+  </p>
+
+  <section>
+    <h2>Sec 1 General</h2>
+    <ol>
+      <li>RulesMD</li>
+      <li>icon</li>
+      <li>Maps redone</li>
+      <li>campaigns redone</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Sec 2 - RulesMD.ini</h2>
+
+//点子：
+运输机的生命值要加（按照红警3的逻辑是不应该打烂的）
+防御类建筑：粒子对撞炮：（全屏打击，冷却时间长，伪超级武器）
+
+    General - settings
+    --- 注意！ --- 一定会与其他mod冲突
+
+    箱子个数 [CrateRules]
+    伞兵:
+AmerParaDropInf=
+AmerParaDropNum=
+    
+AllyParaDropInf=
+AllyParaDropNum=
+
+SovParaDropInf=
+SovParaDropNum=
+
+YuriParaDropInf=
+YuriParaDropNum=
+
+特殊单位
+SecretInfantry=
+
+SecretUnits=
+
+SecretBuildings=
+
+基础单位
+BaseUnit=
+
+ 建造速度 BuildSpeed=
+
+
+===========================
+步兵：
+[ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
+===========================
+1. 精英士兵
+
+盟军：
+
+光棱兵 [vaIPrismS] I-超时空军团兵 C- S- P-盟军作战实验室 W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2- WD-小型能量爆炸 [vaWEnergyExplSM]
+
+重装精英 [vaIHAElite] I-重装大兵[GGI] C- S- P-盟军作战实验室 W1-M60Plus机枪 [vaWM60Plus] W2-RPG [vaWRPG] N-护甲很厚，无法碾压
+
+阿瑞斯之鹰 [vaIAresEagle] I-火箭飞行兵[JUMPJET] C- S- P-尖碑实验室（盟军） W1-便携巨炮 [vaWPortCannonLG] W2-航载机枪[vaWA20mm] WD-中型爆炸[vaWExplMD] N-飞行状态
+
+苏联：
+
+
+
+
+尤里：
+
+2. 英雄步兵
+
+
+---To be continued...
+
+
+  </section>
+
+</body>
+</html>
