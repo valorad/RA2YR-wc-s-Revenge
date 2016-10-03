@@ -25,7 +25,6 @@
     <h2>Sec 2 - RulesMD.ini</h2>
 
 //点子：
-运输机的生命值要加（按照红警3的逻辑是不应该打烂的）
 防御类建筑：粒子对撞炮：（全屏打击，冷却时间长，伪超级武器）
 大型磁暴塔 [CARUS02G]
 玛雅金字塔2 [CAMEX01]
@@ -68,7 +67,7 @@ BaseUnit=
 步兵：
 [ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
 ===========================
-1. 精英士兵
+1. 精英士兵 全部自我恢复
 
 盟军：
 
@@ -109,57 +108,140 @@ BaseUnit=
 
 苏联：
 
-欧列格 [vaIOleg] I-辐射工兵[DESO] C- S- P-红堡实验室 W1-O型辐射波[vaWRadWaveOmega] W2-剧毒放射弹[vaWDesoChem] WD-核弹 N-可以对空，可以对地
+欧列格 [vaIOleg] I-辐射工兵[DESO] C- S- P-红堡实验室 W1-O型辐射波[vaWRadWaveOmega] W2-剧毒放射弹[vaWDesoChem] WD-核弹[NukePayload] N-可以对空，可以对地
 
 尤里：
 
 哥兰图 [vaIGranto] I-狂兽人[BRUTE] C- S- P-心智升华室 W1-小型心灵震爆 WD-大型心灵震爆 N-对空 对地 
 
-2.精英战车（包括战车工厂飞行器与海军）
+===========================
+战车：（包括战车工厂飞行器与海军）
+[ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
+===========================
+3.精英战车 全部自我恢复
 
 盟军：
 
-杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C- S- P-盟军作战实验室 W1-美杜莎飞弹 W2- WD-小型爆炸 N- 专业对空导弹车 
-豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C- S- P-盟军战车工厂 W1-无 W2-无 WD-无 N-飞快的侦察车，无武器
+杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C- S- P-盟军作战实验室 W1-美杜莎飞弹[Medusa] W2- WD-小型爆炸 N- 专业对空导弹车 
+豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C- S- P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-飞快的侦察车，无武器，不主动被攻击
 太空轨道快递 [vaVSpDelivery] I-坦克杀手[TNKD]  C- S- P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
 
-光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C- S- P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型爆炸 N- 可展开为光棱塔[ATESLA]
-飞弹爱国鼓舞车 [vaVPatMissileMCV] C- S- P-盟军战车工厂, Radar W1-... W2- WD-小型爆炸 N- 可展开为爱国者飞弹，武器与多功能火箭车类似
+光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C- S- P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N- 可展开为光棱塔[ATESLA]
+飞弹爱国鼓舞车 [vaVPatMissileMCV] C- S- P-盟军战车工厂, Radar W1-[HoverMissile] W2- WD-小型爆炸 N- 可展开为爱国者飞弹[NASAM]，武器与多功能火箭车类似，不能防空
 远程光棱建造车 [vaVAAPrismTMCV] I-盟军基地车[AMCV] C- S- P-尖碑实验室 W1-无 W2- WD-无 N- 可展开为远程防空光棱塔，没有武器
 
 玛雅金字塔重建车 [vaVMayanPrmMCV] I-盟军基地车[AMCV] C- S- P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N- 可展开为玛雅金字塔
 科技防御屋修建车 [vaVTechHouseMCV] I-盟军基地车[AMCV] C- S- P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 可展开为科技防御屋
 
+---飞行物
+
+--海军
+核动力驱逐舰 [vaVNukePoweredDest] I-驱逐舰[DEST] C- S- P-盟军造船厂[GAYARD]，尖碑实验室 W1-集聚舰炮[vaWConCannon](一次发3颗的155mm) W2-[ASWLauncher] WD-核弹[NukePayload] N-
+
+乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C- S- P-盟军造船厂，尖碑实验室 W1-[SquidGrab](一次发3颗的155mm) W2-[ASWLauncher] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼
 
 苏联：
 
-迅雷蜘蛛[vaVThunderSpider] I-恐怖机器人 C- S- P-苏联作战实验室 W1- W2- WD- N-速度极快的恐怖机器人
-低调的挖掘机[vaVLowExcavator] I-挖掘机[CONA] C- S- P-苏联战车工厂 W1-... W2- WD- N-中速的侦查车，武器与武装采矿车相同，不主动攻击
-菜油榴弹炮 [vaV] I-榴弹炮 C- S- P-红堡实验室 W1-远程榴弹 W2- WD-小型爆炸 N-远程榴弹炮，
+迅雷蜘蛛[vaVThunderSpider] I-恐怖机器人[DRON] C- S- P-苏联作战实验室[NATECH] W1-超级寄生[vaWSuperDroneJump] W2-[VirtualScanner] WD-无 N-速度极快的恐怖机器人
+低调的挖掘机[vaVLowExcavator] I-挖掘机[CONA] C- S- P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- N-中速的侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击
+菜油榴弹炮 [vaVCaiyouHowitzer] I-榴弹炮[HOWI] C- S- P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-小型爆炸 N-远程火力加强榴弹炮
 
-磁暴线圈组装车[vaVTeslaCoilMCV] I-苏联基地车[SMCV] C- S- P-苏联战车工厂, Radar W1-简易磁暴枪 W2- WD-小型能量爆炸 N- 可展开为磁暴线圈
-防空炮组装车[vaVFlakAACannonMCV] I-苏联基地车[AMCV] C- S- P-苏联战车工厂, Radar W1-防空弹 W2- WD-小型爆炸 N- 可展开为防空炮，与防空履带车武器类似
-重型防空炮设计车[vaVFlakHeavyAACannonMCV] I-苏联基地车[AMCV] C- S- P-红堡实验室 W1-无 W2- WD-无 N- 可展开为重型防空炮，无武器
+磁暴线圈组装车[vaVTeslaCoilMCV] I-苏联基地车[SMCV] C- S- P-苏联战车工厂, Radar W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 N- 可展开为磁暴线圈
+防空炮组装车[vaVFlakAACannonMCV] I-苏联基地车[AMCV] C- S- P-苏联战车工厂, Radar W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 N- 可展开为防空炮[NAFLAK]，与防空履带车[HTK]武器类似，不能防空
+重型防空炮设计车[vaVFlakHeavyAAGunMCV] I-苏联基地车[SMCV] C- S- P-红堡实验室 W1-无 W2- WD-无 N- 可展开为重型防空炮，无武器
 
 大型磁暴塔组建车[vaVSuperTTowerMCV] I-苏联基地车[SMCV] C- S- P-红堡实验室 W1-简易磁暴枪 W2- WD-中型能量爆炸 N- 可展开为大型磁暴塔
 通讯中心组建车[vaVCommCenterMCV] I-苏联基地车[SMCV] C- S- P-红堡实验室 W1-无 W2- WD-小型爆炸 N-可展开为通讯中心
 
+--飞行物
+克里姆林基洛夫[vaVKremlinKirov] I-基洛夫空艇[ZEP] C- S- P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-速度极快，发动自毁
+
+--海军
+收割者[vaVReaper] I-无畏级战舰[DRED] C- S- P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG]  N-移动速度快，护甲高，发射3~5枚飞弹的无畏级
+
+奇异海豚[vaStrDolphin] I-海豚[DLPH] C- S- P-苏联船坞，红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 N-快速快攻的海豚
+
 尤里：
-傻x洲际火箭车 [vaVShaChaICRocket] I-V3火箭发射车] C- S- P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
-迷你小巴士 [vaVMiniBus] I-盟军基地车[AMCV] C- S- P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型爆炸 N- 可展开为光棱塔N-中速的侦察车，可以载5人
-喷火车 近程喷火车，可以对空对地
+傻x洲际火箭车 [vaVShaChaICRocket] I-V3火箭发射车[V3] C- S- P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
+迷你小巴士 [vaVMiniBus] I-巴士[DDBX] C- S- P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 N-中速的侦察车，可以载5人
 
-心灵控制塔安装器
-盖特机炮安装器
-净空镭射炮安装器 
+纵火狂[vaVPyromania] I-神经突击车[CAOS] C- S- P-心智升华室 W1-火枪[vaWFireThrower] W2- WD-小型心灵震爆 N-近程喷火车，可以对空对地，不主动被攻击
 
-尤里雕像中控车
-防御大楼中控车
+心灵控制塔安装器 [vaVMindCTMCV] I-尤里基地车[PCV] C- S- P-尤里战车工厂[YAWEAP], Radar W1-心灵控制[MindControl] W2- WD-小型心灵震爆 N-可展开为心灵控制塔[YAPSYT]
+
+盖特机炮安装器 [vaVGatAAMCV] I-尤里基地车[PCV] C- S- P-尤里战车工厂[YAWEAP], Radar W1-[20mmRapid] W2- WD-小型爆炸 N-可展开为盖特机炮[YAGGUN]
+
+净空镭射炮安装器 [vaVSCLaserCannonMCV] I-尤里基地车[PCV] C- S- P-心智升华室 W1-无 W2- WD-无 N-可展开为净空镭射炮[vaBSCLaserCannon]
+
+尤里雕像中控车 [vaVYuriStatueMCV] I-尤里基地车[PCV] C- S- P-心智升华室 W1-无 W2- WD-中型心灵震爆 N-可展开为尤里雕像II[vaBYuriStatue]
+
+防御大楼中控车 [vaVDefScrapperMCV] I-尤里基地车[PCV] C- S- P-心智升华室 W1-无 W2- WD-无 N-可展开为防御大楼[vaBDefScrapper]
+
+--飞行物
+大型运输直升机[vaVHugeTHeli] I-雌鹿运输直升机[HIND] C- S- P-尤里战车工厂[YAWEAP] W1-[BlackHawkCannon] W2- WD-无 N-运16个人支持载具
+
+--海军
+盖特小船[vaVGatVessel] I-[TUG] C- S- P-尤里海军船坞[YAYARD] W1-[AGGattling] W2-[AAGattling] WD-无 N-
+
+神速雷鸣潜艇[vaVSupBSubmarine](Supreme) I-雷鸣攻击潜艇[BSUB] C- S- P-尤里海军船坞[YAYARD] W1-急速水雷[vaWFastBoomer] W2-急速火箭弹[vaWFastMLauncher] WD-大型核爆[vaWNukeExplLG] N-
+
+4.无畏战车
+
+===========================
+灰机：
+[ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
+===========================
+盟军：
+
+最高打 [vaATopDest] I-入侵者战机[ORCA] C- S- P-空指部[GAAIRC] W1-能量深球弹[vaWBallEnergyRound] W2- WD-无 N-限造4
+
+---公共：
+运输机 [PDPLANE] S-15000
+
+===========================
+建筑：
+[ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
+===========================
+5. 主要建筑
+盟军：
+
+尖碑实验室[vaBObelisk] I-华盛顿纪念碑[CAWSH12] C- S- P-盟军作战实验室[GATECH] W1-无 W2- WD-无 N-限造1
+
+苏联：
+
+红堡实验室[vaBRedFort] I-圣巴索大教堂[CARUS01] C- S- P-苏联作战实验室[NATECH] W1-无 W2- WD-无 N-限造1
+
+尤里：
+ 
+心智升华室[vaBMindMutator] I-心灵控制增幅器[NAPSYA] C- S- P-尤里作战实验室[YATECH] W1-无 W2- WD-无 N-限造1
+
+海上回收站[vaBNavyGrinder] I-工厂[CAIND01] C- S- P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 N-建在海上
+
+
+6. 防御建筑
+
+盟军：
+
+粒子对撞炮[vaBMolColCannon]：I-巨炮[GTGCAN] C- S- P-尖碑实验室 W1-粒子对撞炮[vaWMolColCannon] W2- WD-中型爆炸 N-限造1，范围255，冷却1分钟，伪超级武器
+
+光棱防空塔[vaBAAPrismTower] I-光棱塔[ATESLA]（以爱国者飞弹[NASAM]为模板） C- S- P-尖碑实验室 W1-防空光棱[vaWAAPrism] W2- WD-无
+
+苏联：
+
+磁暴导能仪[vaBTeslaTeleEmiter] I-水塔[CACHIG06] C- S- P-红堡实验室 W1-远距电弧放射器[vaWLRTeslaEmitter] W2- WD-中型能量爆炸 N-限造1，范围120，冷却1分钟，伪超级武器
+
+重型防空炮[vaBHeavyFlakAAGun] I-防空炮[NAFLAK] C- S- P-红堡实验室 W1-重型防空炮[vaWHeavyFlakAA] W2- WD-无 N-
+
+尤里：
+
+心灵传感机[vaBTelepathy] I-心灵信标[NAPSYB] C- S- P-心智升华室 W1-心灵感应控制[vaWTelepathyControl] W2- WD-无 N-限造1，范围120，冷却1分钟，伪超级武器
+
+净空镭射炮[vaBSCLaserCannon] I-雕像[CAEURO05] C- S- P-心智升华室 W1-净空镭射炮[vaWSkyClearLaserCannon] W2- WD-无 N-
 
 ---To be continued...
-
 
   </section>
 
 </body>
 </html>
+
