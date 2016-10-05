@@ -96,7 +96,7 @@ BaseUnit=
 
 洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。
     
-异场武士 [vaIAlienWarrior] I-平民[CIVBTM] C-2500 S-250 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-原力之举[vaWPowerLift] WD-中型心灵震爆[vaWPsyDetonatorSM] N- 类似对付步兵和建筑时近战，对付载具时抬升
+异场武士 [vaIAlienWarrior] I-平民[CIVBTM] C-2500 S-250 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-原力之举[vaWPowerLift] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升
 
 怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II(反载具)[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
 
@@ -122,7 +122,7 @@ BaseUnit=
 
 盟军：
 
-杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C-2000 S-500 P-盟军作战实验室 W1-美杜莎飞弹[Medusa] W2- WD-小型爆炸 N- 专业对空导弹车 
+杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C-2000 S-500 P-盟军作战实验室 W1-美杜莎飞弹[Medusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车 
 
 豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C-1000 S-500 V-30 P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-飞快的侦察车，无武器，不主动被攻击 视野100
 
@@ -143,7 +143,7 @@ BaseUnit=
 --海军
 核动力驱逐舰 [vaVNukePoweredDest] I-驱逐舰[DEST] C-2000 S-1000 V-15 P-盟军造船厂[GAYARD]，尖碑实验室 W1-集聚舰炮[vaWConCannon](一次发3颗的155mm) W2-[ASWLauncher] WD-核弹[NukePayload] N-
 
-乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C-2000 S-2000 V-10 P-盟军造船厂，尖碑实验室 W1-[SquidGrab](一次发3颗的155mm) W2-[ASWLauncher] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼
+乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C-2000 S-2000 V-10 P-盟军造船厂，尖碑实验室 W1-[SquidGrab] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼
 
 苏联：
 
@@ -245,9 +245,9 @@ BaseUnit=
 
 重型防空炮[vaBHeavyFlakAAGun] I-防空炮[NAFLAK] C-3750 S-2350 P-红堡实验室 W1-重型防空炮[vaWHeavyFlakAA] W2- WD-无 N-
 
-大型磁暴塔[vaBLGTeslaTower] I-[CARUS02G] C-5000 S-1500 P-红堡实验室 W1-大型磁暴[vaBTeslaCoilLG]（有折的那种） W2- WD-无 N-耗电-150
+大型磁暴塔[vaBLGTeslaTower] I-[CARUS02G] C-5000 S-1500 P-红堡实验室 W1-大型磁暴[vaWTeslaCoilLG]（有折的那种） W2- WD-无 N-耗电-150
 
-通讯中心[vaBCommCenter] I-[CARUS02G] C-5000 S-2000 P-苏联作战实验室 W1- W2- WD-无 N-驻兵20，心灵感应器
+通讯中心[vaBCommCenter] I-通讯中心[CATECH01] C-5000 S-2000 P-苏联作战实验室 W1- W2- WD-无 N-驻兵20，心灵感应器
 
 
 尤里：
@@ -258,40 +258,71 @@ BaseUnit=
 
 尤里雕像2[vaBYuriStatue] I-尤里雕像[CAEAST02] C-5000 S-1500 P-心智升华室 W1-爆炸激光炮[vaWExplLaserCannon](有点像光棱坦克) W2- WD-无 N-耗电-150
 
-防御大楼[vaBDefScrapper] I-通讯中心[CATECH01] C-5000 S-2000 P-尤里作战实验室 W1- W2- WD-无 N-驻兵20，隐形 
+防御大楼[vaBDefScrapper] I-芝加哥协会大楼[CACHIG04] C-5000 S-2000 P-尤里作战实验室 W1- W2- WD-无 N-驻兵20，隐形 
 
 ===========================
 武器：
 [ID] R-射程 F-射速 D-伤害 W-弹头 N-备注
 ===========================
 7.武器
-[vaWPortablePrism]
-[vaWM60Plus]
-[vaWRPG]
-[vaWPortCannonLG]
-[vaWA20mm]
-[vaWAdvEShooter]
-[vaWTslArcCannon]
-[vaWLightFlakAA]
-[vaWChaosBomb]
-[vaWPsyDetonatorMD]
-[vaWPsyDetonatorSM]
-[vaWOvPunch]
-[vaWPowerLift]
-[vaWVirusvII]
-[vaWVirusvIIAV]
+
+航载机枪[vaWA20mm]
+防空光棱[vaWAAPrism]
+改良磁暴枪[vaWAdvEShooter]
+精神突变仪[vaWChaosBomb]
+集聚舰炮[vaWConCannon]
+剧毒放射弹[vaWDesoChem]
+爆炸激光炮[vaWExplLaserCannon]
+急速水雷[vaWFastBoomer]
+急速火箭弹[vaWFastMLauncher]
+快速声波[vaWFastSonicBurst]
+火枪[vaWFireThrower]
+重型防空炮[vaWHeavyFlakAA]
+洲际火箭[vaWICRocket]
+激光机枪[vaWLaserGatling]
+轻型防空炮[vaWLightFlakAA]
+远程榴弹[vaWLRHowitzer]
+远程中子炮[vaWLRNeutrCannon]
+远距电弧放射器[vaWLRTeslaEmitter]
+M60Plus机枪[vaWM60Plus]
+粒子对撞炮[vaWMolColCannon]
+超载无畏导弹[vaWOvDredLauncher]
+强力拳击[vaWOvPunch]
+便携光棱柱[vaWPortablePrism] 
+便携巨炮[vaWPortCannonLG]
+原力之举[vaWPowerLift]
+大型心灵震爆[vaWPsyDetonatorLG]
+中型心灵震爆[vaWPsyDetonatorMD]
+小型心灵震爆[vaWPsyDetonatorSM]
+O型辐射波[vaWRadWaveOmega]
+RPG[vaWRPG]
+简易光棱[vaWSimplePrism]
+简易磁暴枪[vaWSimpleTesla]
+净空镭射炮[vaWSkyClearLaserCannon]
+超级寄生[vaWSuperDroneJump]
+心灵感应控制[vaWTelepathyControl]
+大型磁暴[vaWTeslaCoilLG]
+巨型电弧炮[vaWTslArcCannon]
+病毒枪V-II[vaWVirusvII]
+病毒枪V-II(反载具)[vaWVirusvIIAV]
+
+
 
 8.自毁武器
-[vaWEnergyExplSM]
-[vaWExplMD]
-[vaWInfilExpl]
-[vaWEnergyExplMD]
+大型能量爆炸[vaWEnergyExplLG]
+中型能量爆炸[vaWEnergyExplMD]
+小型能量爆炸[vaWEnergyExplSM]
+中型爆炸[vaWExplMD]
+小型爆炸[vaWExplSM]
+渗透爆炸[vaWInfilExpl]
+大型核爆[vaWNukeExplLG]
 
 ===========================
 弹头：
 [ID] I-图像 P-装甲伤害百分比 N-备注
 ===========================
 9.弹头
+
 
 ---To be continued...
 
