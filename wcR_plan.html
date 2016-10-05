@@ -24,150 +24,179 @@
   <section>
     <h2>Sec 2 - RulesMD.ini</h2>
 
-
+<p>
 ----------------修改
 原版所有的防御塔strength * 2
-
+</p>
+<p>
 //点子：
+</p>
 
-
-
+<p name="General">
     General - settings
+</p>
     --- 注意！ --- 一定会与其他mod冲突
 
+<p>
     箱子个数 [CrateRules]
-    伞兵:
-AmerParaDropInf=
-AmerParaDropNum=
-    
-AllyParaDropInf=
-AllyParaDropNum=
+</p>  
+<p>
+  伞兵:
+</p>
+<ul>
+    <li>
+      AmerParaDropInf=
+    </li>
+    <li>
+      AmerParaDropNum=
+    </li>
+    <li>
+      AllyParaDropInf=
+    </li>
+    <li>
+      AllyParaDropNum=
+    </li>
+    <li>
+      SovParaDropInf=
+    </li>
+    <li>
+      SovParaDropNum=
+    </li>
+    <li>
+      YuriParaDropInf=
+    </li>
+    <li>
+      YuriParaDropNum=
+    </li>
+</ul>
+<p>特殊单位</p>
+<ul>
+  <li>SecretInfantry=</li>
+  <li>SecretUnits=</li>
+  <li>SecretBuildings=</li>
+</ul>
 
-SovParaDropInf=
-SovParaDropNum=
+<p>基础单位</p>
+<ul>
+  <li>BaseUnit=</li>
+</ul>
 
-YuriParaDropInf=
-YuriParaDropNum=
+<p>建造速度</p>
+<ul>
+  <li> BuildSpeed=</li>
+</ul>
 
-特殊单位
-SecretInfantry=
-
-SecretUnits=
-
-SecretBuildings=
-
-基础单位
-BaseUnit=
-
- 建造速度 BuildSpeed=
-
-----没说就是和模板一样
-
-===========================
-步兵：
-[ID] I-图像 C-花费 S-生命值 V-移动速度 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
-===========================
-1. 精英士兵 全部自我恢复
-
-盟军：
-
-光棱兵 [vaIPrismS] I-超时空军团兵[CLEG] C-2000 S-200 P-盟军作战实验室[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2- WD-小型能量爆炸 [vaWEnergyExplSM]
-
-重装精英 [vaIHAElite] I-重装大兵[GGI] C-2500 S-800 V-5 P-盟军作战实验室 W1-M60Plus机枪 [vaWM60Plus] W2-RPG [vaWRPG] N-护甲很厚，无法碾压
-
-阿瑞斯之鹰 [vaIAresEagle] I-火箭飞行兵[JUMPJET] C-3000 S-1200 P-尖碑实验室（盟军）[vaBObelisk] W1-便携巨炮 [vaWPortCannonLG] W2-航载机枪[vaWA20mm] WD-中型爆炸[vaWExplMD] N-飞行状态
-
-王牌特工 [vaISuperAgent] I-间谍[SPY] C-2000 S-500 P-尖碑实验室 W1- W2- WD-渗透爆炸[vaWInfilExpl] N-不能被碾压，没有升级武器 视野100
+<p>----没说就是和模板一样</p>
 
 
-苏联：
+<ol>
+  <p>===========================</p>
+  <p>步兵：</p>
+  <p>[ID] I-图像 C-花费 S-生命值 V-移动速度 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注</p>
+  <p>===========================</p>
+  <li>精英士兵 [全部自我恢复]</li>
+  <ul>
+    <li>盟军：</li>
+    <li>
+      <ul>
+        <li>光棱兵 [vaIPrismS] I-超时空军团兵[CLEG] C-2000 S-200 P-盟军作战实验室[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2- WD-小型能量爆炸 [vaWEnergyExplSM]</li>
+        <li>重装精英 [vaIHAElite] I-重装大兵[GGI] C-2500 S-800 V-5 P-盟军作战实验室 W1-M60Plus机枪 [vaWM60Plus] W2-RPG [vaWRPG] N-护甲很厚，无法碾压</li>
+        <li>阿瑞斯之鹰 [vaIAresEagle] I-火箭飞行兵[JUMPJET] C-3000 S-1200 P-尖碑实验室（盟军）[vaBObelisk] W1-便携巨炮 [vaWPortCannonLG] W2-航载机枪[vaWA20mm] WD-中型爆炸[vaWExplMD] N-飞行状态</li>
+        <li>王牌特工 [vaISuperAgent] I-间谍[SPY] C-2000 S-500 P-尖碑实验室 W1- W2- WD-渗透爆炸[vaWInfilExpl] N-不能被碾压，没有升级武器 视野100</li>
+      </ul>
+    </li>
+    <li>苏联：</li>
+    <ul>
+      <li>无辜小平民 [vaIWuGuCiv] I-平民[CIV2] C-2000 S-500 V-10 P-苏联兵营[NAHAND] W1-伊文炸药[IvanBomber] W2- WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击 视野100</li>
+      <li>磁暴追猎者 [vaIEShockStalker] I-磁暴步兵[SHK] C-2200 S-700 V-7 P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2- WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，护甲很厚，无法碾压</li>
+      <li>战熊飞行兵 [vaIBatBearJet] I-登月火箭员[LUNR] C-3000 S-1000 P-红堡实验室（苏联）[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行中</li>
+      <li>伞兵终结者 [vaIParaTerminator] I-防空步兵[FLAKT] C-1800 S-200 V-10 P-苏联作战实验室 W1-轻型防空炮（射速远超之前，但是伤害略低）[vaWLightFlakAA] N-（防空步兵升级版）</li>
+    </ul>
+    <li>尤里：</li>
+    <li>心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制塔[MultipleMindControlTower] W2-精神突变仪[vaWChaosBomb] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个 对于不能控制的用小型的心灵震爆</li>
+    <li>洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。</li>
+    <li>异场武士 [vaIAlienWarrior] I-平民[CIVBTM] C-2500 S-250 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-原力之举[vaWPowerLift] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升</li>
+    <li>怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II(反载具)[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面</li>
+  </ul>
+  <li>英雄步兵 - [花费高，生命值很高，限造1位]</li>
+  <ul>
+    <li>盟军：</li>
+    <li>
+       <ul>
+        <li>史蒂夫 [vaISteve] I-海豹部队[GHOST] C-18000 S-5000 P-尖碑实验室 W1-激光机枪[vaWLaserGatling] W2- WD-大型能量爆炸[vaWEnergyExplLG] N-可以对空也可以对地 </li>
+      </ul>
+    </li>
+    <li>苏联：</li>
+    <li>
+      <ul>
+        <li>欧列格 [vaIOleg] I-辐射工兵[DESO] C-20000 S-5000 P-红堡实验室 W1-O型辐射波[vaWRadWaveOmega] W2-剧毒放射弹[vaWDesoChem] WD-核弹[NukePayload] N-可以对空，可以对地</li>
+      </ul>
+    </li>
+    <li>尤里：</li>
+    <li>
+      <ul>
+        <li>哥兰图 [vaIGranto] I-狂兽人[BRUTE] C-25000 S-6000 P-心智升华室 W1-小型心灵震爆 WD-大型心灵震爆 N-对空 对地</li>
+       </ul>
+    </li>
+  </ul>
+  <p>===========================</p>
+  <p>战车：（包括战车工厂飞行器与海军）</p>
+  <p>[ID] I-图像 C-花费 S-生命值 V-移动速度 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注</p>
+  <p>===========================</p>
+  <li>精英战车 [全部自我恢复]</li>
+  <ul>
+    <li>盟军：</li>
+    <ul>
+      <li>杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C-2000 S-500 P-盟军作战实验室 W1-美杜莎飞弹[Medusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车 </li>
+      <li>豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C-1000 S-500 V-30 P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-飞快的侦察车，无武器，不主动被攻击 视野100</li>
+      <li>太空轨道快递 [vaVSpDelivery] I-坦克杀手[TNKD]  C-3000 S-2000 P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空</li>
+      <li>光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C-(光棱塔) S-(光棱塔*80%) P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N- 可展开为光棱塔[ATESLA]</li>
+      <li>飞弹爱国鼓舞车 [vaVPatMissileMCV] C-(爱国者飞弹) S-(爱国者飞弹*80%) P-盟军战车工厂, Radar W1-[HoverMissile] W2- WD-小型爆炸 N- 可展开为爱国者飞弹[NASAM]，武器与多功能火箭车类似，不能防空</li>
+      <li>远程光棱建造车 [vaVAAPrismTMCV] I-盟军基地车[AMCV] C-(防空光棱塔) S-(防空光棱塔*80%) P-尖碑实验室 W1-无 W2- WD-无 N- 可展开为远程防空光棱塔，没有武器</li>
+      <li>玛雅金字塔重建车 [vaVMayanPrmMCV] I-盟军基地车[AMCV] C-(玛雅金字塔2) S-(玛雅金字塔2*80%) P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N- 可展开为玛雅金字塔</li>
+      <li>科技防御屋修建车 [vaVTechHouseMCV] I-盟军基地车[AMCV] C-(科技防御屋) S-(科技防御屋*80%) P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 可展开为科技防御屋</li>
+    </ul>
+    <ul>
+      <li>---飞行物</li>
+    </ul>
+    <ul>
+      <li>--海军</li>
+      <ul>
+        <li>核动力驱逐舰 [vaVNukePoweredDest] I-驱逐舰[DEST] C-2000 S-1000 V-15 P-盟军造船厂[GAYARD]，尖碑实验室 W1-集聚舰炮[vaWConCannon](一次发3颗的155mm) W2-[ASWLauncher] WD-核弹[NukePayload] N-</li>
+        <li>乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C-2000 S-2000 V-10 P-盟军造船厂，尖碑实验室 W1-[SquidGrab] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼</li>
+      </ul>
+    </ul>
+    <li>苏联</li>
+    <ul>
+      <li>迅雷蜘蛛[vaVThunderSpider] I-恐怖机器人[DRON] C-2000 S-1000 V-30 P-苏联作战实验室[NATECH] W1-超级寄生[vaWSuperDroneJump] W2-[VirtualScanner] WD-无 N-速度极快的恐怖机器人</li>
+      <li>低调的挖掘机[vaVLowExcavator] I-挖掘机[CONA] C-1000 S-500 P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- N-中速的侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野100 RadarInvisible=yes</li>
+      <li>菜油榴弹炮 [vaVCaiyouHowitzer] I-榴弹炮[HOWI] C-3000 S-2000 P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-小型爆炸 N-远程火力加强榴弹炮</li>
+      <li>磁暴线圈组装车[vaVTeslaCoilMCV] I-苏联基地车[SMCV] C-(磁暴线圈) S-(磁暴线圈*80%) P-苏联战车工厂, Radar W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 N- 可展开为磁暴线圈</li>
+      <li>防空炮组装车[vaVFlakAACannonMCV] I-苏联基地车[AMCV] C-(防空炮) S-(防空炮*80%) P-苏联战车工厂, Radar W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 N- 可展开为防空炮[NAFLAK]，与防空履带车[HTK]武器类似，不能防空</li>
+      <li>重型防空炮设计车[vaVFlakHeavyAAGunMCV] I-苏联基地车[SMCV] C-(重型防空炮) S-(重型防空炮*80%) P-红堡实验室 W1-无 W2- WD-无 N- 可展开为重型防空炮，无武器</li>
+      <li>大型磁暴塔组建车[vaVSuperTTowerMCV] I-苏联基地车[SMCV] C-(大型磁暴塔) S-(大型磁暴塔*80%) P-红堡实验室 W1-简易磁暴枪 W2- WD-中型能量爆炸 N- 可展开为大型磁暴塔</li>
+      <li>通讯中心组建车[vaVCommCenterMCV] I-苏联基地车[SMCV] C-(通讯中心) S-(通讯中心*80%) P-红堡实验室 W1-无 W2- WD-小型爆炸 N-可展开为通讯中心</li>
+    </ul>
+    <ul>
+      <li>--飞行物</li>
+      <ul>
+       <li>克里姆林基洛夫[vaVKremlinKirov] I-基洛夫空艇[ZEP] C-4500 S-3000 V-20 P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-速度极快，发动自毁</li>
+      </ul>
+    </ul>
+    <ul>
+      <li>--海军</li>
+      <ul>
+        <li>收割者[vaVReaper] I-无畏级战舰[DRED] C-3000 S-3000 P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG]  N-移动速度快，护甲高，发射3~5枚飞弹的无畏级</li>
+        <li>奇异海豚[vaStrDolphin] I-海豚[DLPH] C-1500 S-500 P-苏联船坞，红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 N-快速快攻的海豚</li>
+      </ul>
 
-无辜小平民 [vaIWuGuCiv] I-平民[CIV2] C-2000 S-500 V-10 P-苏联兵营[NAHAND] W1-伊文炸药[IvanBomber] W2- WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击 视野100
+    </ul>
+  </ul>
+</ol>
 
-磁暴追猎者 [vaIEShockStalker] I-磁暴步兵[SHK] C-2200 S-700 V-7 P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2- WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，护甲很厚，无法碾压
+3. 
 
-战熊飞行兵 [vaIBatBearJet] I-登月火箭员[LUNR] C-3000 S-1000 P-红堡实验室（苏联）[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行中
 
-伞兵终结者 [vaIParaTerminator] I-防空步兵[FLAKT] C-1800 S-200 V-10 P-苏联作战实验室 W1-轻型防空炮（射速远超之前，但是伤害略低）[vaWLightFlakAA] N-（防空步兵升级版）
-
-尤里：
-
-心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制塔[MultipleMindControlTower] W2-精神突变仪[vaWChaosBomb] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个 对于不能控制的用小型的心灵震爆
-
-洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。
-    
-异场武士 [vaIAlienWarrior] I-平民[CIVBTM] C-2500 S-250 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-原力之举[vaWPowerLift] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升
-
-怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II(反载具)[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
-
-2. 英雄步兵 - 花费高，生命值很高，限造1位
-
-盟军：
-
-史蒂夫 [vaISteve] I-海豹部队[GHOST] C-18000 S-5000 P-尖碑实验室 W1-激光机枪[vaWLaserGatling] W2- WD-大型能量爆炸[vaWEnergyExplLG] N-可以对空也可以对地 
-
-苏联：
-
-欧列格 [vaIOleg] I-辐射工兵[DESO] C-20000 S-5000 P-红堡实验室 W1-O型辐射波[vaWRadWaveOmega] W2-剧毒放射弹[vaWDesoChem] WD-核弹[NukePayload] N-可以对空，可以对地
-
-尤里：
-
-哥兰图 [vaIGranto] I-狂兽人[BRUTE] C-25000 S-6000 P-心智升华室 W1-小型心灵震爆 WD-大型心灵震爆 N-对空 对地 
-
-===========================
-战车：（包括战车工厂飞行器与海军）
-[ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
-===========================
-3.精英战车 全部自我恢复
-
-盟军：
-
-杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C-2000 S-500 P-盟军作战实验室 W1-美杜莎飞弹[Medusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车 
-
-豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C-1000 S-500 V-30 P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-飞快的侦察车，无武器，不主动被攻击 视野100
-
-太空轨道快递 [vaVSpDelivery] I-坦克杀手[TNKD]  C-3000 S-2000 P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
-
-光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C-(光棱塔) S-(光棱塔*80%) P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N- 可展开为光棱塔[ATESLA]
-
-飞弹爱国鼓舞车 [vaVPatMissileMCV] C-(爱国者飞弹) S-(爱国者飞弹*80%) P-盟军战车工厂, Radar W1-[HoverMissile] W2- WD-小型爆炸 N- 可展开为爱国者飞弹[NASAM]，武器与多功能火箭车类似，不能防空
-
-远程光棱建造车 [vaVAAPrismTMCV] I-盟军基地车[AMCV] C-(防空光棱塔) S-(防空光棱塔*80%) P-尖碑实验室 W1-无 W2- WD-无 N- 可展开为远程防空光棱塔，没有武器
-
-玛雅金字塔重建车 [vaVMayanPrmMCV] I-盟军基地车[AMCV] C-(玛雅金字塔2) S-(玛雅金字塔2*80%) P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N- 可展开为玛雅金字塔
-
-科技防御屋修建车 [vaVTechHouseMCV] I-盟军基地车[AMCV] C-(科技防御屋) S-(科技防御屋*80%) P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 可展开为科技防御屋
-
----飞行物
-
---海军
-核动力驱逐舰 [vaVNukePoweredDest] I-驱逐舰[DEST] C-2000 S-1000 V-15 P-盟军造船厂[GAYARD]，尖碑实验室 W1-集聚舰炮[vaWConCannon](一次发3颗的155mm) W2-[ASWLauncher] WD-核弹[NukePayload] N-
-
-乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C-2000 S-2000 V-10 P-盟军造船厂，尖碑实验室 W1-[SquidGrab] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼
-
-苏联：
-
-迅雷蜘蛛[vaVThunderSpider] I-恐怖机器人[DRON] C-2000 S-1000 V-30 P-苏联作战实验室[NATECH] W1-超级寄生[vaWSuperDroneJump] W2-[VirtualScanner] WD-无 N-速度极快的恐怖机器人
-
-低调的挖掘机[vaVLowExcavator] I-挖掘机[CONA] C-1000 S-500 P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- N-中速的侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野100 RadarInvisible=yes
-
-菜油榴弹炮 [vaVCaiyouHowitzer] I-榴弹炮[HOWI] C-3000 S-2000 P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-小型爆炸 N-远程火力加强榴弹炮
-
-磁暴线圈组装车[vaVTeslaCoilMCV] I-苏联基地车[SMCV] C-(磁暴线圈) S-(磁暴线圈*80%) P-苏联战车工厂, Radar W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 N- 可展开为磁暴线圈
-防空炮组装车[vaVFlakAACannonMCV] I-苏联基地车[AMCV] C-(防空炮) S-(防空炮*80%) P-苏联战车工厂, Radar W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 N- 可展开为防空炮[NAFLAK]，与防空履带车[HTK]武器类似，不能防空
-重型防空炮设计车[vaVFlakHeavyAAGunMCV] I-苏联基地车[SMCV] C-(重型防空炮) S-(重型防空炮*80%) P-红堡实验室 W1-无 W2- WD-无 N- 可展开为重型防空炮，无武器
-
-大型磁暴塔组建车[vaVSuperTTowerMCV] I-苏联基地车[SMCV] C-(大型磁暴塔) S-(大型磁暴塔*80%) P-红堡实验室 W1-简易磁暴枪 W2- WD-中型能量爆炸 N- 可展开为大型磁暴塔
-
-通讯中心组建车[vaVCommCenterMCV] I-苏联基地车[SMCV] C-(通讯中心) S-(通讯中心*80%) P-红堡实验室 W1-无 W2- WD-小型爆炸 N-可展开为通讯中心
-
---飞行物
-克里姆林基洛夫[vaVKremlinKirov] I-基洛夫空艇[ZEP] C-4500 S-3000 V-20 P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-速度极快，发动自毁
-
---海军
-收割者[vaVReaper] I-无畏级战舰[DRED] C-3000 S-3000 P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG]  N-移动速度快，护甲高，发射3~5枚飞弹的无畏级
-
-奇异海豚[vaStrDolphin] I-海豚[DLPH] C-1500 S-500 P-苏联船坞，红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 N-快速快攻的海豚
 
 尤里：
 傻x洲际火箭车 [vaVShaChaICRocket] I-V3火箭发射车[V3] C-5000 S-1000 P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
@@ -266,7 +295,8 @@ BaseUnit=
 ===========================
 7.武器
 
-航载机枪[vaWA20mm]
+航载机枪[vaWA20mm] R-5 F-20 D-50 W-[SSA] N-
+
 防空光棱[vaWAAPrism]
 改良磁暴枪[vaWAdvEShooter]
 精神突变仪[vaWChaosBomb]
@@ -319,7 +349,7 @@ RPG[vaWRPG]
 
 ===========================
 弹头：
-[ID] I-图像 P-装甲伤害百分比 N-备注
+[ID] I-步兵击毙图像 P-装甲伤害百分比 N-备注
 ===========================
 9.弹头
 
