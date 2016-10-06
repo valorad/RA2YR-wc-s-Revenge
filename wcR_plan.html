@@ -86,6 +86,17 @@
   <li> BuildSpeed=</li>
 </ul>
 
+<p>[MultiplayerDialogSettings]</p>
+<ul>
+  <li>MinMoney=</li>
+  <li>Money=</li>
+  <li>MaxMoney=</li>
+  <li>MinUnitCount=</li>
+  <li>UnitCount=</li>
+  <li>MaxUnitCount=</li>
+</ul>
+
+
 <p>----没说就是和模板一样</p>
 
 
@@ -291,11 +302,11 @@
 
 ===========================
 武器：
-[ID] R-射程 F-射速 D-伤害 W-弹头 N-备注
+[ID] D-伤害 F-射速 R-射程 W-弹头 D2-精英伤害 F2-精英射速 R2-精英射程 N-备注
 ===========================
 7.武器
 
-航载机枪[vaWA20mm] R-5 F-20 D-50 W-[SSA] N-
+航载机枪[vaWA20mm] D-50 F-20 R-5 W-[SSA] D2-75 F2-5 R2-5 W-[SSA]N-
 
 防空光棱[vaWAAPrism]
 改良磁暴枪[vaWAdvEShooter]
@@ -318,8 +329,10 @@ M60Plus机枪[vaWM60Plus]
 粒子对撞炮[vaWMolColCannon]
 超载无畏导弹[vaWOvDredLauncher]
 强力拳击[vaWOvPunch]
-便携光棱柱[vaWPortablePrism] 
-便携巨炮[vaWPortCannonLG]
+便携光棱柱[vaWPortablePrism]
+
+便携巨炮[vaWPortCannonLG] D-140 F-100 R-15 W-[GrandCannonWH] D2-180 F2-100 R2-15 N-3级发3颗,MinimumRange=3
+
 原力之举[vaWPowerLift]
 大型心灵震爆[vaWPsyDetonatorLG]
 中型心灵震爆[vaWPsyDetonatorMD]
@@ -342,17 +355,23 @@ RPG[vaWRPG]
 大型能量爆炸[vaWEnergyExplLG]
 中型能量爆炸[vaWEnergyExplMD]
 小型能量爆炸[vaWEnergyExplSM]
-中型爆炸[vaWExplMD]
+中型爆炸[vaWExplMD] D-500 F-50 R-1 W-[vaHExplMD]
+
 小型爆炸[vaWExplSM]
 渗透爆炸[vaWInfilExpl]
 大型核爆[vaWNukeExplLG]
 
 ===========================
 弹头：
-[ID] I-步兵击毙图像 P-装甲伤害百分比 N-备注
+[ID] I-步兵击毙图像 P-装甲伤害百分比 C-波及半径 N-备注
+; Verses = damage value verses various armor types (as percentage of full damage)...
+;           -vs- None, Flak, Plate //infantry
+;       Light, Medium, Heavy //units
+;       Wood, Steel, Concrete //buildings
+;       Special_1, Special_2 //dunno yet
 ===========================
 9.弹头
-
+[vaHExplMD] I- P-100%,100%,90%,90%,50%,50%,150%,80%,50%,100%,100% C-6
 
 ---To be continued...
 
