@@ -25,17 +25,38 @@
     <h2>Sec 2 - RulesMD.ini</h2>
 
 <p>
-----------------修改
-原版所有的防御塔strength * 2
+----------------原版需要修改的地方----------------
+原版所有的防御塔strength * 2 主基地strength * 3 
+[GACNST]
+Strength=3000
+
+[ATESLA]
+Strength=1200
+UndeploysInto=vaVPrismTowerMCV
+
+[NASAM]
+Strength=1800
+UndeploysInto=SMCV
+
+[NACNST]
+Strength=3000
+
+[TESLA]
+Strength=1200
+UndeploysInto=SMCV
+
+[NAFLAK]
+Strength=1800
+UndeploysInto=SMCV
+
 </p>
 <p>
-//点子：
+
 </p>
 
 <p name="General">
     General - settings
 </p>
-    --- 注意！ --- 一定会与其他mod冲突
 
 <p>
     箱子个数 [CrateRules]
@@ -159,10 +180,10 @@
     <li>盟军：</li>
     <ul>
       <li>杜莎大导弹 [vaVDusaMissile] I-多功能步兵车[FV] C-2000 S-500 P-盟军作战实验室 W1-美杜莎飞弹[Medusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车 </li>
-      <li>豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C-1000 S-500 V-30 P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-飞快的侦察车，无武器，不主动被攻击 视野100</li>
+      <li>豪华飞车[vaVLimoRaceCar] I-豪华轿车[LIMO]  C-1000 S-500 V-30 P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-飞快的侦察车，无武器，不主动被攻击 视野100 开始就有</li>
       <li>太空轨道快递 [vaVSpDelivery] I-坦克杀手[TNKD]  C-3000 S-2000 P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空</li>
-      <li>光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C-(光棱塔) S-(光棱塔*80%) P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N- 可展开为光棱塔[ATESLA]</li>
-      <li>飞弹爱国鼓舞车 [vaVPatMissileMCV] C-(爱国者飞弹) S-(爱国者飞弹*80%) P-盟军战车工厂, Radar W1-[HoverMissile] W2- WD-小型爆炸 N- 可展开为爱国者飞弹[NASAM]，武器与多功能火箭车类似，不能防空</li>
+      <li>光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C-(光棱塔) S-(光棱塔*80%) P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 V-8 N- 可展开为光棱塔[ATESLA]</li>
+      <li>飞弹爱国鼓舞车 [vaVPatMissileMCV] C-(爱国者飞弹) S-(爱国者飞弹*80%) P-盟军战车工厂, Radar W1-[HoverMissile] W2- WD-小型爆炸 V-8 N- 可展开为爱国者飞弹[NASAM]，武器与多功能火箭车类似，不能防空</li>
       <li>远程光棱建造车 [vaVAAPrismTMCV] I-盟军基地车[AMCV] C-(防空光棱塔) S-(防空光棱塔*80%) P-尖碑实验室 W1-无 W2- WD-无 N- 可展开为远程防空光棱塔，没有武器</li>
       <li>玛雅金字塔重建车 [vaVMayanPrmMCV] I-盟军基地车[AMCV] C-(玛雅金字塔2) S-(玛雅金字塔2*80%) P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N- 可展开为玛雅金字塔</li>
       <li>科技防御屋修建车 [vaVTechHouseMCV] I-盟军基地车[AMCV] C-(科技防御屋) S-(科技防御屋*80%) P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 可展开为科技防御屋</li>
@@ -180,10 +201,10 @@
     <li>苏联</li>
     <ul>
       <li>迅雷蜘蛛[vaVThunderSpider] I-恐怖机器人[DRON] C-2000 S-1000 V-30 P-苏联作战实验室[NATECH] W1-超级寄生[vaWSuperDroneJump] W2-[VirtualScanner] WD-无 N-速度极快的恐怖机器人</li>
-      <li>低调的挖掘机[vaVLowExcavator] I-挖掘机[CONA] C-1000 S-500 P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- N-中速的侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野100 RadarInvisible=yes</li>
+      <li>低调的挖掘机[vaVLowKeyExcavator] I-挖掘机[CONA] C-1000 S-500 P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- V-20 N-中速的侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野100 RadarInvisible=yes</li>
       <li>菜油榴弹炮 [vaVCaiyouHowitzer] I-榴弹炮[HOWI] C-3000 S-2000 P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-小型爆炸 N-远程火力加强榴弹炮</li>
-      <li>磁暴线圈组装车[vaVTeslaCoilMCV] I-苏联基地车[SMCV] C-(磁暴线圈) S-(磁暴线圈*80%) P-苏联战车工厂, Radar W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 N- 可展开为磁暴线圈</li>
-      <li>防空炮组装车[vaVFlakAACannonMCV] I-苏联基地车[AMCV] C-(防空炮) S-(防空炮*80%) P-苏联战车工厂, Radar W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 N- 可展开为防空炮[NAFLAK]，与防空履带车[HTK]武器类似，不能防空</li>
+      <li>磁暴线圈组装车[vaVTeslaCoilMCV] I-苏联基地车[SMCV] C-(磁暴线圈) S-(磁暴线圈*80%) P-苏联战车工厂, Radar W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 V-8 N- 可展开为磁暴线圈</li>
+      <li>防空炮组装车[vaVFlakAACannonMCV] I-苏联基地车[AMCV] C-(防空炮) S-(防空炮*80%) P-苏联战车工厂, Radar W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 V-8 N- 可展开为防空炮[NAFLAK]，与防空履带车[HTK]武器类似，不能防空</li>
       <li>重型防空炮设计车[vaVFlakHeavyAAGunMCV] I-苏联基地车[SMCV] C-(重型防空炮) S-(重型防空炮*80%) P-红堡实验室 W1-无 W2- WD-无 N- 可展开为重型防空炮，无武器</li>
       <li>大型磁暴塔组建车[vaVSuperTTowerMCV] I-苏联基地车[SMCV] C-(大型磁暴塔) S-(大型磁暴塔*80%) P-红堡实验室 W1-简易磁暴枪 W2- WD-中型能量爆炸 N- 可展开为大型磁暴塔</li>
       <li>通讯中心组建车[vaVCommCenterMCV] I-苏联基地车[SMCV] C-(通讯中心) S-(通讯中心*80%) P-红堡实验室 W1-无 W2- WD-小型爆炸 N-可展开为通讯中心</li>
@@ -212,13 +233,13 @@
 尤里：
 傻x洲际火箭车 [vaVShaChaICRocket] I-V3火箭发射车[V3] C-5000 S-1000 P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
 
-迷你小巴士 [vaVMiniBus] I-巴士[DDBX] C-800 S-500 P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 N-中速的侦察车，可以载5人 视野100
+迷你小巴士 [vaVMiniBus] I-巴士[DDBX] C-800 S-500 P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 V-20 N-中速的侦察车，可以载5人 视野100
 
 纵火狂[vaVPyromania] I-神经突击车[CAOS] C-1500 S-800 P-心智升华室 W1-火枪[vaWFireThrower] W2- WD-小型心灵震爆 N-近程喷火车，可以对空对地，不主动被攻击
 
-心灵控制塔安装器 [vaVMindCTMCV] I-尤里基地车[PCV] C-(心灵控制塔) S-(心灵控制塔*80%) P-尤里战车工厂[YAWEAP], Radar W1-心灵控制[MindControl] W2- WD-小型心灵震爆 N-可展开为心灵控制塔[YAPSYT]
+心灵控制塔安装器 [vaVMindCTMCV] I-尤里基地车[PCV] C-(心灵控制塔) S-(心灵控制塔*80%) P-尤里战车工厂[YAWEAP], Radar W1-心灵控制[MindControl] W2- WD-小型心灵震爆 V-8 N-可展开为心灵控制塔[YAPSYT]
 
-盖特机炮安装器 [vaVGatAAMCV] I-尤里基地车[PCV] C-(盖特机炮) S-(盖特机炮*80%) P-尤里战车工厂[YAWEAP], Radar W1-[20mmRapid] W2- WD-小型爆炸 N-可展开为盖特机炮[YAGGUN]
+盖特机炮安装器 [vaVGatAAMCV] I-尤里基地车[PCV] C-(盖特机炮) S-(盖特机炮*80%) P-尤里战车工厂[YAWEAP], Radar W1-[20mmRapid] W2- WD-小型爆炸 V-8 N-可展开为盖特机炮[YAGGUN]
 
 净空镭射炮安装器 [vaVSCLaserCannonMCV] I-尤里基地车[PCV] C-(净空镭射炮) S-(净空镭射炮*80%) P-心智升华室 W1-无 W2- WD-无 N-可展开为净空镭射炮[vaBSCLaserCannon]
 
@@ -326,7 +347,7 @@
 远程中子炮[vaWLRNeutrCannon]
 
 远距电弧放射器[vaWLRTeslaEmitter] D-250 F-1600 R-200 W-vaHEShockWExplSM D2- F2- R2- N-备注
-远距电弧放射器（过载）[vaWLRTeslaEmitterOP] D-325 F-900 R-200 W-vaHEShockWExplMD D2- F2- R2- N-备注
+远距电弧放射器（过载）[vaWLRTeslaEmitterOP] D-325 F-1600 R-200 W-vaHEShockWExplMD D2- F2- R2- N-备注
 
 M60Plus机枪[vaWM60Plus]
 粒子对撞炮[vaWMolColCannon]
@@ -342,7 +363,9 @@ M60Plus机枪[vaWM60Plus]
 小型心灵震爆[vaWPsyDetonatorSM]
 O型辐射波[vaWRadWaveOmega]
 RPG[vaWRPG]
-简易光棱[vaWSimplePrism]
+
+简易光棱[vaWSimplePrism] D-80 F-50 R-6 W-PrismWarhead D2- F2- R2- N-不升级
+
 简易磁暴枪[vaWSimpleTesla]
 净空镭射炮[vaWSkyClearLaserCannon]
 超级寄生[vaWSuperDroneJump]
@@ -357,7 +380,9 @@ RPG[vaWRPG]
 8.自毁武器
 大型能量爆炸[vaWEnergyExplLG]
 中型能量爆炸[vaWEnergyExplMD]
-小型能量爆炸[vaWEnergyExplSM]
+
+小型能量爆炸[vaWEnergyExplSM] D-175 F- R-1 W-[vaHEnergyExplSM] D2- F2- R2- N-
+
 中型爆炸[vaWExplMD] D-300 F-50 R-1 W-[vaHExplMD]
 
 小型爆炸[vaWExplSM]
@@ -375,8 +400,9 @@ RPG[vaWRPG]
 ===========================
 9.弹头
 [vaHExplMD] I- P-100%,100%,90%,90%,50%,50%,150%,80%,50%,100%,100% C-6
-[vaHEShockWExplSM] I-5 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-波及半径 N-备注
-[vaHEShockWExplMD] I-步兵击毙图像 P-装甲伤害百分比 C-波及半径 N-备注
+[vaHEShockWExplSM] I-5 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-4 N-
+[vaHEShockWExplMD] I-2 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-7 N-
+[vaHEnergyExplSM] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-4 N-
 
 ---To be continued...
 
