@@ -26,7 +26,14 @@
 
 <p>
 ----------------原版需要修改的地方----------------
-原版所有的防御塔strength * 2 主基地strength * 3 
+
+[AI]
+#RA#
+BuildTech=NATECH,GATECH,YATECH,vaBObelisk,vaBRedFort
+
+#YR#
+BuildTech=NATECH,GATECH,vaBObelisk,vaBRedFort
+
 [GACNST]
 Strength=3000
 
@@ -49,6 +56,21 @@ UndeploysInto=SMCV
 Strength=1800
 UndeploysInto=SMCV
 
+---
+#YR# 以下内容完全由尤里复仇专属：
+
+[YACNST]
+Strength=3000
+
+[YAGGUN]
+Strength=2430
+UndeploysInto=PCV
+
+[YAPSYT]
+Strength=1365
+UndeploysInto=PCV
+---
+
 </p>
 <p>
 
@@ -58,9 +80,15 @@ UndeploysInto=SMCV
     General - settings
 </p>
 
-<p>
-    箱子个数 [CrateRules]
-</p>  
+<div>
+    <p>箱子个数 [CrateRules]</p>
+    <ul>
+      <li>CrateMaximum=255</li>
+      <li>CrateMinimum=10</li>
+      <li>CrateRadius=</li>
+      <li>CrateRegen=2</li>
+    </ul>
+</div>  
 <p>
   伞兵:
 </p>
@@ -104,7 +132,7 @@ UndeploysInto=SMCV
 
 <p>建造速度</p>
 <ul>
-  <li> BuildSpeed=</li>
+  <li> BuildSpeed=0.5</li>
 </ul>
 
 <p>[MultiplayerDialogSettings]</p>
