@@ -320,28 +320,28 @@ UndeploysInto=PCV
 
 盟军：
 
-粒子对撞炮[vaBMolColCannon]：I-巨炮[GTGCAN] C-6000 S-2000 P-尖碑实验室 W1-粒子对撞炮[vaWMolColCannon] W2- WD-中型爆炸 E-200 N-限造1，范围255，冷却1分钟，伪超级武器
+粒子对撞炮[vaBMolColCannon]：I-巨炮[GTGCAN] C-7500 S-2000 P-尖碑实验室 W1-粒子对撞炮[vaWMolColCannon] W2- WD-中型爆炸 E-200 N-限造1，范围255，冷却1分钟，伪超级武器
 
 光棱防空塔[vaBAAPrismTower] I-光棱塔[ATESLA]（以爱国者飞弹[NASAM]为模板） C-3500 S-2750 P-尖碑实验室 W1-防空光棱[vaWAAPrism] W2- WD- E-150
 
-玛雅金字塔2[vaBMayanPyramid] I-玛雅金字塔[CAMEX01] C-5000 S-2500 P-尖碑实验室 W1-[MayanPrism] W2- WD-无 E-150 N-
+玛雅金字塔2[vaBMayanPyramid] I-玛雅金字塔[CAMEX01] C-5000 S-2500 P-尖碑实验室 W1-玛雅光棱[vaWMayanPrism] W2- WD-无 E-150 N-
 
 科技防御屋[vaBTechDefHouse] I-爱因斯坦实验室[CALAB] C-5000 S-2000 P-盟军作战实验室 W1- W2- WD- E-100 N-驻兵20, 大裂缝产生器
 
 苏联：
 
-磁暴导能仪[vaBTeslaTeleEmiter] I-水塔[CACHIG06] C-5000 S-2000 P-红堡实验室 W1-远距电弧放射器[vaWLRTeslaEmitter] W2- WD-中型能量爆炸 E-200 N-限造1，范围200，冷却1分钟，伪超级武器，充电即增强版本
+磁暴导能仪[vaBTeslaTeleEmiter] I-水塔[CACHIG06] C-7500 S-2000 P-红堡实验室 W1-远距电弧放射器[vaWLRTeslaEmitter] W2- WD-中型能量爆炸 E-200 N-限造1，范围200，冷却1分钟，伪超级武器，充电即增强版本
 
 重型防空炮[vaBHeavyFlakAAGun] I-防空炮[NAFLAK] C-3750 S-2350 P-红堡实验室 W1-重型防空炮[vaWHeavyFlakAA] W2- WD-无 E-150 N-
 
-大型磁暴塔[vaBLGTeslaTower] I-[CARUS02G] C-5000 S-1500 P-红堡实验室 W1-大型磁暴[vaWTeslaCoilLG]（有折的那种） W2- WD-无 E-150 N-
+大型磁暴塔[vaBLGTeslaTower] I-[CARUS02G] C-5000 S-1500 P-红堡实验室 W1-大型磁暴[vaWTeslaCoilLG]（有折的那种） W2-大型磁暴（过载）[vaWTeslaCoilLGOP] WD-无 E-150 N-
 
 通讯中心[vaBCommCenter] I-通讯中心[CATECH01] C-5000 S-2000 P-苏联作战实验室 W1- W2- WD-无 E-100 N-驻兵20，心灵感应器
 
 
 尤里：
 
-心灵传感机[vaBTelepathy] I-心灵信标[NAPSYB] C-5000 S-2000 P-心智升华室 W1-心灵感应控制[vaWTelepathyControl] W2- WD-无 E-150 N-限造1，范围120，冷却1分钟，伪超级武器
+心灵传感机[vaBTelepathy] I-心灵信标[NAPSYB] C-7000 S-2000 P-心智升华室 W1-心灵感应控制[vaWTelepathyControl] W2- WD-无 E-150 N-限造1，范围120，冷却1分钟，伪超级武器
 
 净空镭射炮[vaBSCLaserCannon] I-雕像[CAEURO05] C-4000 S-2500 P-心智升华室 W1-净空镭射炮[vaWSkyClearLaserCannon] W2- WD-无 E-150 N-
 
@@ -374,11 +374,12 @@ UndeploysInto=PCV
 远程榴弹[vaWLRHowitzer]
 远程中子炮[vaWLRNeutrCannon]
 
-远距电弧放射器[vaWLRTeslaEmitter] D-250 F-1600 R-200 W-vaHEShockWExplSM D2- F2- R2- N-备注
-远距电弧放射器（过载）[vaWLRTeslaEmitterOP] D-325 F-1600 R-200 W-vaHEShockWExplMD D2- F2- R2- N-备注
+远距电弧放射器[vaWLRTeslaEmitter] D-250 F-1600 R-200 W-vaHEShockWExplSM D2- F2- R2- N-最小距离5
+远距电弧放射器（过载）[vaWLRTeslaEmitterOP] D-325 F-1600 R-200 W-vaHEShockWExplMD D2- F2- R2- N-最小距离5
 
 M60Plus机枪[vaWM60Plus]
-粒子对撞炮[vaWMolColCannon]
+玛雅光棱[vaWMayanPrism] D-400 F-80 R-10 W-PrismWarhead D2- F2- R2- N-
+粒子对撞炮[vaWMolColCannon] D-300 F-1550 R-255 W-弹头 D2- F2- R2- N-最小距离5
 超载无畏导弹[vaWOvDredLauncher]
 强力拳击[vaWOvPunch]
 便携光棱柱[vaWPortablePrism]
@@ -394,11 +395,17 @@ RPG[vaWRPG]
 
 简易光棱[vaWSimplePrism] D-80 F-50 R-6 W-PrismWarhead D2- F2- R2- N-不升级
 
-简易磁暴枪[vaWSimpleTesla]
+简易磁暴枪[vaWSimpleTesla] D-150 F-120 R-5 W-Electric D2- F2- R2- N-不升级
+
+
 净空镭射炮[vaWSkyClearLaserCannon]
 超级寄生[vaWSuperDroneJump]
 心灵感应控制[vaWTelepathyControl]
-大型磁暴[vaWTeslaCoilLG]
+
+大型磁暴[vaWTeslaCoilLG] D-450 F-120 R-10 W-vaHTeslaCoilLG D2- F2- R2- N-不升级
+
+大型磁暴（过载）[vaWTeslaCoilLGOP] D-600 F-120 R-10 W-vaHTeslaCoilLGOP D2- F2- R2- N-不升级
+
 巨型电弧炮[vaWTslArcCannon]
 病毒枪V-II[vaWVirusvII]
 病毒枪V-II(反载具)[vaWVirusvIIAV]
@@ -431,6 +438,10 @@ RPG[vaWRPG]
 [vaHEShockWExplSM] I-5 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-4 N-
 [vaHEShockWExplMD] I-2 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-7 N-
 [vaHEnergyExplSM] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-4 N-
+
+[vaHTeslaCoilLG] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,200%,100% C-4 N-
+[vaHTeslaCoilLGOP] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,200%,100% C-4 N-
+[vaHMolColCannon] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-5 N-
 
 ---To be continued...
 
