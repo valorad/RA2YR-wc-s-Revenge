@@ -297,6 +297,9 @@ UndeploysInto=PCV
 [ID] I-图像 C-花费 S-生命值 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 E-耗电 N-备注
 ===========================
 5. 主要建筑
+公共：
+山寨钻油井[vaBShanzhaiOilD] I-CAOILD C-3000 S-1500 P-PROC W1- W2- WD-OilExplosion E-50 N-抢到敌人的山寨钻油井会获得2000，钱增加速度为30/100
+
 盟军：
 
 尖碑实验室[vaBObelisk] I-华盛顿纪念碑[CAWSH12] C-5000 S-3000 P-盟军作战实验室[GATECH] W1-无 W2- WD-无 E-200 N-限造1, 升级
@@ -351,19 +354,24 @@ UndeploysInto=PCV
 ===========================
 7.武器
 
-航载机枪[vaWA20mm] D-50 F-20 R-5 W-[SSA] D2-75 F2-5 R2-5 W-[SSA]N-
+航载机枪[vaWA20mm] D-50 F-20 R-5 W-[SSA] D2-75 F2-5 R2-5 W2-[SSA] N-
 
-防空光棱[vaWAAPrism]
+防空光棱[vaWAAPrism] D-200 F-60 R-15 W- D2- F2- R2- W2- N-
+
 改良磁暴枪[vaWAdvEShooter]
 精神突变仪[vaWChaosBomb]
-集聚舰炮[vaWConCannon]
+
+集聚舰炮[vaWConCannon] D-100 F-150 R-8 W1-ARTYHE D2-135 F2-150 R2-8 W2-vaHConCannonE N-一次3颗，升级一次4颗
+
 剧毒放射弹[vaWDesoChem]
 爆炸激光炮[vaWExplLaserCannon]
 急速水雷[vaWFastBoomer]
 急速火箭弹[vaWFastMLauncher]
 快速声波[vaWFastSonicBurst]
 火枪[vaWFireThrower]
-重型防空炮[vaWHeavyFlakAA]
+
+重型防空炮[vaWHeavyFlakAA] D-175 F-20 R-15 W-FlakWH D2- F2- R2- W2- N-
+
 洲际火箭[vaWICRocket]
 激光机枪[vaWLaserGatling]
 轻型防空炮[vaWLightFlakAA]
@@ -443,6 +451,7 @@ RPG[vaWRPG]
 [vaHMolColCannon] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-5 N-
 [vaHEnergyExplMD] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-7 N-
 [vaHPortCannonLG] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-7 N-
+[vaHConCannonE] I- P-100%,80%,60%,100%,60%,60%,100%,80%,60%,100%,100% C- N-
 
 ---To be continued...
 
