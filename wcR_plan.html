@@ -29,10 +29,10 @@
 
 [AI]
 #RA#
-BuildTech=NATECH,GATECH,YATECH,vaBObelisk,vaBRedFort
+BuildTech=NATECH,GATECH,vaBObelisk,vaBRedFort
 
 #YR#
-BuildTech=NATECH,GATECH,vaBObelisk,vaBRedFort
+BuildTech=NATECH,GATECH,YATECH,vaBObelisk,vaBRedFort
 
 [GACNST]
 Strength=3000
@@ -43,18 +43,18 @@ UndeploysInto=vaVPrismTowerMCV
 
 [NASAM]
 Strength=1800
-UndeploysInto=SMCV
+UndeploysInto=vaVPatMissileMCV
 
 [NACNST]
 Strength=3000
 
 [TESLA]
 Strength=1200
-UndeploysInto=SMCV
+UndeploysInto=vaVTeslaCoilMCV
 
 [NAFLAK]
 Strength=1800
-UndeploysInto=SMCV
+UndeploysInto=vaVFlakAACannonMCV
 
 ---
 #YR# 以下内容完全由尤里复仇专属：
@@ -86,7 +86,7 @@ UndeploysInto=PCV
       <li>CrateMaximum=255</li>
       <li>CrateMinimum=10</li>
       <li>CrateRadius=</li>
-      <li>CrateRegen=2</li>
+      <li>CrateRegen=5</li>
     </ul>
 </div>  
 <p>
@@ -125,11 +125,6 @@ UndeploysInto=PCV
   <li>SecretBuildings=</li>
 </ul>
 
-<p>基础单位</p>
-<ul>
-  <li>BaseUnit=</li>
-</ul>
-
 <p>建造速度</p>
 <ul>
   <li> BuildSpeed=0.5</li>
@@ -137,12 +132,13 @@ UndeploysInto=PCV
 
 <p>[MultiplayerDialogSettings]</p>
 <ul>
-  <li>MinMoney=</li>
-  <li>Money=</li>
-  <li>MaxMoney=</li>
-  <li>MinUnitCount=</li>
-  <li>UnitCount=</li>
-  <li>MaxUnitCount=</li>
+  <li>MinMoney=10000</li>
+  <li>Money=50000</li>
+  <li>MaxMoney=50000</li>
+  <li>MoneyIncrement=1000</li>
+  <li>MinUnitCount=0</li>
+  <li>UnitCount=20</li>
+  <li>MaxUnitCount=20</li>
 </ul>
 
 
@@ -212,7 +208,7 @@ UndeploysInto=PCV
       <li>太空轨道快递 [vaVSpDelivery] I-坦克杀手[TNKD]  C-3000 S-2000 P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空</li>
       <li>光棱塔设计车 [vaVPrismTowerMCV] I-盟军基地车[AMCV] C-(光棱塔) S-(光棱塔*80%) P-盟军战车工厂, Radar W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 V-8 N- 可展开为光棱塔[ATESLA]</li>
       <li>飞弹爱国鼓舞车 [vaVPatMissileMCV] C-(爱国者飞弹) S-(爱国者飞弹*80%) P-盟军战车工厂, Radar W1-[HoverMissile] W2- WD-小型爆炸 V-8 N- 可展开为爱国者飞弹[NASAM]，武器与多功能火箭车类似，不能防空</li>
-      <li>远程光棱建造车 [vaVAAPrismTMCV] I-盟军基地车[AMCV] C-(防空光棱塔) S-(防空光棱塔*80%) P-尖碑实验室 W1-无 W2- WD-无 N- 可展开为远程防空光棱塔，没有武器</li>
+      <li>防空光棱建造车 [vaVAAPrismTMCV] I-盟军基地车[AMCV] C-(防空光棱塔) S-(防空光棱塔*80%) P-尖碑实验室 W1-无 W2- WD-无 N- 可展开为光棱防空塔[vaBAAPrismTower]，没有武器</li>
       <li>玛雅金字塔重建车 [vaVMayanPrmMCV] I-盟军基地车[AMCV] C-(玛雅金字塔2) S-(玛雅金字塔2*80%) P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N- 可展开为玛雅金字塔</li>
       <li>科技防御屋修建车 [vaVTechHouseMCV] I-盟军基地车[AMCV] C-(科技防御屋) S-(科技防御屋*80%) P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 可展开为科技防御屋</li>
     </ul>
@@ -379,7 +375,9 @@ UndeploysInto=PCV
 
 M60Plus机枪[vaWM60Plus]
 玛雅光棱[vaWMayanPrism] D-400 F-80 R-10 W-PrismWarhead D2- F2- R2- N-
+
 粒子对撞炮[vaWMolColCannon] D-300 F-1550 R-255 W-弹头 D2- F2- R2- N-最小距离5
+
 超载无畏导弹[vaWOvDredLauncher]
 强力拳击[vaWOvPunch]
 便携光棱柱[vaWPortablePrism]
@@ -414,13 +412,14 @@ RPG[vaWRPG]
 
 8.自毁武器
 大型能量爆炸[vaWEnergyExplLG]
-中型能量爆炸[vaWEnergyExplMD]
+中型能量爆炸[vaWEnergyExplMD] D-325 F- R-1 W-[vaHEnergyExplMD] D2- F2- R2- N-
 
 小型能量爆炸[vaWEnergyExplSM] D-175 F- R-1 W-[vaHEnergyExplSM] D2- F2- R2- N-
 
 中型爆炸[vaWExplMD] D-300 F-50 R-1 W-[vaHExplMD]
 
-小型爆炸[vaWExplSM]
+小型爆炸[vaWExplSM] D-200 F-50 R-1 W-[vaHExplSM]
+
 渗透爆炸[vaWInfilExpl]
 大型核爆[vaWNukeExplLG]
 
@@ -442,6 +441,8 @@ RPG[vaWRPG]
 [vaHTeslaCoilLG] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,200%,100% C-4 N-
 [vaHTeslaCoilLGOP] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,200%,100% C-4 N-
 [vaHMolColCannon] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-5 N-
+[vaHEnergyExplMD] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-7 N-
+[vaHPortCannonLG] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-7 N-
 
 ---To be continued...
 
