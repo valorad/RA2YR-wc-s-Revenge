@@ -236,13 +236,13 @@ UndeploysInto=PCV
     <ul>
       <li>--飞行物</li>
       <ul>
-       <li>克里姆林基洛夫[vaVKremlinKirov] I-基洛夫空艇[ZEP] C-4500 S-3000 V-20 P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-速度极快，发动自毁</li>
+       <li>克里姆林基洛夫[vaVKremlinKirov] I-基洛夫空艇[ZEP] C-4500 S-3000 V-15 P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-速度快，发动自毁</li>
       </ul>
     </ul>
     <ul>
       <li>--海军</li>
       <ul>
-        <li>收割者[vaVReaper] I-无畏级战舰[DRED] C-3000 S-3000 P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG]  N-移动速度快，护甲高，发射3~5枚飞弹的无畏级</li>
+        <li>收割者[vaVReaper] I-无畏级战舰[DRED] C-3000 S-3000 P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG] V-15 N-移动速度快，护甲高，发射6枚飞弹的无畏级</li>
         <li>奇异海豚[vaStrDolphin] I-海豚[DLPH] C-1500 S-500 P-苏联船坞，红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 N-快速快攻的海豚</li>
       </ul>
 
@@ -429,11 +429,12 @@ RPG[vaWRPG]
 小型爆炸[vaWExplSM] D-200 F-50 R-1 W-[vaHExplSM]
 
 渗透爆炸[vaWInfilExpl]
-大型核爆[vaWNukeExplLG]
+
+大型核爆[vaWNukeExplLG] D-415 F-50 R-1 W-[vaHNukeExplLG]
 
 ===========================
 弹头：
-[ID] I-步兵击毙图像 P-装甲伤害百分比 C-波及半径 N-备注
+[ID] I-步兵击毙图像 P-装甲伤害百分比 C-波及半径[ 0 - 10 ] N-备注
 ; Verses = damage value verses various armor types (as percentage of full damage)...
 ;           -vs- None, Flak, Plate //infantry
 ;       Light, Medium, Heavy //units
@@ -452,6 +453,7 @@ RPG[vaWRPG]
 [vaHEnergyExplMD] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-7 N-
 [vaHPortCannonLG] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-7 N-
 [vaHConCannonE] I- P-100%,80%,60%,100%,60%,60%,100%,80%,60%,100%,100% C- N-
+[vaHNukeExplLG] I- P-100%,100%,100%,200%,100%,100%,60%,100%,20%,100%,100% C-10 N-
 
 ---To be continued...
 
