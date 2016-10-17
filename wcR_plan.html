@@ -158,7 +158,7 @@ UndeploysInto=PCV
         <li>光棱兵 [vaIPrismS] I-超时空军团兵[CLEG] C-2000 S-200 P-盟军作战实验室[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2- WD-小型能量爆炸 [vaWEnergyExplSM]</li>
         <li>重装精英 [vaIHAElite] I-重装大兵[GGI] C-2500 S-800 V-5 P-盟军作战实验室 W1-M60Plus机枪 [vaWM60Plus] W2-RPG [vaWRPG] N-护甲很厚，无法碾压</li>
         <li>阿瑞斯之鹰 [vaIAresEagle] I-火箭飞行兵[JUMPJET] C-3000 S-1200 P-尖碑实验室（盟军）[vaBObelisk] W1-便携巨炮 [vaWPortCannonLG] W2-航载机枪[vaWA20mm] WD-中型爆炸[vaWExplMD] N-飞行状态</li>
-        <li>王牌特工 [vaISuperAgent] I-间谍[SPY] C-2000 S-500 P-尖碑实验室 W1- W2- WD-渗透爆炸[vaWInfilExpl] N-不能被碾压，没有升级武器 视野100</li>
+        <li>王牌特工 [vaISuperAgent] I-间谍[SPY] C-2000 S-500 P-尖碑实验室 W1- W2- WD-小型能量爆炸[vaWEnergyExplSM]  N-不能被碾压，没有升级武器 视野100</li>
       </ul>
     </li>
     <li>苏联：</li>
@@ -166,7 +166,7 @@ UndeploysInto=PCV
       <li>无辜小平民 [vaIWuGuCiv] I-平民[CIV2] C-2000 S-500 V-10 P-苏联兵营[NAHAND] W1-伊文炸药[IvanBomber] W2- WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击 视野100</li>
       <li>磁暴追猎者 [vaIEShockStalker] I-磁暴步兵[SHK] C-2200 S-700 V-7 P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2- WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，护甲很厚，无法碾压</li>
       <li>战熊飞行兵 [vaIBatBearJet] I-登月火箭员[LUNR] C-3000 S-1000 P-红堡实验室（苏联）[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行中</li>
-      <li>伞兵终结者 [vaIParaTerminator] I-防空步兵[FLAKT] C-1800 S-200 V-10 P-苏联作战实验室 W1-轻型防空炮（射速远超之前，但是伤害略低）[vaWLightFlakAA] N-（防空步兵升级版）</li>
+      <li>伞兵终结者 [vaIParaTerminator] I-防空步兵[FLAKT] C-1800 S-200 V-10 P-苏联作战实验室 W1-轻型防空炮（对地）[vaWLightFlakAG] W2-轻型防空炮（射速远超之前，但是伤害略低）[vaWLightFlakAA] WD-小型爆炸 N-（防空步兵升级版）</li>
     </ul>
     <li>尤里：</li>
     <li>心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制塔[MultipleMindControlTower] W2-精神突变仪[vaWChaosBomb] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个 对于不能控制的用小型的心灵震爆</li>
@@ -350,7 +350,7 @@ UndeploysInto=PCV
 
 ===========================
 武器：
-[ID] D-伤害 F-射速 R-射程 W-弹头 D2-精英伤害 F2-精英射速 R2-精英射程 N-备注
+[ID] D-伤害 F-射速 R-射程 W-弹头 P-抛射物 D2-精英伤害 F2-精英射速 R2-精英射程 N-备注
 ===========================
 7.武器
 
@@ -358,7 +358,8 @@ UndeploysInto=PCV
 
 防空光棱[vaWAAPrism] D-200 F-60 R-15 W- D2- F2- R2- W2- N-
 
-改良磁暴枪[vaWAdvEShooter]
+改良磁暴枪[vaWAdvEShooter] D-140 F-80 R-9 W-Electric P-Invisible3 D2-180 F2-80 R2-9 N-
+
 精神突变仪[vaWChaosBomb]
 
 集聚舰炮[vaWConCannon] D-100 F-150 R-8 W1-ARTYHE D2-135 F2-150 R2-8 W2-vaHConCannonE N-一次3颗，升级一次4颗
@@ -374,7 +375,11 @@ UndeploysInto=PCV
 
 洲际火箭[vaWICRocket]
 激光机枪[vaWLaserGatling]
-轻型防空炮[vaWLightFlakAA]
+
+轻型防空炮（对空）[vaWLightFlakAA] D-15 F-20 R-9 W-FlakGuyWH P-FlakProj D2-20 F2-20 R2-9 N-连发2颗，精英连发3颗
+
+轻型防空炮（对地）[vaWLightFlakAG] D-15 F-10 R-5 W-FlakTWH P-FlakTProj D2-30 F2-10 R2-5 N-连发2颗，精英连发3颗
+
 远程榴弹[vaWLRHowitzer]
 远程中子炮[vaWLRNeutrCannon]
 
@@ -388,7 +393,8 @@ M60Plus机枪[vaWM60Plus]
 
 超载无畏导弹[vaWOvDredLauncher]
 强力拳击[vaWOvPunch]
-便携光棱柱[vaWPortablePrism]
+
+便携光棱柱[vaWPortablePrism] D-110 F-50 R-8 W-PrismWarhead P1-vaPAAGComet D2-130 F2-50 R2-8 P2-vaPAAGCometE N-对空对地，升级之后有特效
 
 便携巨炮[vaWPortCannonLG] D-140 F-100 R-15 W-[GrandCannonWH] D2-180 F2-100 R2-15 N-3级发3颗,MinimumRange=3
 
@@ -454,6 +460,31 @@ RPG[vaWRPG]
 [vaHPortCannonLG] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-7 N-
 [vaHConCannonE] I- P-100%,80%,60%,100%,60%,60%,100%,80%,60%,100%,100% C- N-
 [vaHNukeExplLG] I- P-100%,100%,100%,200%,100%,100%,60%,100%,20%,100%,100% C-10 N-
+
+
+ 其他:
+ 资料：
+ IFVMode：
+ 0- [DOG] [ADOG]
+ 1- [ENGINEER] [SENGINEER]
+ 2- [E1] [E2] [SPY]
+ 3- [FLAKT]
+ 4- [GHOST] [TANY] [CCOMAND] [PTROOP]
+ 5- [SNIPE]
+ 6- [SHK]
+ 7- [IVAN] [CIVAN]
+ 8- [YURI] [YURIPR]
+ 9- [DESO]
+ 10- [CLEG]
+ 11- [TERROR]
+ 12- [PRES] [COW] [ALL](鳄鱼) [POLARB] [JOSH]
+  ----------
+ 13- 
+ 14- 
+ 15- 
+ 16- 
+ 17- 
+
 
 ---To be continued...
 
