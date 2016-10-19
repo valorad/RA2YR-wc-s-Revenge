@@ -219,7 +219,7 @@ UndeploysInto=PCV
       <li>--海军</li>
       <ul>
         <li>核动力驱逐舰 [vaVNukePoweredDest] I-驱逐舰[DEST] C-2000 S-1000 V-15 P-盟军造船厂[GAYARD]，尖碑实验室 W1-集聚舰炮[vaWConCannon](一次发3颗的155mm) W2-[ASWLauncher] WD-核弹[NukePayload] N-</li>
-        <li>乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C-2000 S-2000 V-10 P-盟军造船厂，尖碑实验室 W1-[SquidGrab] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼</li>
+        <li>乌贼王 [vaVKingSquid] I-巨形乌贼[SQD] C-2000 S-2000 V-6 P-盟军造船厂，尖碑实验室 W1-[SquidGrab] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼</li>
       </ul>
     </ul>
     <li>苏联</li>
@@ -242,8 +242,8 @@ UndeploysInto=PCV
     <ul>
       <li>--海军</li>
       <ul>
-        <li>收割者[vaVReaper] I-无畏级战舰[DRED] C-3000 S-3000 P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG] V-15 N-移动速度快，护甲高，发射6枚飞弹的无畏级</li>
-        <li>奇异海豚[vaStrDolphin] I-海豚[DLPH] C-1500 S-500 P-苏联船坞，红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 N-快速快攻的海豚</li>
+        <li>收割者[vaVReaper] I-无畏级战舰[DRED] C-3000 S-3000 P-苏联船坞，红堡实验室 W1-超载无畏导弹[vaWOvDredLauncher] W2- WD-大型核爆[vaWNukeExplLG] V-10 N-移动速度快，护甲高，发射6枚飞弹的无畏级</li>
+        <li>奇异海豚[vaAmzDolphin] I-海豚[DLPH] C-1500 S-500 P-苏联船坞，红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 V-15 N-快速快攻的海豚</li>
       </ul>
 
     </ul>
@@ -368,7 +368,9 @@ UndeploysInto=PCV
 爆炸激光炮[vaWExplLaserCannon]
 急速水雷[vaWFastBoomer]
 急速火箭弹[vaWFastMLauncher]
-快速声波[vaWFastSonicBurst]
+
+快速声波[vaWFastSonicBurst] D-2 F-80 R-6 W- P- D2-4 F2-45 R2-6 N- amb5, 8
+
 火枪[vaWFireThrower]
 
 重型防空炮[vaWHeavyFlakAA] D-175 F-20 R-15 W-FlakWH D2- F2- R2- W2- N-
@@ -405,7 +407,9 @@ M60Plus机枪[vaWM60Plus]
 原力之举[vaWPowerLift]
 大型心灵震爆[vaWPsyDetonatorLG]
 中型心灵震爆[vaWPsyDetonatorMD]
-小型心灵震爆[vaWPsyDetonatorSM]
+
+小型心灵震爆[vaWPsyDetonatorSM] D-225 F- R-10 W-[vaHPsyDetonatorSM] D2- F2- R2- N-不升级
+
 O型辐射波[vaWRadWaveOmega]
 RPG[vaWRPG]
 
@@ -464,6 +468,7 @@ RPG[vaWRPG]
 [vaHPortCannonLG] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-7 N-
 [vaHConCannonE] I- P-100%,80%,60%,100%,60%,60%,100%,80%,60%,100%,100% C- N-
 [vaHNukeExplLG] I- P-100%,100%,100%,200%,100%,100%,60%,100%,20%,100%,100% C-10 N-
+[vaHPsyDetonatorSM] I- P-200%,150%,150%,120%,120%,120%,50%,50%,50%,30%,30% C-4 N-
 
 
  其他:
@@ -491,7 +496,7 @@ RPG[vaWRPG]
 
 
 ---To be continued...
-
+;医疗塔，医疗直升机
   </section>
 
 </body>
