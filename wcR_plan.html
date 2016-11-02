@@ -5,7 +5,7 @@
   <title>wcR plan</title>
 </head>
 <body>
-  <h1>wcR plan v0.1</h1>
+  <h1>wcR plan v1.0</h1>
   <p>
     wc的复仇是是前《深度娱乐》的重制版，用科学的编程规范编写，重新对已有的单位属性进行平衡，修复一些bug，提高可移植性。
     下面是制作计划。制作周期肯定会非常漫长，而且中间随时可能暂停。
@@ -56,7 +56,13 @@ UndeploysInto=vaVTeslaCoilMCV
 Strength=1800
 UndeploysInto=vaVFlakAACannonMCV
 
-;parasitable 都是yes！
+[ZEP]
+Parasiteable=yes
+
+[PDPLANE]
+Cost=99999
+Strength=15000
+
 
 ---
 #YR# 以下内容完全由尤里复仇专属：
@@ -96,29 +102,44 @@ UndeploysInto=PCV
 </p>
 <ul>
     <li>
-      AmerParaDropInf=
+      时间：
+    </li>
+    #RA#
+    <li>
+    [AmericanParaDropSpecial]
+    RechargeTime=5
+    [ParaDropSpecial]
+    RechargeTime=5
+    </li>
+    #YR#
+    <li>
+      AmerParaDropInf=E1,vaISuperAgent,vaIPrismS,ENGINEER
     </li>
     <li>
-      AmerParaDropNum=
+      AmerParaDropNum=8,1,1,1
     </li>
     <li>
-      AllyParaDropInf=
+      AllyParaDropInf=E1,vaISuperAgent,vaIPrismS,ENGINEER
     </li>
     <li>
-      AllyParaDropNum=
+      AllyParaDropNum=6,1,1,1
     </li>
     <li>
-      SovParaDropInf=
+      SovParaDropInf=E2,vaIWuGuCiv,vaIEShockStalker,SENGINEER
     </li>
     <li>
-      SovParaDropNum=
+      SovParaDropNum=9,1,1,1
     </li>
+
+    ;#YR#
     <li>
       YuriParaDropInf=
     </li>
     <li>
       YuriParaDropNum=
     </li>
+    ;#YR#
+
 </ul>
 <p>特殊单位</p>
 <ul>
@@ -291,8 +312,7 @@ UndeploysInto=PCV
 
 最高打 [vaATopDest] I-入侵者战机[PDPLANE] C-5000 S-1500 P-空指部[GAAIRC], 尖碑实验室 W1-能量深球弹[vaWBallEnergyRound] W2- WD-无 N-限造1, 入侵者战机[ORCA]方式
 
----公共：
-运输机 [PDPLANE] C-99999 S-15000
+
 
 ===========================
 建筑：
