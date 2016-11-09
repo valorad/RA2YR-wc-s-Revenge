@@ -130,6 +130,8 @@ UndeploysInto=vaVPrismTowerMCV
 [NASAM]
 Strength=1800
 UndeploysInto=vaVPatMissileMCV
+Sensors=yes
+SensorsSight=8
 
 [NACNST]
 Strength=3000
@@ -141,6 +143,11 @@ UndeploysInto=vaVTeslaCoilMCV
 [NAFLAK]
 Strength=1800
 UndeploysInto=vaVFlakAACannonMCV
+Sensors=yes
+SensorsSight=8
+
+[TANY]
+Strength=2000
 
 [ZEP]
 Parasiteable=yes
@@ -159,10 +166,19 @@ Strength=3000
 [YAGGUN]
 Strength=2430
 UndeploysInto=PCV
+Sensors=yes
+SensorsSight=8
 
 [YAPSYT]
 Strength=1365
 UndeploysInto=PCV
+
+[BORIS]
+Strength=2000
+
+[YURIPR]
+Strength=2000
+
 ---
 
 </p>
@@ -277,9 +293,9 @@ UndeploysInto=PCV
       <li>战熊飞行兵 [vaIBatBearJet] I-登月火箭员[LUNR] C-3000 S-1000 P-红堡实验室（苏联）[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行中</li>
       <li>伞兵终结者 [vaIParaTerminator] I-防空步兵[FLAKT] C-1800 S-200 V-10 P-苏联作战实验室 W1-轻型防空炮（对地）[vaWLightFlakAG] W2-轻型防空炮（射速远超之前，但是伤害略低）[vaWLightFlakAA] WD-小型爆炸 N-（防空步兵升级版）</li>
     </ul>
-    <li>尤里：</li>
-    <li>心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制塔[MultipleMindControlTower] W2-精神突变仪[vaWChaosBomb] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个 对于不能控制的用小型的心灵震爆</li>
-    <li>洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。</li>
+    <li>尤里：{CONTAINS #YR#}</li>
+    <li>心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个</li>
+    <li>洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT], [SQD] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 飞行，隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。</li>
     <li>异场武士 [vaIAlienWarrior] I-平民[CIVBTM] C-2500 S-250 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-原力之举[vaWPowerLift] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升</li>
     <li>怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II(反载具)[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面</li>
   </ul>
@@ -472,6 +488,8 @@ UndeploysInto=PCV
 
 精神突变仪[vaWChaosBomb]
 
+
+
 集聚舰炮[vaWConCannon] D-100 F-150 R-8 W1-ARTYHE D2-135 F2-150 R2-8 W2-vaHConCannonE N-一次3颗，升级一次4颗
 
 剧毒放射弹[vaWDesoChem] D-250 F-100 R-12 W-vaHDesoChem P- D2-275 F2-100 R2-12 N-精英发2颗
@@ -520,9 +538,11 @@ M60Plus机枪[vaWM60Plus]
 
 原力之举[vaWPowerLift]
 大型心灵震爆[vaWPsyDetonatorLG]
-中型心灵震爆[vaWPsyDetonatorMD]
+中型心灵震爆[vaWPsyDetonatorMD] D-300 F-10 R-10 W-[vaHPsyDetonatorMD] P-抛射物 D2- F2- R2- N-不升级
 
 小型心灵震爆[vaWPsyDetonatorSM] D-225 F- R-10 W-[vaHPsyDetonatorSM] D2- F2- R2- N-不升级
+
+精神鞭笞[vaWPsyTorture] D-125 F-60 R-8 W-PrismWarhead P-PsychicControl D2-150 F2-50 R2-8 N-
 
 RPG[vaWRPG]
 
