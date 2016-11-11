@@ -298,7 +298,7 @@ Strength=2000
     <li>心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个</li>
     <li>洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT], [SQD] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 飞行，隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。</li>
     <li>异场武士 [vaIAlienWarrior] I-平民[CIVBTM] C-2500 S-250 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-原力之举[vaWPowerLift] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升</li>
-    <li>怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II(反载具)[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面</li>
+    <li>怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面</li>
   </ul>
   <li>英雄步兵 - [花费高，生命值很高，限造1位]</li>
   <ul>
@@ -465,7 +465,7 @@ Strength=2000
 
 尤里：
 
-心灵传感机[vaBTelepathy] I-心灵信标[NAPSYB] C-14000 S-2000 P-心智升华室 W1-心灵感应控制[vaWTelepathyControl] W2- WD-无 E-150 N-限造1，范围120，冷却1分钟，伪超级武器
+心灵传感机[vaBTelepathy] I-心灵信标[NAPSYB] C-14000 S-2000 P-心智升华室 W1-心灵感应控制[vaWTelepathyControl] W2- WD-中型心灵震爆[vaWPsyDetonatorMD] E-150 N-限造1，范围120，冷却1分钟，伪超级武器
 
 净空镭射炮[vaBSCLaserCannon] I-雕像[CAEURO05] C-4000 S-2500 P-心智升华室 W1-净空镭射炮[vaWSkyClearLaserCannon] W2- WD-无 E-150 N-
 
@@ -564,10 +564,10 @@ RPG[vaWRPG]
 大型磁暴（过载）[vaWTeslaCoilLGOP] D-600 F-120 R-10 W-vaHTeslaCoilLGOP D2- F2- R2- N-不升级
 
 巨型电弧炮[vaWTslArcCannon]
-病毒枪V-II[vaWVirusvII]
-病毒枪V-II(反载具)[vaWVirusvIIAV]
 
+病毒枪V-II[vaWVirusvII] D-80 F-80 R-10 W-[vaHVirusvII] D2- F2- R2- N-
 
+病毒枪V-II(反载具)[vaWVirusvIIAV] D-120 F-120 R-10 W-[vaHVirusvIIAV] D2- F2- R2- N-
 
 8.自毁武器
 大型能量爆炸[vaWEnergyExplLG] D-450 F- R-1 W-[vaHEnergyExplLG] D2- F2- R2- N-
@@ -609,6 +609,8 @@ RPG[vaWRPG]
 [vaHDesoChem] I- P-180%,130%,100%,100%,80%,60%,50%,40%,40%,90%,90% C-5 N-
 [vaHDesoEruptor] I- P-180%,130%,100%,100%,80%,60%,50%,40%,40%,90%,90% C-5 N-
 [vaHDesoEruptorE] I- P-200%,120%,100%,110%,100%,90%,60%,50%,50%,100%,100% C-5 N-
+[vaHVirusvII] I- P-150%,120%,100%,0%,0%,0%,0%,0%,0%,0%,100%  C- N-
+[vaHVirusvIIAV] I- P-0%,0%,0%,90%,90%,90%,50%,50%,50%,50%,0%  C- N-
 
  其他:
  资料：
