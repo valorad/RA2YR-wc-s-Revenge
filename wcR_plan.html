@@ -165,21 +165,43 @@ Strength=3000
 
 [YAGGUN]
 Strength=2430
-UndeploysInto=PCV
+UndeploysInto=vaVGatAAMCV
 Sensors=yes
 SensorsSight=8
 
 [YAPSYT]
 Strength=1365
-UndeploysInto=PCV
+UndeploysInto=vaVMindCTMCV
 Secondary=vaWPsyTortureAAGE
 
 [BORIS]
 Strength=2000
+Occupier=yes
 
 [YURIPR]
 Strength=2000
 
+============================
+下面这些士兵可以驻扎建筑物
+[SHK]
+Occupier=yes
+
+[FLAKT]
+Occupier=yes
+
+[GHOST]
+Occupier=yes
+
+[DESO]
+Occupier=yes
+
+[GGI]
+Occupier=yes
+
+[TANY]
+Occupier=yes
+
+#YR# 专属区间结束
 ---
 
 </p>
@@ -236,10 +258,10 @@ Strength=2000
 
     ;#YR#
     <li>
-      YuriParaDropInf=INIT
+      YuriParaDropInf=INIT,vaIEvlSpirit,vaIAlienWarrior,YENGINEER
     </li>
     <li>
-      YuriParaDropNum=6
+      YuriParaDropNum=6,1,1,1
     </li>
     ;#YR#
 
@@ -383,9 +405,9 @@ Strength=2000
 尤里：
 傻x洲际火箭车 [vaVShaChaICRocket] I-V3火箭发射车[V3] C-5000 S-1000 P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
 
-迷你小巴士 [vaVMiniBus] I-巴士[DDBX] C-800 S-500 P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 V-20 N-中速的侦察车，可以载5人 视野100
+迷你小巴士 [vaVMiniBus] I-巴士[DDBX] C-800 S-500 P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 V-20 N-中速的侦察车，可以载5人 视野100，不主动被攻击
 
-纵火狂[vaVPyromania] I-神经突击车[CAOS] C-1500 S-800 P-心智升华室 W1-火枪[vaWFireThrower] W2- WD-小型心灵震爆 N-近程喷火车，可以对空对地，不主动被攻击
+纵火狂[vaVPyromania] I-神经突击车[CAOS] C-1500 S-800 P-心智升华室 W1-火枪[vaWFireThrower] W2- WD-小型心灵震爆 N-近程喷火车，可以对空对地
 
 心灵控制塔安装器 [vaVMindCTMCV] I-尤里基地车[PCV] C-(心灵控制塔) S-(心灵控制塔*80%) P-尤里战车工厂[YAWEAP], Radar W1-心灵控制[MindControl] W2- WD-小型心灵震爆 V-8 N-可展开为心灵控制塔[YAPSYT]
 
@@ -424,6 +446,8 @@ Strength=2000
 5. 主要建筑
 公共：
 山寨钻油井[vaBShanzhaiOilD] I-CAOILD C-3000 S-1500 P-PROC W1- W2- WD-OilExplosion E-50 N-抢到敌人的山寨钻油井会获得2000，钱增加速度为30/100
+
+豪华飞机场[vaBLuxAirport] I-CALA05 C-8000 S-2000 P-TECH W1- W2- WD- E-100 N-后期建造的，伞兵，带雷达
 
 盟军：
 
@@ -557,7 +581,7 @@ RPG[vaWRPG]
 
 超级寄生[vaWSuperDroneJump] D-75 F-60 R-5 W-弹头 P-抛射物 D2- F2- R2- N-不升级
 
-心灵感应控制[vaWTelepathyControl]
+心灵感应控制[vaWTelepathyControl] D-100 F-1500 R-100 W-ControllerBuilding P-vaPPsyControlAAG D2- F2- R2- N-不升级
 
 大型磁暴[vaWTeslaCoilLG] D-450 F-120 R-10 W-vaHTeslaCoilLG D2- F2- R2- N-不升级
 
