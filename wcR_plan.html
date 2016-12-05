@@ -319,7 +319,7 @@ Occupier=yes
     <li>尤里：{CONTAINS #YR#}</li>
     <li>心灵主宰 [vaIMindDominator] I-尤里X[YURIPR] C-2800 S-1100 P-心智升华室（尤里）[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 飞行的 控制3个</li>
     <li>洞察守卫 [vaIOmniGuardian] I-尤里新兵[INIT], [SQD] C-1000 S-100 P-尤里兵营[YABRCK] W1- W2- WD-小型心灵震爆[vaWPsyDetonatorSM] N- 飞行，隐形，没有武器，死亡武器为小型的心灵震爆。 视野100。</li>
-    <li>异场武士 [vaIAlienWarrior] I-平民[CIVA],[INIT] C-2500 S-750 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-[MagneShake] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升</li>
+    <li>异场武士 [vaIAlienWarrior] I-平民[CIVA],[INIT] C-2500 S-1050 P-心智升华室 W1-强力拳击[vaWOvPunch] W2-[MagneShake] WD-中型心灵震爆[vaWPsyDetonatorMD] N- 类似对付步兵和建筑时近战，对付载具时抬升</li>
     <li>怨灵 [vaIEvlSpirit] I-病毒狙击手[VIRUS] C-2000 S-500 P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-[vaWVirusvIIAV] WD-病毒云[VirusCloud1] N- 对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面</li>
   </ul>
   <li>英雄步兵 - [花费高，生命值很高，限造1位]</li>
@@ -563,8 +563,9 @@ M60Plus机枪[vaWM60Plus] D-45 F-40 R-4 W-弹头 P-抛射物 D2-65 F2-40 R2-4 N-
 便携巨炮[vaWPortCannonLG] D-140 F-100 R-15 W-[GrandCannonWH] D2-180 F2-100 R2-15 N-3级发3颗,MinimumRange=3
 
 原力之举[vaWPowerLift]
-大型心灵震爆[vaWPsyDetonatorLG]
-中型心灵震爆[vaWPsyDetonatorMD] D-300 F-10 R-10 W-[vaHPsyDetonatorMD] P-抛射物 D2- F2- R2- N-不升级
+大型心灵震爆[vaWPsyDetonatorLG] D-435 F-10 R-10 W-[vaHPsyDetonatorLG] P-抛射物 D2- F2- R2- N-不升级
+
+中型心灵震爆[vaWPsyDetonatorMD] D-300 F-50 R-10 W-[vaHPsyDetonatorMD] P-抛射物 D2- F2- R2- N-不升级
 
 小型心灵震爆[vaWPsyDetonatorSM] D-225 F- R-10 W-[vaHPsyDetonatorSM] D2- F2- R2- N-不升级
 
@@ -617,22 +618,22 @@ RPG[vaWRPG] D-130 F-100 R-10 W- D2-180 F2-100 R2-10 N-
 ===========================
 9.弹头
 [vaHExplMD] I- P-100%,100%,90%,90%,50%,50%,150%,80%,50%,100%,100% C-6
-[vaHEShockWExplSM] I-5 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-4 N-
-[vaHEShockWExplMD] I-2 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,200%,100% C-7 N-
+[vaHEShockWExplSM] I-5 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,160%,100% C-4 N-
+[vaHEShockWExplMD] I-2 P-150%,130%,120%,95%,100%,100%,50%,75%,60%,160%,100% C-7 N-
 [vaHEnergyExplSM] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-4 N-
-[vaHTeslaCoilLG] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,200%,100% C-4 N-
-[vaHTeslaCoilLGOP] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,200%,100% C-4 N-
+[vaHTeslaCoilLG] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,160%,100% C-4 N-
+[vaHTeslaCoilLGOP] I-5 P-100%,100%,100%,85%,100%,100%,50%,50%,50%,160%,100% C-4 N-
 [vaHMolColCannon] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-5 N-
 [vaHEnergyExplMD] I- P-120%,100%,100%,120%,110%,100%,120%,110%,80%,100%,100% C-7 N-
 [vaHPortCannonLG] I- P-100%,100%,100%,100%,100%,100%,50%,100%,50%,100%,100% C-7 N-
 [vaHConCannonE] I- P-100%,80%,60%,100%,60%,60%,100%,80%,60%,100%,100% C- N-
-[vaHNukeExplLG] I- P-100%,100%,100%,200%,100%,100%,60%,100%,20%,100%,100% C-10 N-
-[vaHPsyDetonatorSM] I- P-200%,150%,150%,120%,120%,120%,50%,50%,50%,30%,30% C-4 N-
-[vaHPsyDetonatorMD] I- P-200%,150%,150%,120%,120%,120%,50%,50%,50%,30%,30% C-7 N-
+[vaHNukeExplLG] I- P-100%,100%,100%,160%,100%,100%,60%,100%,20%,100%,100% C-10 N-
+[vaHPsyDetonatorSM] I- P-160%,150%,150%,120%,120%,120%,50%,50%,50%,30%,30% C-4 N-
+[vaHPsyDetonatorMD] I- P-160%,150%,150%,120%,120%,120%,50%,50%,50%,30%,30% C-7 N-
 [vaHLaserGatling] I- P-150%,120%,100%,100%,100%,90%,120%,100%,80%,100%,100% C- N-
 [vaHDesoChem] I- P-180%,130%,100%,100%,80%,60%,50%,40%,40%,90%,90% C-5 N-
 [vaHDesoEruptor] I- P-180%,130%,100%,100%,80%,60%,50%,40%,40%,90%,90% C-5 N-
-[vaHDesoEruptorE] I- P-200%,120%,100%,110%,100%,90%,60%,50%,50%,100%,100% C-5 N-
+[vaHDesoEruptorE] I- P-160%,120%,100%,110%,100%,90%,60%,50%,50%,100%,100% C-5 N-
 [vaHVirusvII] I- P-150%,120%,100%,0%,0%,0%,0%,0%,0%,0%,100%  C- N-
 [vaHVirusvIIAV] I- P-0%,0%,0%,90%,90%,90%,50%,50%,50%,50%,0%  C- N-
 [vaHSkyClearLaserCannon] I- P-150%,100%,100%,75%,50%,50%,50%,50%,50%,100%,100%  C-1 N-
