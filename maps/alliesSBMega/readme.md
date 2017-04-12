@@ -1,3 +1,5 @@
+# Allies SB Mega
+
 # Version
 1.2.0
 
