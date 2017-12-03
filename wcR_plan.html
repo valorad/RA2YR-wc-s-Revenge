@@ -126,12 +126,14 @@ Strength=3000
 [ATESLA]
 Strength=1200
 UndeploysInto=vaVPrismTowerMCV
+BaseNormal=yes
 
 [NASAM]
 Strength=1800
 UndeploysInto=vaVPatMissileMCV
 Sensors=yes
 SensorsSight=8
+BaseNormal=yes
 
 [NACNST]
 Strength=3000
@@ -139,12 +141,14 @@ Strength=3000
 [TESLA]
 Strength=1200
 UndeploysInto=vaVTeslaCoilMCV
+BaseNormal=yes
 
 [NAFLAK]
 Strength=1800
 UndeploysInto=vaVFlakAACannonMCV
 Sensors=yes
 SensorsSight=8
+BaseNormal=yes
 
 [TANY]
 Strength=2000
@@ -155,6 +159,7 @@ Parasiteable=yes
 [PDPLANE]
 Cost=99999
 Strength=15000
+LeadershipRating=0
 
 
 ---
@@ -168,11 +173,13 @@ Strength=2430
 UndeploysInto=vaVGatAAMCV
 Sensors=yes
 SensorsSight=8
+BaseNormal=yes
 
 [YAPSYT]
 Strength=1365
 UndeploysInto=vaVMindCTMCV
 Secondary=vaWPsyTortureAAGE
+BaseNormal=yes
 
 [BORIS]
 Strength=2000
@@ -183,11 +190,14 @@ Strength=2000
 
 ============================
 下面这些士兵可以驻扎建筑物
+
 [SHK]
 Occupier=yes
 
 [FLAKT]
 Occupier=yes
+OccupyWeapon=FlakGuyAAGun
+EliteOccupyWeapon=FlakGuyAAGunE
 
 [GHOST]
 Occupier=yes
@@ -197,6 +207,8 @@ Occupier=yes
 
 [GGI]
 Occupier=yes
+OccupyWeapon=MissileLauncher
+EliteOccupyWeapon=MissileLauncherE
 
 [TANY]
 Occupier=yes
