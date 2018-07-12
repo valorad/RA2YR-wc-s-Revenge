@@ -1655,7 +1655,8 @@ YURITRI178-G=yes
 [Basic]
 Name=lunarcraft-mo
 Percent=0
-GameMode=standard, meatgrind, navalwar, nukewar, airwar, duel, cooperative, teamgame
+# GameMode=Standard,Unholy Alliance,No Bases,Tech Share,Infantry Only
+GameMode=Standard,Unholy Alliance,No Bases,Tech Share,Infantry Only
 HomeCell=98
 InitTime=10000
 Official=no
