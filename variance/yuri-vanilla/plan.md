@@ -21,12 +21,17 @@ SecondaryFireFLH=85,0,130
 
 2. Ares的一大特性是代码分离，因此我们将各部分的ini分离，让代码更有条理，并且进一步加强了可移植性。
 
+缺点是目前不管是官方（MO）的地图编辑器，还是原版Final Alert都无法如此读取拓展ini中的单位信息，对此我会准备一个专给地图编辑器读取的特制rulesmd.ini。
+
 ``` ini
 ; rulesmd.ini
 [#include]
-1=wcr-rules-warheads.ini
-2=wcr-rules-weapons.ini
-3=wcr-rules-buildings.ini
+10=wcr-rules-warheads.ini
+20=wcr-rules-projectiles.ini
+30=wcr-rules-weapons.ini
+40=wcr-rules-buildings.ini
+
+100=wcr-rules-adjustment.ini
 
 
 ; artmd.ini
@@ -41,7 +46,7 @@ SecondaryFireFLH=85,0,130
 
 ### 全局调整
 
-位于wcR-rules-van-adjustment.ini
+位于wcR-rules-adjustment.ini
 
 - 尖碑实验室、红堡实验室和心智升华室是AI可建造的实验室
 - 建造场的生命值是3000
@@ -63,7 +68,6 @@ SecondaryFireFLH=85,0,130
   - 钱： 10000-50000
   - 兵： 10-20
 - 苏联和尤里不能建造空指部，只能建造山寨空指部
-- 入侵者战机的需求改为“没有”
 
 ### 步兵
 
