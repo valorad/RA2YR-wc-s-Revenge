@@ -2,7 +2,7 @@
 Red Alert 2 : Yuri's Revenge mod - WC's Revenge
 《红色警戒2：尤里的复仇》Mod：WC的复仇 （wcR）
 
-[V3分支]
+--- V3分支 ---
 
 “WC的复仇” 是室长版的后续作品，相较室长版，“WC的复仇”在保持娱乐性的同时尽最大可能进行了平衡。
 
@@ -20,10 +20,10 @@ v3 不再兼容原版《红色警戒2》（Ra2.exe）。
 将dist里的文件夹解压到游戏根目录即可，运行`RunAres.bat`进入游戏。
 
 ## 计划
-wcR v3版本的计划
+[wcR@原版YR的计划](variance/yuri-vanilla/plan.md)
 
 ## License
 
     GPL v3
     Red Alert 2 : Yuri's Revenge mod - WC's Revenge
-    Copyright ©️ 2016-2018  valorad/@xmj-alliance
+    Copyright  2016-2018  valorad/@xmj-alliance
