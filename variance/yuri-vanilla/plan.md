@@ -31,7 +31,7 @@ SecondaryFireFLH=85,0,130
 30=wcr-rules-weapons.ini
 40=wcr-rules-buildings.ini
 
-100=wcr-rules-adjustment.ini
+100=wcr-rules-adjustments.ini
 
 
 ; artmd.ini
@@ -69,9 +69,17 @@ SecondaryFireFLH=85,0,130
   - 兵： 10-20
 - 苏联和尤里不能建造空指部，只能建造山寨空指部。苏联和尤里想要造入侵者战机需要占领盟军的空指部。
 - 经验值分配调整（[Ares文档](http://ares-developers.github.io/Ares-docs/new/customizableveterancy.html)）
-  - 乘客击杀敌军获得经验的25%归乘客获得，75%归载具获得。当载具满级时100%由乘客获得。例如：多功能步兵车、战斗要塞。
-  - 所召唤单位击杀敌军获得经验的一半将分享给主人。例如：驱逐舰、航空母舰。
-  - 所控制单位击杀敌军获得经验的75%将分享给控制者。例如：尤里、精神控制车、尤里X、心灵控制塔。
+  - 乘客击杀敌军获得经验的25%归乘客获得，75%归载具获得。当载具满级时100%由乘客获得。
+    - 多功能步兵车
+    - 战斗要塞
+  - 所召唤单位击杀敌军获得经验的一半将分享给主人。
+    - 驱逐舰
+    - 航空母舰
+  - 所控制单位击杀敌军获得经验的75%将分享给控制者。
+    - 尤里
+    - 精神控制车
+    - 尤里X
+    - 心灵控制塔
 
 ### 步兵
 
@@ -105,7 +113,7 @@ SecondaryFireFLH=85,0,130
 
 尤里：
 - 心灵主宰[vaIMindDominator] F-尤里X[YURIPR] P-心智升华室[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-飞行单位，最多控制3个，移动慢
-- ？？ F-狂兽人[BRUTE] P-心灵探测器[NAPSIS] N-隐形单位，sticky bomb，视野大，驻防和IFV武器和狂兽人一样
+- 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-心灵探测器[NAPSIS] N-隐形单位，sticky bomb，视野大，驻防和IFV武器和狂兽人一样
 - 异场武士[vaIAlienWarrior] F-平民[CIVA] P-尤里作战实验室[YATECH] W1-强力拳击[vaWOvPunch] W2-磁电拉举[MagneShake] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-移动迅速，类似对付步兵和建筑时近战，对付载具时抬升，对步兵的伤害非常高
 - 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-病毒云[vaWVirusCloud] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
 - ============ 英雄 ============
@@ -192,7 +200,7 @@ SecondaryFireFLH=85,0,130
 - 神经突击机 （弹头落地后会出发大面积的精神突击效果）
 - 要塞能动机（对空、对地一点，武器类似能量深球弹）
 - ============ 英雄 ============
-- （弹头落地后基地爆炸并且步兵变成狂兽人）
+- 混沌降临者（弹头落地后基地爆炸并且步兵变成狂兽人）
 
 ### 建筑
 
