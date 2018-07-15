@@ -68,6 +68,10 @@ SecondaryFireFLH=85,0,130
   - 钱： 10000-50000
   - 兵： 10-20
 - 苏联和尤里不能建造空指部，只能建造山寨空指部。苏联和尤里想要造入侵者战机需要占领盟军的空指部。
+- 经验值分配调整（[Ares文档](http://ares-developers.github.io/Ares-docs/new/customizableveterancy.html)）
+  - 乘客击杀敌军获得经验的25%归乘客获得，75%归载具获得。当载具满级时100%由乘客获得。例如：多功能步兵车、战斗要塞。
+  - 所召唤单位击杀敌军获得经验的一半将分享给主人。例如：驱逐舰、航空母舰。
+  - 所控制单位击杀敌军获得经验的75%将分享给控制者。例如：尤里、精神控制车、尤里X、心灵控制塔。
 
 ### 步兵
 
@@ -92,7 +96,7 @@ SecondaryFireFLH=85,0,130
 - 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-移动迅速，可以对空也可以对地
 
 苏联：
-- 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联雷达[NARADR] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击，视野很大
+- 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联作战实验室[NATECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击，视野很大
 - 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，无法碾压，重甲却有较快移动速度
 - 战熊飞行兵[vaIBatBearJet] F-登月火箭员[LUNR] P-红堡实验室[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2-  WO- MFV- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行单位
 - 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联作战实验室[NATECH] W1-反坦克炮[vaWATankCannon] W2-快速防空炮[vaRapidFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
@@ -166,7 +170,7 @@ SecondaryFireFLH=85,0,130
 
 位于wcr-rules-aircrafts.ini
 
-苏联和尤里阵营需要建造山寨飞机场才能建造飞机。
+苏联和尤里阵营需要建造山寨空指部才能建造飞机。
 
 ---
 
@@ -203,7 +207,7 @@ SecondaryFireFLH=85,0,130
 公共：
 - 山寨钻油井[vaBShanzhaiOilD] F-科技钻油井[CAOILD] P-PROC W1- W2- WD-OilExplosion E-50 N-抢到敌人的山寨钻油井会获得2000，钱增加速度为30/100，被毁不留残渣
 - 豪华飞机场[vaBLuxAirport] F-CALA05 P-TECH W1- W2- WD- E-100 N-后期建造的，伞兵，带雷达
-- 山寨飞机场[vaBShanzhaiAirport] F-空指部[GAAIRC] N-盟军不能建造，苏联和尤里在建了RADAR后可以建造
+- (苏联+尤里)山寨空指部[vaBShanzhaiAFH]（Air Force Headquaters） F-空指部[GAAIRC] N-盟军不能建造，苏联和尤里在建了RADAR后可以建造
 
 盟军：
 - 尖碑实验室[vaBObelisk] F-华盛顿纪念碑[CAWSH12] P-盟军作战实验室[GATECH] W1-无 W2- WD-无 E-200 N-限造1, 步兵进入后升级
