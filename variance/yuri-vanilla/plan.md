@@ -215,7 +215,7 @@ SecondaryFireFLH=85,0,130
 公共：
 - 山寨钻油井[vaBShanzhaiOilD] F-科技钻油井[CAOILD] P-PROC W1- W2- WD-OilExplosion E-50 N-抢到敌人的山寨钻油井会获得2000，钱增加速度为30/100，被毁不留残渣
 - 豪华飞机场[vaBLuxAirport] F-CALA05 P-TECH W1- W2- WD- E-100 N-后期建造的，伞兵，带雷达
-- (苏联+尤里)山寨空指部[vaBShanzhaiAFH]（Air Force Headquaters） F-空指部[GAAIRC] N-盟军不能建造，苏联和尤里在建了RADAR后可以建造
+- (苏联+尤里)山寨空指部[vaBShanzhaiACH] F-空指部[GAAIRC] N-盟军不能建造，苏联和尤里在建了RADAR后可以建造
 
 盟军：
 - 尖碑实验室[vaBObelisk] F-华盛顿纪念碑[CAWSH12] P-盟军作战实验室[GATECH] W1-无 W2- WD-无 E-200 N-限造1, 步兵进入后升级
