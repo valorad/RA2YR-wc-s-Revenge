@@ -27,19 +27,21 @@ SecondaryFireFLH=85,0,130
 ``` ini
 ; rulesmd.ini
 [#include]
+5=wcr-rules-animations.ini
 10=wcr-rules-warheads.ini
 20=wcr-rules-projectiles.ini
 30=wcr-rules-weapons.ini
 40=wcr-rules-buildings.ini
 50=wcr-rules-infantries.ini
 60=wcr-rules-vehicles.ini
+70=wcr-rules-aircrafts.ini
 
 100=wcr-rules-adjustments.ini
 
 
 ; artmd.ini
 [#include]
-10=wcr-art-warheads.ini
+10=wcr-art-animations.ini
 20=wcr-art-buildings.ini
 30=wcr-art-infantries.ini
 40=wcr-art-vehicles.ini
@@ -77,7 +79,7 @@ SecondaryFireFLH=85,0,130
 - 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联作战实验室[NATECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击，视野很大
 - 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，无法碾压，重甲却有较快移动速度
 - 战熊飞行兵[vaIBatBearJet] F-登月火箭员[LUNR] P-红堡实验室[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2-  WO- MFV- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行单位
-- 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联作战实验室[NATECH] W1-反坦克炮[vaWATankCannon] W2-快速防空炮[vaWRapidFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
+- 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联作战实验室[NATECH] W1-迫击炮[vaWMortar] W2-轻型防空炮（对空）[vaWLightFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
 - ============ 英雄 ============
 - 欧列格[vaIOleg] F-辐射工兵[DESO] P-红堡实验室[vaBRedFort] W1-剧毒放射弹[vaWDesoChem] W2-剧毒震爆[vaWDesoEruptor]  WO- MFV- WD-大型核爆[NukePayload] N-重甲，无法碾压，移动慢，可以对空对地
 
@@ -85,7 +87,7 @@ SecondaryFireFLH=85,0,130
 - 心灵主宰[vaIMindDominator] F-尤里X[YURIPR] P-心智升华室[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-飞行单位，最多控制3个，移动慢
 - 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-心灵探测器[NAPSIS] N-隐形单位，sticky bomb，视野大，驻防和IFV武器和狂兽人一样
 - 异场武士[vaIAlienWarrior] F-平民[CIVA] P-尤里作战实验室[YATECH] W1-强力拳击[vaWOvPunch] W2-磁电拉举[MagneShake] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-移动迅速，类似对付步兵和建筑时近战，对付载具时抬升，对步兵的伤害非常高
-- 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-病毒云[vaWVirusCloud] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
+- 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-毒雾[vaWVirusGas] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
 - ============ 英雄 ============
 - 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2-剧毒震爆[vaWDesoEruptor]  WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-对空 对地
 
@@ -103,7 +105,7 @@ SecondaryFireFLH=85,0,130
 - 杜莎大导弹[vaVDusaMissile] F-战斗要塞[战斗要塞] P-盟军作战实验室 W1-美杜莎飞弹[vaWMedusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车，只能对空，移动速度慢
 - 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
-- 信号干扰车 F-宣传车[PROPA] P-盟军作战实验室 （骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿）
+- 刷屏干扰车 F-宣传车[PROPA] P-盟军作战实验室 （骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿）
 - 光棱塔设计车[vaVPrismTowerMCV] F-盟军基地车[AMCV] Dp-(光棱塔) P-空指部[GAAIRC]||[AMRADR] W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N-生命值为光棱塔的80%
 - 飞弹爱国鼓舞车[vaVPatMissileMCV] F-盟军基地车[AMCV] Dp-(爱国者飞弹) P-空指部[GAAIRC]||[AMRADR] W1-[vaWHoverMissileAG] W2- WD-小型爆炸 N-生命值为爱国者飞弹的80%，武器与多功能火箭车类似，不能防空
 - 防空光棱建造车[vaVAAPrismTMCV] F-盟军基地车[AMCV] Dp-防空光棱塔[vaBAAPrismTower] P-尖碑实验室 W1-无 W2- WD-无 N-生命值为防空光棱塔的80%，没有武器
@@ -147,13 +149,17 @@ SecondaryFireFLH=85,0,130
 - （海军）神速雷鸣潜艇[vaVSupBSubmarine] F-雷鸣攻击潜艇[BSUB] P-心智升华室 W1-急速水雷[vaWFastBoomer] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-快速的潜艇
 - (海军)心灵控制船 F-游轮[CRUISE] （和尤里一样，控制3个）
 - ============ 英雄 ============
-- （飞行物）母舰 F-航空母舰[CARRIER] N-可以无限控制建筑、单位，移动慢，（周围单位隐形？）
+- （飞行物）母舰 F-航空母舰[CARRIER] P-心智升华室 N-可以无限控制建筑、单位，移动慢，（周围单位隐形？）
 
 ### 飞机
 
 位于wcr-rules-aircrafts.ini
 
 苏联和尤里阵营需要建造山寨空指部才能建造飞机。
+
+载弹量默认是1
+
+需求(P)默认是空指部或山寨空指部
 
 ---
 
@@ -162,21 +168,21 @@ SecondaryFireFLH=85,0,130
 ---
 
 盟军：
-- 雄鹰战机（空对空）
+- 雄鹰战机[vaATercelFighter] F-黑鹰战机[BEAG] P-盟军作战实验室 W1-缠斗导弹-II[vaWDogfightMissile2] W2- WD-小型爆炸 N-空对空，载弹量3
 - ============ 英雄 ============
-- 最高打[vaATopDest] F-入侵者战机[PDPLANE] C-5000 S-1500 P-尖碑实验室 W1-战术核飞弹[vaWNukeMissileAG] W2- WD-自爆卡车[Demobomb] N-入侵者战机[ORCA]的效果，落地是核弹
-
+- 最高打[vaATopDest] F-入侵者战机[ORCA] P-尖碑实验室 W1-战术核飞弹[vaWNukeMissileAG] W2- WD-自爆卡车[Demobomb] N-入侵者战机[ORCA]的效果，落地是核弹，隐形
+ 
 苏联：
-- 米格战机（空对空）
-- 特斯拉战机 （对地一点）
+- 米格战机[vaAMiGFighter] F-米格战机[BPLN] P- W1-缠斗导弹[vaWDogfightMissile] W2- WD- N-空对空，载弹量5
+- 特斯拉无人机[vaATeslaDrone] F-鹗式运输机[ASW] P-苏联作战实验室 W1-磁暴弹[vaWEShockBomb] W2- WD-磁暴弹E[vaWEShockBombE] N-对地一点，1级无片伤，3级有片伤，隐形
 - ============ 英雄 ============
-- 辐芒轰炸机 （弹头爆炸效果类似于欧列格的）
+- 辐芒轰炸机 F-侦察机[SPYP] P-红堡实验室 W1-辐射炸弹[vaWRadBomb] W2- WD-辐射炸弹E[vaWRadBombE] N-弹头爆炸效果类似于欧列格的
 
 尤里：
-- 神经突击机 （弹头落地后会出发大面积的精神突击效果）
-- 要塞战机（对空、对地一点，武器类似能量深球弹）
+- 麻烦制造者 F-雷射幽浮[DISK] P- W1-精神突击弹[vaWRiotBomb] W2- WD-精神突击弹[vaWRiotBomb] N-弹头落地后会出发大面积的精神突击效果，隐形，不能升级
+- 要塞战机[vaAFortressFighter] F-米格战机[BPLN] P-尤里作战实验室 W1-能量飞弹[vaWEnergyMissile] W2- WD-能量飞弹E[vaWEnergyMissileE] N-对空、对地一点，武器类似能量深球弹，载弹量3
 - ============ 英雄 ============
-- 混沌降临者（弹头落地后基地爆炸并且步兵变成狂兽人）
+- 混沌降临者 F-巨型乌贼[SQD] P-心智升华室 W1-混沌飞弹[vaWChaosMissile] W2- WD-混沌飞弹E[vaWChaosMissileE] N-弹头落地后基地爆炸并且步兵变成狂兽人
 
 ### 建筑
 
@@ -270,19 +276,5 @@ SecondaryFireFLH=85,0,130
 
 ### 其他
 - 各国家的特色单位会给予增强。（美国、尤里另说方案）
-
-vaWA20mm击中弹头有爆炸效果
-
-
-
-[需要更改的武器]
-vaWRPG
-vaWA20mm
-vaWPrismCannon
-vaWRapidFlakAA
-vaWVirusCloud
-vaWHoverMissileAG
-vaWNukeMissileAG
-vaWMolColCannonSM
 
 ## AI
