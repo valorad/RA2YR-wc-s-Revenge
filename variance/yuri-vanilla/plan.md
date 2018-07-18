@@ -94,7 +94,7 @@ SecondaryFireFLH=85,0,130
 - 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-毒雾[vaWVirusGas] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，只能尤里建造，对步兵伤害非常高。
 - ============ 英雄 ============
-- 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2-剧毒震爆[vaWDesoEruptor]  WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-对空 对地
+- 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2- WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-对空 对地
 - （飞行兵）芬雷[vaIFinley]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
 
 ### 战车（包括战车工厂飞行器与海军）
@@ -112,8 +112,8 @@ SecondaryFireFLH=85,0,130
 - 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
 - 霸屏干扰车 F-宣传车[PROPA] P-盟军作战实验室 （骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿）
-- 光棱塔设计车[vaVPrismTowerMCV] F-盟军基地车[AMCV] Dp-(光棱塔) P-空指部[GAAIRC]||[AMRADR] W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N-生命值为光棱塔的80%
-- 飞弹爱国鼓舞车[vaVPatMissileMCV] F-盟军基地车[AMCV] Dp-(爱国者飞弹) P-空指部[GAAIRC]||[AMRADR] W1-[vaWHoverMissileAG] W2- WD-小型爆炸 N-生命值为爱国者飞弹的80%，武器与多功能火箭车类似，不能防空
+- 光棱塔设计车[vaVPrismTowerMCV] F-盟军基地车[AMCV] Dp-(光棱塔) P-（类似二级基地防御的建造条件） W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N-生命值为光棱塔的80%
+- 飞弹爱国鼓舞车[vaVPatMissileMCV] F-盟军基地车[AMCV] Dp-(爱国者飞弹) P-（类似二级基地防御的建造条件） W1-[vaWHoverMissileAG] W2- WD-小型爆炸 N-生命值为爱国者飞弹的80%，武器与多功能火箭车类似，不能防空
 - 防空光棱建造车[vaVAAPrismTMCV] F-盟军基地车[AMCV] Dp-防空光棱塔[vaBAAPrismTower] P-尖碑实验室 W1-无 W2- WD-无 N-生命值为防空光棱塔的80%，没有武器
 - 玛雅金字塔重建车[vaVMayanPrmMCV] F-盟军基地车[AMCV] Dp-(玛雅金字塔2) P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N-生命值为玛雅金字塔2的80%
 - 科技防御屋修建车 [vaVTechDHouseMCV] F-盟军基地车[AMCV] Dp-(科技防御屋) P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 生命值为科技防御屋的80%
@@ -128,8 +128,8 @@ SecondaryFireFLH=85,0,130
 - 低调的挖掘机[vaVLowKeyExcavator] F-挖掘机[CONA] P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- V-20 N-侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野大 RadarInvisible=yes
 - 菜油榴弹炮 [vaVCaiyouHowitzer] F-榴弹炮[HOWI] P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-中型爆炸 N-远程火力加强榴弹炮
 - 辐照防空台 F-卡车[TRUCKA] P-苏联作战实验室[NATECH]（辐射工兵的炮，只能对空，射速快，移动中速）
-- 磁暴线圈组装车[vaVTeslaCoilMCV] F-苏联基地车[SMCV] Dp-(磁暴线圈) P-苏联雷达[NARADR] W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 N-可展开为磁暴线圈，生命值为磁暴线圈的80%
-- 防空炮组装车[vaVFlakAACannonMCV] F-苏联基地车[SMCV] C-防空炮[NAFLAK] P-苏联雷达[NARADR] W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 V-8 N- 生命值为防空炮的80%，武器与防空履带车[HTK]的主武器类似，不能防空
+- 磁暴线圈组装车[vaVTeslaCoilMCV] F-苏联基地车[SMCV] Dp-(磁暴线圈) P-（类似二级基地防御的建造条件） W1-简易磁暴枪[vaWSimpleTesla] W2- WD-小型能量爆炸 N-可展开为磁暴线圈，生命值为磁暴线圈的80%
+- 防空炮组装车[vaVFlakAACannonMCV] F-苏联基地车[SMCV] C-防空炮[NAFLAK] P-（类似二级基地防御的建造条件） W1-防空弹[FlakTrackGun] W2- WD-小型爆炸 V-8 N- 生命值为防空炮的80%，武器与防空履带车[HTK]的主武器类似，不能防空
 - 重型防空炮设计车[vaVFlakHeavyAAGunMCV] F-苏联基地车[SMCV] Dp-(重型防空炮) P-红堡实验室 W1-无 W2- WD-无 N-生命值为重型防空炮的80%
 - 大型磁暴塔组建车[vaVLGTeslaTowerMCV] F-苏联基地车[SMCV] Dp-(大型磁暴塔) P-红堡实验室 W1-简易磁暴枪 W2- WD-中型能量爆炸 N-生命值为大型磁暴塔的80%
 - 通讯中心组建车[vaVCommCenterMCV] F-苏联基地车[SMCV] Dp-(通讯中心) P-红堡实验室 W1-无 W2- WD-小型爆炸 N-生命值为通讯中心的80%
@@ -145,8 +145,8 @@ SecondaryFireFLH=85,0,130
 - 迷你小巴士[vaVMiniBus] F-巴士[DDBX] P-尤里战车工厂[YAWEAP] W1-无 W2- WD-无 N-中速的侦察车，可以载5人 视野大，不主动被攻击
 - 纵火狂[vaVPyromania] F-神经突击车[CAOS] P-尤里作战实验室[YATECH] W1-火枪[vaWFireThrower] W2- WD-小型心灵震爆 N-近程喷火车，可以对空对地
 - 病毒狙击车 F-精神控制车[MIND] P-尤里作战实验室[YATECH]（可以对空对地、射速很慢，射程较远，移动慢，生命高）
-- 心灵控制塔安装器[vaVMindCTMCV] F-尤里基地车[PCV] Dp-心灵控制塔[YAPSYT] P-心灵探测器[NAPSIS] W1-心灵控制[MindControl] W2- WD-小型心灵震爆 N-生命值为心灵控制塔的80%
-- 盖特机炮安装器[vaVGatAAMCV] F-尤里基地车[PCV] Dp-盖特机炮[YAGGUN] P-心灵探测器[NAPSIS] W1-[20mmRapid] W2- WD-小型爆炸 N-生命值为盖特机炮的80%
+- 心灵控制塔安装器[vaVMindCTMCV] F-尤里基地车[PCV] Dp-心灵控制塔[YAPSYT] P-（类似二级基地防御的建造条件） W1-心灵控制[MindControl] W2- WD-小型心灵震爆 N-生命值为心灵控制塔的80%
+- 盖特机炮安装器[vaVGatAAMCV] F-尤里基地车[PCV] Dp-盖特机炮[YAGGUN] P-（类似二级基地防御的建造条件） W1-[20mmRapid] W2- WD-小型爆炸 N-生命值为盖特机炮的80%
 - 净空镭射炮安装器[vaVSCLaserCannonMCV] F-尤里基地车[PCV] Dp-净空镭射炮[vaBSCLaserCannon] P-心智升华室 W1-无 W2- WD-无 N-生命值为净空镭射炮的80%
 - 尤里雕像中控车[vaVYuriStatueMCV] F-尤里基地车[PCV] C-尤里雕像II[vaBYuriStatue] P-心智升华室 W1-简易光棱[vaWSimplePrism] W2- WD-中型心灵震爆 N-生命值为尤里雕像II的80%
 - 防御大楼中控车[vaVDefScrapperMCV] F-尤里基地车[PCV] C-防御大楼[vaBDefScrapper] P-心智升华室 W1-无 W2- WD-小型爆炸 N-生命值为防御大楼的80%
@@ -246,9 +246,13 @@ SecondaryFireFLH=85,0,130
 - 二级基地防御可以回收成对应建造车
 - 二级基地防御中的防空设施可以反隐
 - 二级基地防御可以升级，会给它们定义全新的升级武器
+- 二级基地防御的建造条件是：
+  - 拥有任意建造厂+ **特定** 的RADAR类的建筑（例如：盟军建造厂+苏联雷达=>磁暴线圈）
+  - （或）拥有 **特定** 的建造厂+任意RADAR类建筑（例如：尤里建造厂+空指部=>心灵控制塔）
 - 谭雅、boris、yuriX的生命值提高
 - 基地车不能被控制（但是主基地可以），这是为了避免中立单位控制基地车又想展开造成的游戏崩溃。
 - 磁暴步兵、防空步兵、海豹部队、辐射工兵、重装大兵、狂兽人 可以进入建筑，会给他们定义全新的驻防武器。
+- 工程师可以去开中立坦克
 - 基洛夫空艇是可以被蜘蛛钻的
 - 运输机是不能击落的（生命值很高）
 - 箱子最少10个最多255个
@@ -266,7 +270,7 @@ SecondaryFireFLH=85,0,130
   - 盟军作战实验室
   - 尖碑实验室
 
-  ... 或者盟军空指部也行
+  ... 或者盟军空指部也行。盟军想建造苏联、尤里的一般战机也同理。
 - 经验值分配调整（[Ares文档](http://ares-developers.github.io/Ares-docs/new/customizableveterancy.html)）
   - 乘客击杀敌军获得经验的25%归乘客获得，75%归载具获得。当载具满级时100%由乘客获得。
     - 多功能步兵车
@@ -279,8 +283,12 @@ SecondaryFireFLH=85,0,130
     - 精神控制车
     - 尤里X
     - 心灵控制塔
+- 狗可以升级、武器改为狗咬（不扑了，跟MO一样）
+- 尤里、心灵突击队、心灵控制塔、心灵感应器不能够反间谍，尤里反间谍单位为凶凶熊。
 
 ### 其他
-- 各国家的特色单位会给予增强。（美国、尤里另说方案）
+- 各国家的特色单位会给予增强。
+  - 美国：超级伞兵团
+  - 尤里：凶凶熊
 
 ## AI
