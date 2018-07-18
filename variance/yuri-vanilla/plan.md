@@ -89,7 +89,7 @@ SecondaryFireFLH=85,0,130
 
 尤里：
 - （飞行兵）心灵主宰[vaIMindDominator] F-尤里X[YURIPR] P-心智升华室[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-飞行单位，最多控制3个，移动慢
-- 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-心灵探测器[NAPSIS] N-隐形单位，sticky bomb，视野大，驻防和IFV武器和狂兽人一样
+- 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-雷达类 W1-AA N-隐形单位，视野大，只能对空，不主动攻击别人，驻防和IFV武器和狂兽人一样
 - 异场武士[vaIAlienWarrior] F-平民[CIVA] P-尤里作战实验室[YATECH] W1-强力拳击[vaWOvPunch] W2-磁电拉举[MagneShake] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-类似对付步兵和建筑时近战，对付载具时抬升。可以作为间谍渗透敌方建筑，不能伪装。
 - 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-毒雾[vaWVirusGas] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，只能尤里建造，对步兵伤害非常高。
