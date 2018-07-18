@@ -72,7 +72,7 @@ SecondaryFireFLH=85,0,130
 - 重装精英[vaIHAElite] F-重装大兵[GGI] P-盟军作战实验室[GATECH] W1-M60Plus机枪[vaWM60Plus] W2-RPG[vaWRPG] WO-RPG[vaWRPG] WFV-RPG[vaWRPG] WD-小型爆炸[vaWExplSM] N-护甲很厚，移动慢，无法碾压
 - （飞行兵）阿瑞斯之鹰[vaIAresEagle] F-火箭飞行兵[JUMPJET] P-尖碑实验室[vaBObelisk] W1-便携巨炮[vaWPortCannonLG] W2-航空炮[vaWA20mm] WO- WFV- WD-中型爆炸[vaWExplMD] N-重甲，飞行单位，飞行较慢
 - 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1- W2- WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N-不能被碾压，不能升级，视野很大，隐形
-- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军作战实验室 W1- W2- WO- WFV- WD- N-没有武器，可以抢劫敌方坦克
+- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军作战实验室 W1- W2- WO- WFV- WD- N-没有武器，可以抢劫敌方坦克，不会被主动攻击
 - ============ 英雄 ============
 - 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-移动迅速，可以对空也可以对地
 - 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，隐形，对地对空
@@ -82,7 +82,7 @@ SecondaryFireFLH=85,0,130
 - 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，无法碾压，重甲却有较快移动速度
 - （飞行兵）战熊飞行兵[vaIBatBearJet] F-登月火箭员[LUNR] P-红堡实验室[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2-  WO- MFV- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行单位
 - 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联作战实验室[NATECH] W1-迫击炮[vaWMortar] W2-轻型防空炮（对空）[vaWLightFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
-- 渗透伊文[vaIInfilIvan] F-恐怖分子[TERROR] P-苏联作战实验室 N-隐形，武器是伊文炸药自爆，作为间谍渗透敌方建筑，不可以伪装
+- 渗透伊文[vaIInfilIvan] F-恐怖分子[TERROR] P-苏联作战实验室 W1-[vaWIvanTerrorBomber] W2- WO- MFV-伊文自爆[vaWIvanTerrorBomber] N-隐形，武器是伊文炸药自爆，作为间谍渗透敌方建筑，不可以伪装
 - ============ 英雄 ============
 - 欧列格[vaIOleg] F-辐射工兵[DESO] P-红堡实验室[vaBRedFort] W1-剧毒放射弹[vaWDesoChem] W2-剧毒震爆[vaWDesoEruptor]  WO- MFV- WD-大型核爆[NukePayload] N-重甲，无法碾压，移动慢，可以对空对地
 - 卡斯力[vaIKhaslik] F-心灵突击队[PTROOP] P-红堡实验室[vaBRedFort] N-隐刀，对地对空
