@@ -293,4 +293,14 @@ SecondaryFireFLH=85,0,130
   - 美国：超级伞兵团
   - 尤里：凶凶熊
 
+## 音效
+
+``` ini
+
+; soundmd.ini
+[#include]
+100=wcr-sounds-adjustments.ini
+
+```
+
 ## AI
