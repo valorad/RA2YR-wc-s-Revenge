@@ -75,7 +75,7 @@ SecondaryFireFLH=85,0,130
 - 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军作战实验室 W1- W2- WO- WFV- WD- N-没有武器，可以抢劫敌方坦克，不会被主动攻击
 - ============ 英雄 ============
 - 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-移动迅速，可以对空也可以对地
-- 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，隐形，对地对空
+- 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，会击杀坦克的司机，隐形，对地，对空（仅飞行兵）
 
 苏联：
 - 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联作战实验室[NATECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击，视野很大
@@ -85,7 +85,8 @@ SecondaryFireFLH=85,0,130
 - 渗透伊文[vaIInfilIvan] F-恐怖分子[TERROR] P-苏联作战实验室 W1-[vaWIvanTerrorBomber] W2- WO- MFV-伊文自爆[vaWIvanTerrorBomber] N-隐形，武器是伊文炸药自爆，作为间谍渗透敌方建筑，不可以伪装
 - ============ 英雄 ============
 - 欧列格[vaIOleg] F-辐射工兵[DESO] P-红堡实验室[vaBRedFort] W1-剧毒放射弹[vaWDesoChem] W2-剧毒震爆[vaWDesoEruptor]  WO- MFV- WD-大型核爆[NukePayload] N-重甲，无法碾压，移动慢，可以对空对地
-- 卡斯力[vaIKhaslik] F-心灵突击队[PTROOP] P-红堡实验室[vaBRedFort] N-隐刀，对地对空
+- 卡斯力[vaIKhaslik] F-心灵突击队[PTROOP] P-红堡实验室[vaBRedFort] W1-隐刀[vaIHiddenBlade] W2- WD- WO- WFV- N-隐刀，只能对地对地
+
 
 尤里：
 - （飞行兵）心灵主宰[vaIMindDominator] F-尤里X[YURIPR] P-心智升华室[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-飞行单位，最多控制3个，移动慢
@@ -95,7 +96,7 @@ SecondaryFireFLH=85,0,130
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，只能尤里建造，对步兵伤害非常高。
 - ============ 英雄 ============
 - 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2- WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-对空 对地
-- （飞行兵）芬雷[vaIFinley]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
+- （飞行兵）芬蕾[vaIFinlet]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] W1-病毒高爆弹 W2- WD- WO- WFV- N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
 
 ### 战车（包括战车工厂飞行器与海军）
 
