@@ -96,7 +96,7 @@ SecondaryFireFLH=85,0,130
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，只能尤里建造，对步兵伤害非常高。
 - ============ 英雄 ============
 - 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2- WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-对空 对地
-- （飞行兵）芬蕾[vaIFinlet]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] W1-病毒高爆弹 W2- WD- WO- WFV- N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
+- （飞行兵）芬雷[vaIFinley]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] W1-病毒高爆弹 W2- WD- WO- WFV- N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
 
 ### 战车（包括战车工厂飞行器与海军）
 
