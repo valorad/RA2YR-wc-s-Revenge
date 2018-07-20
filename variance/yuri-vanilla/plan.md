@@ -308,3 +308,7 @@ SecondaryFireFLH=85,0,130
 ```
 
 ## AI
+[TaskForces] 2A000000-G
+[ScriptTypes] 2B000000-G
+[TeamTypes] 2C000000-G
+[AITriggerTypes] 2D000000-G
