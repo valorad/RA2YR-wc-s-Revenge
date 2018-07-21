@@ -48,6 +48,12 @@ SecondaryFireFLH=85,0,130
 
 100=wcr-art-adjustments.ini
 
+; soundmd.ini
+[#include]
+100=wcr-sounds-adjustments.ini
+
+; aimd.ini
+
 
 ```
 
@@ -296,16 +302,6 @@ SecondaryFireFLH=85,0,130
 - 各国家的特色单位会给予增强。
   - 美国：超级伞兵团
   - 尤里：凶凶熊
-
-## 音效
-
-``` ini
-
-; soundmd.ini
-[#include]
-100=wcr-sounds-adjustments.ini
-
-```
 
 ## AI
 [TaskForces] 2A000000-G
