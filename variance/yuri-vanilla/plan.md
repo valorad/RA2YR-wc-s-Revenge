@@ -118,15 +118,16 @@ SecondaryFireFLH=85,0,130
 - 杜莎大导弹[vaVDusaMissile] F-出租车[TAXI] P-盟军作战实验室 W1-美杜莎飞弹[vaWMedusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车，只能对空，移动速度慢
 - 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
-- 刷屏干扰车[vaVSJammer] F-宣传车[PROPA] P-盟军作战实验室 （骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿）
+- 刷屏干扰车[vaVSJammer] F-宣传车[PROPA] P-盟军作战实验室 W1-刷屏干扰波[vaWSJamBeam] W2- WD- N-骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿
 - 光棱塔设计车[vaVPrismTowerMCV] F-盟军基地车[AMCV] Dp-(光棱塔) P-（类似二级基地防御的建造条件） W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N-生命值为光棱塔的80%
 - 飞弹爱国鼓舞车[vaVPatMissileMCV] F-盟军基地车[AMCV] Dp-(爱国者飞弹) P-（类似二级基地防御的建造条件） W1-[vaWHoverMissileAG] W2- WD-小型爆炸 N-生命值为爱国者飞弹的80%，武器与多功能火箭车类似，不能防空
 - 防空光棱建造车[vaVAAPrismTMCV] F-盟军基地车[AMCV] Dp-防空光棱塔[vaBAAPrismTower] P-尖碑实验室 W1-无 W2- WD-中型能量爆炸 N-生命值为防空光棱塔的80%，没有武器
 - 玛雅金字塔重建车[vaVMayanPrmMCV] F-盟军基地车[AMCV] Dp-(玛雅金字塔2) P-尖碑实验室 W1-简易光棱[vaWSimplePrism] W2- WD-中型能量爆炸 N-生命值为玛雅金字塔2的80%
 - 科技防御屋修建车 [vaVTechDHouseMCV] F-盟军基地车[AMCV] Dp-(科技防御屋) P-尖碑实验室 W1-无 W2- WD-小型爆炸 N- 生命值为科技防御屋的80%
+- (飞行物) 医疗直升机[vaVMedicHeli] F-夜莺直升机[SHAD] P-尖碑实验室 W1-治疗波[vaWHealingBeam] W2- WD- N-
 - （海军）核动力驱逐舰[vaVNukePoweredDest] F-驱逐舰[DEST] P-盟军造船厂[GAYARD]，尖碑实验室 W1-集聚舰炮[vaWConCannon] (一次发3颗的155mm)，有范围伤害 W2-[ASWLauncher] WD-核弹[NukePayload] N-
-- （海军）乌贼王[vaVKingSquid] F-巨形乌贼[SQD] P-尖碑实验室 W1-[SquidGrab] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼
-- （海军）F-海蝎[HYD]（干扰碰碰船，EMP武器有伤害，干扰时间长，冲撞后自爆，自爆效果类似于超时空传走）
+- （海军）乌贼王[vaVKingSquid] F-巨形乌贼[SQD] P-尖碑实验室 W1-乌贼王撞击[vaWKingSquidPunch] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼，自愈
+- （海军）干扰碰碰船[vaVSJamBumperShip] F-海蝎[HYD] P-NATECH W1-EMP炸弹[vaWEMPBomb] W2- WD-EMP炸弹[vaWEMPBomb] N-EMP武器有伤害，干扰时间长，冲撞后自爆，自爆效果类似于超时空传走
 - ============ 英雄 ============
 - (飞行物)（光棱直升机）F-武装直升机[SCHP] P-尖碑实验室 W1-激光机枪 W2-小型粒子对撞炮[vaWMolColCannonSM] WD-大型能量爆炸[vaWEnergyExplLG]
 
@@ -142,8 +143,8 @@ SecondaryFireFLH=85,0,130
 - 通讯中心组建车[vaVCommCenterMCV] F-苏联基地车[SMCV] Dp-(通讯中心) P-红堡实验室 W1-无 W2- WD-小型爆炸 N-生命值为通讯中心的80%
 - (飞行物)克里姆林基洛夫[vaVKremlinKirov] F-基洛夫空艇[ZEP] P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-发动自毁，部署自毁
 - (海军)收割者[vaVReaper] F-无畏级战舰[DRED] P-红堡实验室 W1-无畏导弹[vaWOvDredLauncher] W2- WD-核弹[NukePayload] N-移动速度快，护甲高，发射6枚飞弹的无畏级
-- (海军)奇异海豚[vaVAmzDolphin] F-海豚[DLPH] P-红堡实验室 W1-快速声波[vaWFastSonicBurst] W2- WD-小型心灵震爆 V-15 N-快速快攻的海豚，（可以浮出水面攻击地面部队？）
-- (海军)伏特加战舰 F-宙斯盾巡洋舰[AEGIS]（较远的疯狂伊文的武器）
+- (海军)奇异海豚[vaVAmzDolphin] F-海豚[DLPH] P-红堡实验室 W1-海豚激光[vaWAmzDolphinLaser] W2- WD-小型心灵震爆 V-15 N-快速快攻的海豚，可以浮出水面攻击地面部队，自愈
+- (海军)伏特加战舰[vaVVoldkaVessel] F-宙斯盾巡洋舰[AEGIS] P-苏联作战实验室[NATECH] W1-感应伊文炸药[vaWIvanBomberSen] W2- WD-伊文炸药[IvanBomber] N-较远的疯狂伊文的武器
 - ============ 英雄 ============
 - 克里姆林天启 F-天启坦克[APOC]   P-红堡实验室 W1-天启炮[] （1级像3级的普通天启炮，3级是炮带菜油榴弹炮效果）W2-天启飞弹[] （1级像爱国者飞弹，3级带菜油榴弹炮效果） N-生命高，移动中速，可以碾压其他坦克
 
@@ -158,9 +159,9 @@ SecondaryFireFLH=85,0,130
 - 尤里雕像中控车[vaVYuriStatueMCV] F-尤里基地车[PCV] Dp-尤里雕像II[vaBYuriStatue] P-心智升华室 W1-简易光棱[vaWSimplePrism] W2- WD-中型心灵震爆 N-生命值为尤里雕像II的80%
 - 防御大楼中控车[vaVDefScrapperMCV] F-尤里基地车[PCV] Dp-防御大楼[vaBDefScrapper] P-心智升华室 W1-无 W2- WD-小型爆炸 N-生命值为防御大楼的80%
 - （飞行物）泰坦直升机[vaVTitanHeli] F-雌鹿运输直升机[HIND] P-尤里战车工厂[YAWEAP] W1-[BlackHawkCannon] W2- WD-无 N-运16个人支持载具
-- （海军）盖特小船[vaVGatVessel] F-[TUG] P-尤里海军船坞[YAYARD] W1-[AGGattling] W2-[AAGattling] WD-无 N-
+- （海军）盖特小船[vaVGatVessel] F-[TUG] P-(RADAR) W1-[AGGattling] W2-[AAGattling] WD-无 N-
 - （海军）神速雷鸣潜艇[vaVSupBSubmarine] F-雷鸣攻击潜艇[BSUB] P-心智升华室 W1-急速水雷[vaWFastBoomer] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-快速的潜艇
-- (海军)心灵控制船 F-游轮[CRUISE] （和尤里一样，控制3个）
+- (海军)心灵控制船[vaVMindCtrlVessel] F-游轮[CRUISE] P-尤里作战实验室[YATECH] W1-MindControl W2-MultipleMindControlTower WD-小型心灵震爆[vaWPsyDetonatorSM] N-
 - ============ 英雄 ============
 - （飞行物）母舰 F-航空母舰[CARRIER] P-心智升华室 N-可以无限控制建筑、单位，移动慢，（周围单位隐形？）
 
