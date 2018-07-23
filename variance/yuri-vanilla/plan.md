@@ -118,7 +118,7 @@ SecondaryFireFLH=85,0,130
 - 杜莎大导弹[vaVDusaMissile] F-出租车[TAXI] P-盟军作战实验室 W1-美杜莎飞弹[vaWMedusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车，只能对空，移动速度慢
 - 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
-- 霸屏干扰车 F-宣传车[PROPA] P-盟军作战实验室 （骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿）
+- 刷屏干扰车[vaVSJammer] F-宣传车[PROPA] P-盟军作战实验室 （骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿）
 - 光棱塔设计车[vaVPrismTowerMCV] F-盟军基地车[AMCV] Dp-(光棱塔) P-（类似二级基地防御的建造条件） W1-简易光棱[vaWSimplePrism] W2- WD-小型能量爆炸 N-生命值为光棱塔的80%
 - 飞弹爱国鼓舞车[vaVPatMissileMCV] F-盟军基地车[AMCV] Dp-(爱国者飞弹) P-（类似二级基地防御的建造条件） W1-[vaWHoverMissileAG] W2- WD-小型爆炸 N-生命值为爱国者飞弹的80%，武器与多功能火箭车类似，不能防空
 - 防空光棱建造车[vaVAAPrismTMCV] F-盟军基地车[AMCV] Dp-防空光棱塔[vaBAAPrismTower] P-尖碑实验室 W1-无 W2- WD-中型能量爆炸 N-生命值为防空光棱塔的80%，没有武器
@@ -258,7 +258,7 @@ SecondaryFireFLH=85,0,130
   - （或）拥有 **特定** 的建造厂+任意RADAR类建筑（例如：尤里建造厂+空指部=>心灵控制塔）
 - 谭雅、boris、yuriX的生命值提高
 - 基地车不能被控制（但是主基地可以），这是为了避免中立单位控制基地车又想展开造成的游戏崩溃。
-- 基地车不可以被抢占 [Ares文档](http://ares-developers.github.io/Ares-docs/new/hijackers.html)
+- 基地车不可以被抢占 （[Ares文档](http://ares-developers.github.io/Ares-docs/new/hijackers.html)）
 - 只要有战车工厂就可以造基地车（不再需要维修厂）
 - 磁暴步兵、防空步兵、海豹部队、辐射工兵、重装大兵、狂兽人 可以进入建筑，会给他们定义全新的驻防武器。
 - 工程师可以去开中立坦克
