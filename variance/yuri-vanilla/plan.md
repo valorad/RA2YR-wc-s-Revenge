@@ -129,7 +129,7 @@ SecondaryFireFLH=85,0,130
 - （海军）乌贼王[vaVKingSquid] F-巨形乌贼[SQD] P-尖碑实验室 W1-乌贼王撞击[vaWKingSquidPunch] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼，自愈
 - （海军）干扰碰碰船[vaVSJamBumperShip] F-海蝎[HYD] P-NATECH W1-EMP炸弹[vaWEMPBomb] W2- WD-EMP炸弹[vaWEMPBomb] N-EMP武器有伤害，干扰时间长，冲撞后自爆，自爆效果类似于超时空传走
 - ============ 英雄 ============
-- (飞行物)（光棱直升机）F-武装直升机[SCHP] P-尖碑实验室 W1-激光机枪 W2-小型粒子对撞炮[vaWMolColCannonSM] WD-大型能量爆炸[vaWEnergyExplLG]
+- (飞行物) 战鹰[vaVBattleEagle] F-武装直升机[SCHP] P-尖碑实验室 W1-光棱机枪[vaWPrismGatling] W2-小型粒子对撞炮[vaWMolColCannonSM] WD-大型能量爆炸[vaWEnergyExplLG] N-光棱直升机
 
 苏联：
 - 迅雷蜘蛛[vaVThunderSpider] F-恐怖机器人[DRON] P-苏联作战实验室[NATECH] W1-超级寄生[vaWSuperDroneJump] W2-[VirtualScanner] WD-无 N-速度极快的恐怖机器人,可以寄生空中单位
@@ -146,7 +146,7 @@ SecondaryFireFLH=85,0,130
 - (海军)奇异海豚[vaVAmzDolphin] F-海豚[DLPH] P-红堡实验室 W1-海豚激光[vaWAmzDolphinLaser] W2- WD-小型心灵震爆 V-15 N-快速快攻的海豚，可以浮出水面攻击地面部队，自愈
 - (海军)伏特加战舰[vaVVoldkaVessel] F-宙斯盾巡洋舰[AEGIS] P-苏联作战实验室[NATECH] W1-感应伊文炸药[vaWIvanBomberSen] W2- WD-伊文炸药[IvanBomber] N-较远的疯狂伊文的武器
 - ============ 英雄 ============
-- 克里姆林天启 F-天启坦克[APOC]   P-红堡实验室 W1-天启炮[] （1级像3级的普通天启炮，3级是炮带菜油榴弹炮效果）W2-天启飞弹[] （1级像爱国者飞弹，3级带菜油榴弹炮效果） N-生命高，移动中速，可以碾压其他坦克
+- 克里姆林天启[vaVKremlinApoc] F-天启坦克[APOC] P-红堡实验室 W1-克里姆林天启炮[vaWKremlinApocCannon] （1级像3级的普通天启炮，3级是炮带菜油榴弹炮效果）W2-克里姆林天启飞弹[] WD-大型核爆[vaWNukeExplLG] （1级像爱国者飞弹，3级带菜油榴弹炮效果） N-生命高，移动中速，可以碾压其他坦克
 
 尤里：
 - 傻x洲际火箭车[vaVShaChaICRocket] F-V3火箭发射车[V3] P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
@@ -163,7 +163,7 @@ SecondaryFireFLH=85,0,130
 - （海军）神速雷鸣潜艇[vaVSupBSubmarine] F-雷鸣攻击潜艇[BSUB] P-心智升华室 W1-急速水雷[vaWFastBoomer] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-快速的潜艇
 - (海军)心灵控制船[vaVMindCtrlVessel] F-游轮[CRUISE] P-尤里作战实验室[YATECH] W1-MindControl W2-MultipleMindControlTower WD-小型心灵震爆[vaWPsyDetonatorSM] N-
 - ============ 英雄 ============
-- （飞行物）母舰 F-航空母舰[CARRIER] P-心智升华室 N-可以无限控制建筑、单位，移动慢，（周围单位隐形？）
+- （飞行物）泽洛克母舰[vaWZeroc] F-航空母舰[CARRIER] P-心智升华室 N-可以无限控制建筑、单位，移动慢，（周围单位隐形？）
 
 ### 飞机
 
