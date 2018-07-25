@@ -193,7 +193,7 @@ SecondaryFireFLH=85,0,130
 - 辐芒轰炸机[vaARadenlight] F-侦察机[SPYP] P-红堡实验室 W1-辐射炸弹[vaWRadBomb] W2- WD-辐射炸弹E[vaWRadBombE] N-弹头爆炸效果类似于欧列格的
 
 尤里：
-- 麻烦制造者 F-雷射幽浮[DISK] P- W1-精神突击弹[vaWRiotBomb] W2- WD-精神突击弹[vaWRiotBomb] N-弹头落地后会出发大面积的精神突击效果，隐形，不能升级
+- 麻烦制造者[vaATroubleMaker] F-雷射幽浮[DISK] P- W1-精神突击弹[vaWRiotBomb] W2- WD-精神突击弹[vaWRiotBomb] N-弹头落地后会出发大面积的精神突击效果，隐形，不能升级
 - 要塞战机[vaAFortressFighter] F-米格战机[BPLN] P-尤里作战实验室 W1-能量飞弹[vaWEnergyMissile] W2- WD-能量飞弹E[vaWEnergyMissileE] N-对空、对地一点，武器类似能量深球弹，载弹量3
 - ============ 英雄 ============
 - 混沌降临者[vaAChaosBringer] F-巨型乌贼[SQD] P-心智升华室 W1-混沌飞弹[vaWChaosMissile] W2- WD-混沌飞弹E[vaWChaosMissileE] N-弹头落地后基地爆炸并且步兵变成狂兽人
