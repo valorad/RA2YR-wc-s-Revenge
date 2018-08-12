@@ -253,3 +253,4 @@ paket-files/
 
 # Site Specific
 /.vscode/*
+dist/**
