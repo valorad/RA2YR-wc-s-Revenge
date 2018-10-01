@@ -53,7 +53,8 @@ SecondaryFireFLH=85,0,130
 100=wcr-sounds-adjustments.ini
 
 ; aimd.ini
-
+[#include]
+100=wcr-ai-adjustments.ini
 
 ```
 
