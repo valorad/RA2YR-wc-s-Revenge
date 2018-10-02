@@ -1494,6 +1494,7 @@ Explodes=yes
 DeathWeapon=NukeCarrier
 
 [DISK]
+Crashable=no
 Explodes=yes
 DeathWeapon=NukeCarrier
 
@@ -2256,6 +2257,7 @@ DeathWeapon=NukeCarrier
 
 [ZEP]
 Explodes=yes
+Crashable=no
 DeathWeapon=NukeCarrier
 
 [vaBMolColCannon]
