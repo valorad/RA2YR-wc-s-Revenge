@@ -1,0 +1,31 @@
+{
+  "fileList": [
+    "rulesmd.ini",
+    "wcr-rules-infantries.ini"
+  ],
+  "listToExtract": [
+    "InfantryTypes",
+    "VehicleTypes",
+    "AircraftTypes"
+  ],
+  "outputFile": "out.ini",
+  "attributesToAdd": {
+    "ImmuneToPsionics": true
+  },
+  "attributesToChange": {
+    "BuildLimit": -1,
+    "Strength": 20000
+  },
+  "valuesToChange": [
+    {
+      "attrName": "Cost",
+      "operation": "+",
+      "value": 10000
+    },
+    {
+      "attrName": "Speed",
+      "operation": "*",
+      "value": 2
+    }
+  ]
+}

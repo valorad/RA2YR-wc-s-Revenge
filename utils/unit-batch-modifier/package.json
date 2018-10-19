@@ -1,0 +1,31 @@
+{
+  "name": "unit-batch-modifier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "unit batch modifier",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ini"
+  ],
+  "author": "valorad",
+  "dependencies": {
+    "ini": "^1.3.5"
+  },
+  "devDependencies": {
+    "@types/ini": "^1.3.29",
+    "@types/node": "^10.12.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.4",
+    "cross-env": "^5.2.0",
+    "ts-loader": "^5.2.2",
+    "typescript": "^3.1.3",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
