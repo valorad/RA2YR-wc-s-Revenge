@@ -79,17 +79,17 @@ SecondaryFireFLH=85,0,130
 - 重装精英[vaIHAElite] F-重装大兵[GGI] P-盟军作战实验室[GATECH] W1-M60Plus机枪[vaWM60Plus] W2-RPG[vaWRPG] WO-RPG[vaWRPG] WFV-RPG[vaWRPG] WD-小型爆炸[vaWExplSM] N-护甲很厚，移动慢，无法碾压
 - （飞行兵）阿瑞斯之鹰[vaIAresEagle] F-火箭飞行兵[JUMPJET] P-尖碑实验室[vaBObelisk] W1-便携巨炮[vaWPortCannonLG] W2-航空炮[vaWA20mm] WO- WFV- WD-中型爆炸[vaWExplMD] N-重甲，飞行单位，飞行较慢
 - 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1- W2- WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N-不能被碾压，不能升级，视野很大，隐形
-- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军作战实验室 W1- W2- WO- WFV- WD- N-没有武器，可以抢劫敌方坦克，不会被主动攻击
+- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军作战实验室 W1- W2- WO- WFV- WD- N-两栖，没有武器，可以抢劫敌方坦克，不会被主动攻击
 - ============ 英雄 ============
-- 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-移动迅速，可以对空也可以对地
+- 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-两栖，移动迅速，可以对空也可以对地
 - 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，会击杀坦克的司机，隐形，对地，对空（仅飞行兵）
 
 苏联：
-- 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联作战实验室[NATECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-武器和疯狂伊文完全相同，不会被主动攻击，视野很大
+- 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联作战实验室[NATECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-两栖，武器和疯狂伊文完全相同，不会被主动攻击，视野很大
 - 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联作战实验室[NATECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，无法碾压，重甲却有较快移动速度
 - （飞行兵）战熊飞行兵[vaIBatBearJet] F-登月火箭员[LUNR] P-红堡实验室[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2-  WO- MFV- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行单位
 - 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联作战实验室[NATECH] W1-迫击炮[vaWMortar] W2-轻型防空炮（对空）[vaWLightFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
-- 渗透伊文[vaIInfilIvan] F-恐怖分子[TERROR] P-苏联作战实验室 W1-[vaWIvanTerrorBomber] W2- WO- MFV-伊文自爆[vaWIvanTerrorBomber] N-隐形，武器是伊文炸药自爆，作为间谍渗透敌方建筑，不可以伪装
+- 渗透伊文[vaIInfilIvan] F-恐怖分子[TERROR] P-苏联作战实验室 W1-[vaWIvanTerrorBomber] W2- WO- MFV-伊文自爆[vaWIvanTerrorBomber] N-两栖，隐形，武器是伊文炸药自爆，作为间谍渗透敌方建筑，不可以伪装
 - ============ 英雄 ============
 - 欧列格[vaIOleg] F-辐射工兵[DESO] P-红堡实验室[vaBRedFort] W1-剧毒放射弹[vaWDesoChem] W2-剧毒震爆[vaWDesoEruptor]  WO- MFV- WD-大型核爆[NukePayload] N-重甲，无法碾压，移动慢，可以对空对地
 - 卡斯力[vaIKhaslik] F-心灵突击队[PTROOP] P-红堡实验室[vaBRedFort] W1-隐刀[vaIHiddenBlade] W2- WD- WO- WFV- N-隐刀，只能对地对地
@@ -97,12 +97,12 @@ SecondaryFireFLH=85,0,130
 
 尤里：
 - （飞行兵）心灵主宰[vaIMindDominator] F-尤里X[YURIPR] P-心智升华室[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-飞行单位，最多控制3个，移动慢
-- 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-雷达类 W1-AA N-隐形单位，视野大，只能对空，不主动攻击别人，驻防和IFV武器和狂兽人一样
-- 异场武士[vaIAlienWarrior] F-平民[CIVA] P-尤里作战实验室[YATECH] W1-强力拳击[vaWOvPunch] W2-磁电拉举[MagneticBeam] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-类似对付步兵和建筑时近战，对付载具时抬升。可以作为间谍渗透敌方建筑，不能伪装。
+- 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-雷达类 W1-AA N-两栖，隐形单位，视野大，只能对空，不主动攻击别人，驻防和IFV武器和狂兽人一样
+- 异场武士[vaIAlienWarrior] F-平民[CIVA] P-尤里作战实验室[YATECH] W1-强力拳击[vaWOvPunch] W2-磁电拉举[MagneticBeam] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-两栖，类似对付步兵和建筑时近战，对付载具时抬升。可以作为间谍渗透敌方建筑，不能伪装。
 - 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-尤里作战实验室[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-毒雾[vaWVirusGas] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，只能尤里建造，对步兵伤害非常高。
 - ============ 英雄 ============
-- 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2- WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-对空 对地
+- 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2- WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-两栖，对空 对地
 - （飞行兵）芬雷[vaIFinley]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] W1-病毒高爆弹 W2- WD- WO- WFV- N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
 
 ### 战车（包括战车工厂飞行器与海军）
@@ -313,6 +313,14 @@ SecondaryFireFLH=85,0,130
   - 伊拉克：辐射工兵生命增大很多
   - 利比亚：自爆卡车移动速度变快，视野变大
   - 尤里：凶凶熊
+- 获取赏金的方式：拥有维修厂（回收站） 或 占领科技前哨站
+- 以下单位升级为两栖单位
+  - 工程师
+  - 狂兽人
+  - 间谍
+  - 疯狂伊文
+- 船厂可以占领，可以被间谍渗透
+- 空指部可以被间谍渗透（黑雷达 + 空军升级）
 
 ### 其他
 
