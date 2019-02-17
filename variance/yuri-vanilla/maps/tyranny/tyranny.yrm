@@ -3409,7 +3409,8 @@ TechLevel=1
 PercentBuilt=0
 PlayerControl=no
 
-
+[CrateRules]
+RandomCrateMoney=2000
 
 [Digest]
 1=W/B7h4ggdARUbB4XaZfznPBfhec=
