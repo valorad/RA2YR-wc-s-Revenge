@@ -37,6 +37,7 @@ SecondaryFireFLH=85,0,130
 70=wcr-rules-aircrafts.ini
 
 100=wcr-rules-adjustments.ini
+101=wcr-rules-adjustments-bounty.ini
 
 
 ; artmd.ini
