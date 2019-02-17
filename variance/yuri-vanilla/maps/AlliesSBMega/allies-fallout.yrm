@@ -110,11 +110,6 @@ Suicide=yes
 [AKME]
 Suicide=yes
 
-[AMCV]
-=
-Primary=PrismShot
-ImmuneToPsionics=yes
-
 [ASWBomb]
 Suicide=yes
 
@@ -483,11 +478,6 @@ Suicide=yes
 [OPCoilBolt]
 Suicide=yes
 
-[PCV]
-=
-Primary=MindControlE
-ImmuneToPsionics=yes
-
 [Para]
 Suicide=yes
 
@@ -547,10 +537,6 @@ Suicide=yes
 
 [SHOVEL]
 Suicide=yes
-
-[SMCV]
-Primary=OPCoilBolt
-ImmuneToPsionics=yes
 
 [STALGREN]
 Suicide=yes
