@@ -1252,7 +1252,7 @@ Cost=2000
 Strength=3000
 
 [GAOREP]
-Cost=25000
+Cost=100
 Strength=4500
 BuildLimit=1024
 Capturable=yes
