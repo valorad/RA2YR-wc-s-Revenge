@@ -57,7 +57,7 @@ class UnitModifier {
   scaleValue = (infoToSet: any, oriInfo: any, attribute: string, scale: number) => {
     if (oriInfo[attribute] && typeof(oriInfo[attribute] === 'number')) {
 
-      infoToSet[attribute] = parseInt(oriInfo[attribute]) * scale;
+      infoToSet[attribute] = Math.ceil(parseInt(oriInfo[attribute]) * scale);
       
     }
   } 
