@@ -165,7 +165,6 @@ Suicide=yes
 Suicide=yes
 
 [CAMEX03]
-=
 ProduceCashStartup=-100000
 
 [CANEWY04]
@@ -177,17 +176,15 @@ Insignificant=no
 Power=3000000
 
 [CASANF15]
-=
 Strength=20000
 Capturable=yes
 ClickRepairable=yes
 
 [CASEAT02]
-=9999999
 ProduceCashStartup=100000
 
 [CAURB03]
-Power=-1000000
+Power=-5000000
 
 [CLINTGUN]
 Suicide=yes
