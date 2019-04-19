@@ -783,8 +783,7 @@ Strength=5000
 Strength=5000
 
 [CASANF15]
-=
-Strength=10000
+Strength=25000
 Capturable=yes
 
 [CASANF16]
@@ -945,7 +944,7 @@ Strength=25
 Strength=25
 
 [CAURB03]
-Power=-1000000
+Power=-5000000
 Strength=25
 
 [CAUSFGL]
