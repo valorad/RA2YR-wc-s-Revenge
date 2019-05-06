@@ -11,7 +11,7 @@ wcR的设计风格是“嵌入”型的，因此安装之前您需要准备好�
 ## 安装
 安装好能够玩的[《红色警戒2：尤里的复仇》](https://www.origin.com/usa/en-us/store/command-and-conquer/command-and-conquer-the-ultimate-collection#store-page-section-description)，或者第三方mod。
 
-安装[Ares](https://launchpad.net/ares)平台（^1.0）
+安装[Ares](https://launchpad.net/ares)平台（^1.0 || ^2.0）
 
 下载[放出版本](https://github.com/valorad/RA2YR-wc-s-Revenge/releases)（版本^3.0.0），将压缩包解压到游戏根目录即可，运行`RunAres.bat`进入游戏。
 
