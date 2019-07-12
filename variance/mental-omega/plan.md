@@ -41,7 +41,41 @@ Mental Omega ^3.3.0
 [ID] F-形象 P-建造要求 W1-主武器 W2-副武器 WO-驻防武器 WFV-多功能车武器 WD-死亡武器 N-备注
 
 ---
+盟军：
+- （飞行兵）阿瑞斯之鹰[vaIAresEagle] F-火箭飞行兵[JUMPJET] P-尖碑实验室[vaBObelisk] W1-便携巨炮[vaWPortCannonLG] W2-航空炮[vaWA20mm] WO- WFV- WD-中型爆炸[vaWExplMD] N-重甲，飞行单位，飞行较慢
+- 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1-间谍伪装[] W2-冲锋枪[] WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N-不能被碾压，不能升级，视野很大，隐形，通过部署切换武器，冲锋枪是类似海豹部队的
+- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军科技中心 W1-猴子咬[] W2- WO- WFV- WD- N-两栖，可以抢劫敌方坦克，不会被主动攻击
+- ============ 英雄 ============
+- 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-两栖，移动迅速，可以对空也可以对地
+- 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，会击杀坦克的司机，隐形，对地，对空（仅飞行兵）
 
+苏联：
+- 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联实验室组[SOVTECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-两栖，武器和疯狂伊文完全相同，不会被主动攻击，视野很大
+- 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联实验室组[SOVTECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，无法碾压，重甲却有较快移动速度
+- （飞行兵）战熊飞行兵[vaIBatBearJet] F-登月火箭员[LUNR] P-红堡实验室[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2-  WO- MFV- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行单位
+- 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联实验室组[SOVTECH] W1-迫击炮[vaWMortar] W2-轻型防空炮（对空）[vaWLightFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
+- ============ 英雄 ============
+- 欧列格[vaIOleg] F-辐射工兵[DESO] P-红堡实验室[vaBRedFort] W1-剧毒放射弹[vaWDesoChem] W2-剧毒震爆[vaWDesoEruptor]  WO- MFV- WD-大型核爆[NukePayload] N-重甲，无法碾压，移动慢，可以对空对地
+- 卡斯力[vaIKhaslik] F-心灵突击队[PTROOP] P-红堡实验室[vaBRedFort] W1-隐刀[vaIHiddenBlade] W2- WD- WO- WFV- N-两栖，隐刀，只能对地
+
+厄普西隆：
+- （飞行兵）心灵主宰[vaIMindDominator] F-尤里X[YURIPR] P-心智升华室[vaBMindMutator] W1-心灵控制【全向】[vaWMulCtrlAAG] W2-精神鞭笞【全向】[vaWPsyTortureAAG] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-飞行单位，最多控制3个，通过部署切换武器，移动慢
+- 夜魔[vaINoctevo] F-狂兽人[BRUTE] P-雷达类 W1-AA N-两栖，隐形单位，视野大，只能对空，不主动攻击别人，驻防和IFV武器和狂兽人一样
+- 异场武士[vaIAlienWarrior] F-平民[CIVA] P-潘多拉枢纽[YATECH] W1-强力拳击[vaWOvPunch] W2-磁电拉举[MagneticBeam] WO- MFV- WD-中型心灵震爆[vaWPsyDetonatorMD] N-两栖，类似对付步兵和建筑时近战，对付载具时抬升。
+- 怨灵[vaIEvlSpirit] F-病毒狙击手[VIRUS] P-潘多拉枢纽[YATECH] W1-病毒枪V-II[vaWVirusvII] W2-病毒枪V-II（反载具）[vaWVirusvIIAV] WO- MFV- WD-毒雾[vaWVirusGas] N-对付步兵用快速的病毒狙击枪，而对付载具和建筑的时候用反载具的。可以空中 地面
+- ============ 英雄 ============
+- 哥兰图[vaIGranto] F-狂兽人[BRUTE] P-心智升华室[vaBMindMutator] W1-小型心灵震爆[vaWPsyDetonatorSM] W2- WO-小型心灵震爆[vaWPsyDetonatorSM] MFV-小型心灵震爆[vaWPsyDetonatorSM] WD-大型心灵震爆[vaWPsyDetonatorLG] N-两栖，对空 对地
+- （飞行兵）芬雷[vaIFinley]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] W1-病毒高爆弹 W2- WD- WO- WFV- N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
+
+焚风：
+- 光棱兵[vaIPrismS] F-超时空军团兵[CLEG] P-盟军科技中心[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2-  WO-光棱炮[vaWPrismCannon] WFV-光棱炮[vaWPrismCannon] WD-小型能量爆炸[vaWEnergyExplSM] N-对地对空
+- [] F-同步浪人[] P- W1-[] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
+- （飞行兵）[] F-气压球晋升者[] P- W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
+- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，对步兵伤害非常高。
+
+- ============ 英雄 ============
+- [] F-长枪战士[] P- W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
+- （飞行兵）[] F-天神克星[] P- W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 天神克星
 
 
 ### 战车（包括战车工厂飞行器与海军）
@@ -77,7 +111,41 @@ Mental Omega ^3.3.0
 [ID] F-形象 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 E-耗电 N-备注
 
 ---
+公共：
+- 山寨钻油井[vaBShanzhaiOilD] F-科技钻油井[CAOILD] P-PROC W1- W2- WD-OilExplosion E-50 N-抢到中立的山寨钻油井会获得2000，钱增加速度为30/100，被毁不留残渣
 
+盟军：
+- 尖碑实验室[vaBObelisk] F-华盛顿纪念碑[CAWSH12] P-盟军科技中心[GATECH] W1-无 W2- WD-无 E-200 N-限造1, 步兵进入后升级
+- 粒子对撞炮[vaBMolColCannon]：F-巨炮[GTGCAN] P-尖碑实验室 W1-粒子对撞炮[vaWMolColCannon] W2- WD-中型爆炸 E-200 N-限造1，范围255，冷却1分钟，伪超级武器
+- 光棱防空塔[vaBAAPrismTower] F-光棱塔[ATESLA]（以爱国者飞弹[NASAM]为模板） P-尖碑实验室 W1-防空光棱[vaWAAPrism] W2- WD- E-150
+- 玛雅金字塔2[vaBMayanPyramid] F-玛雅金字塔[CAMEX01] P-尖碑实验室 W1-玛雅光棱[vaWMayanPrism] W2- WD-无 E-150 N-
+- 科技防御屋[vaBTechDefHouse] F-爱因斯坦实验室[CALAB] P-盟军科技中心 W1- W2- WD- E-100 N-驻兵20, 大裂缝产生器
+
+苏联：
+- 红堡实验室[vaBRedFort] F-圣巴索大教堂[CARUS01] P-苏联实验室组[SOVTECH] W1-无 W2- WD-无 E-200 N-限造1，复制中心
+- 磁暴导能仪[vaBTeslaTeleEmiter] F-水塔[CACHIG06] P-红堡实验室 W1-远距电弧放射器[vaWLRTeslaEmitter] W2- WD-中型能量爆炸 E-200 N-限造1，范围200，冷却1分钟，伪超级武器，充电即增强版本
+- 重型防空炮[vaBHeavyFlakAAGun] F-防空炮[NAFLAK] P-红堡实验室 W1-重型防空炮[vaWHeavyFlakAA] W2- WD-无 E-150 N-
+- 大型磁暴塔[vaBLGTeslaTower] F-[CARUS02G] P-红堡实验室 W1-大型磁暴[vaWTeslaCoilLG]（有折的那种） W2-大型磁暴（过载）[vaWTeslaCoilLGOP] WD-无 E-150 N-便宜一点，生命值要低一点
+- 通讯中心[vaBCommCenter] F-通讯中心[CATECH01] P-苏联作战实验室 W1- W2- WD-无 E-100 N-驻兵20，心灵感应器
+
+厄普西隆：
+- 海上回收站[vaBOWGrinder] F-工厂[CAIND01] P-厄普西隆海军船坞[YAYARD] W1-无 W2- WD-无 E-50 N-建在海上
+- 心智升华室[vaBMindMutator] F-心灵控制增幅器[NAPSYA] P-厄普西隆潘多拉枢纽[YATECH] W1-无 W2- WD-无 E-200 N-限造1，工业工厂
+- 心灵传感机[vaBTelepathy] F-心灵信标[NAPSYB] P-心智升华室 W1-心灵感应控制[vaWTelepathyControl] W2- WD-中型心灵震爆[vaWPsyDetonatorMD] E-200 N-限造1，范围120，冷却1分钟，伪超级武器
+- 净空镭射炮[vaBSCLaserCannon] F-雕像[CAEURO05] P-心智升华室 W1-净空镭射炮[vaWSkyClearLaserCannon] W2- WD-无 E-150 N-占4格，贵一点，生命值要高一点
+- 尤里雕像2[vaBYuriStatue] F-尤里雕像[CAEAST02] P-心智升华室 W1-爆炸激光炮[vaWExplLaserCannon] (有点像光棱坦克) W2- WD-无 E-150 N-
+- 防御大楼[vaBDefScraper] F-芝加哥协会大楼[CACHIG04] P-厄普西隆潘多拉枢纽 W1- W2- WD-无 E-100 N-驻兵20，隐形，给周围单位隐形
+
+焚风：
+- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-3本科技实验室
+
+- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-3级防御-地
+
+- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-3级防御-空
+
+- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-大型驻兵建筑
+
+- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-伪超武
 
 ### 武器
 
