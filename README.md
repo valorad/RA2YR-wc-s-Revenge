@@ -30,6 +30,7 @@ v3 不再兼容原版《红色警戒2》（Ra2.exe）。如果您想游玩原版
 
 ## 计划
 [wcR@原版YR的计划](variance/yuri-vanilla/plan.md)
+
 [wcR@心灵终结的计划](variance/mental-omega/plan.md)
 
 ## License

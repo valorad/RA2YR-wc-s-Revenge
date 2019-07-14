@@ -11,9 +11,11 @@ Mental Omega ^3.3.0
 [#include]
 10=wcr-rules-animations.ini
 20=wcr-rules-warheads.ini
-30=wcr-rules-weapons.ini
+30=wcr-rules-projectiles.ini
+40=wcr-rules-weapons.ini
 50=wcr-rules-buildings.ini
 60=wcr-rules-vehicles.ini
+70=wcr-rules-infantries.ini
 
 100=wcr-rules-adjustments.ini
 
@@ -22,6 +24,8 @@ Mental Omega ^3.3.0
 10=wcr-art-animations.ini
 50=wcr-art-buildings.ini
 60=wcr-art-vehicles.ini
+70=wcr-art-infantries.ini
+
 
 ; soundmd.ini
 [#include]
@@ -43,8 +47,9 @@ Mental Omega ^3.3.0
 ---
 盟军：
 - （飞行兵）阿瑞斯之鹰[vaIAresEagle] F-火箭飞行兵[JUMPJET] P-尖碑实验室[vaBObelisk] W1-便携巨炮[vaWPortCannonLG] W2-航空炮[vaWA20mm] WO- WFV- WD-中型爆炸[vaWExplMD] N-重甲，飞行单位，飞行较慢
+- 重装精英[vaIHAElite] F-重装大兵[GGI] P-盟军作战实验室[GATECH] W1-M60Plus机枪[vaWM60Plus] W2-RPG[vaWRPG] WO-RPG[vaWRPG] WFV-RPG[vaWRPG] WD-小型爆炸[vaWExplSM] N-护甲很厚，移动慢，无法碾压
 - 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1-间谍伪装[] W2-冲锋枪[] WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N-不能被碾压，不能升级，视野很大，隐形，通过部署切换武器，冲锋枪是类似海豹部队的
-- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军科技中心 W1-猴子咬[] W2- WO- WFV- WD- N-两栖，可以抢劫敌方坦克，不会被主动攻击
+- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军科技中心 W1-猴子咬[] W2- WO- WFV- WD- N-两栖，可以抢劫敌方坦克，不会主动攻击也不会被主动攻击
 - ============ 英雄 ============
 - 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-两栖，移动迅速，可以对空也可以对地
 - 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，会击杀坦克的司机，隐形，对地，对空（仅飞行兵）
@@ -69,13 +74,13 @@ Mental Omega ^3.3.0
 
 焚风：
 - 光棱兵[vaIPrismS] F-超时空军团兵[CLEG] P-盟军科技中心[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2-  WO-光棱炮[vaWPrismCannon] WFV-光棱炮[vaWPrismCannon] WD-小型能量爆炸[vaWEnergyExplSM] N-对地对空
-- [] F-同步浪人[] P- W1-[] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
-- （飞行兵）[] F-气压球晋升者[] P- W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
-- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P- N-移动迅速，对步兵伤害非常高。
+- 坦途行者[vaIRoamer] F-同步浪人[SYNC] P- W1-[vaWForceBlade] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
+- （飞行兵）怒风术士[vaIGaleWielder] F-气压球晋升者[ZORB_N] P-飓风研究室[vaBCycloneLab] W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
+- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-飓风研究室[vaBCycloneLab] N-移动迅速，对步兵伤害非常高。
 
 - ============ 英雄 ============
-- [] F-长枪战士[] P- W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
-- （飞行兵）[] F-天神克星[] P- W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 天神克星
+- 英霸[vaIImbart] F-长枪战士[COVE] P- W1-[vaWFierceASlash] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
+- （飞行兵）盖索克斯[vaIGarzoks] F-天神克星[] P- W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 天神克星
 
 
 ### 战车（包括战车工厂飞行器与海军）
@@ -137,15 +142,15 @@ Mental Omega ^3.3.0
 - 防御大楼[vaBDefScraper] F-芝加哥协会大楼[CACHIG04] P-厄普西隆潘多拉枢纽 W1- W2- WD-无 E-100 N-驻兵20，隐形，给周围单位隐形
 
 焚风：
-- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-3本科技实验室
+- 飓风研究室[vaBCycloneLab] F-考古学博物馆[CABIOS] P-焚风扩展模组-组[FOETECH] W1-无 W2- WD-无 E--200 N-3本科技实验室，大电厂+大油井
 
-- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-3级防御-地
+- 能量方尖碑[vaBEnergyObelisk] F-方尖碑[CAMONU] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-无 E-200 N-3级防御-地
 
-- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-3级防御-空
+- 声爆防空钟[vaBSBurstAABell] F-沙皇大钟[CATSAR] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-无 E-200 N-3级防御-空
 
-- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-大型驻兵建筑
+- 超算庇护所[vaBSCompShelter] F-金川实验室[CAKANE01] P-焚风扩展模组-组[FOETECH] W1-无 W2- WD-无 E-200 N-大型驻兵建筑
 
-- [] F-[] P-[] W1-无 W2- WD-无 E-200 N-伪超武
+- 暴风聚能塔[vaBTempestTower] F-东京塔[CATOKY] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-中型能量爆炸 E-200 N-伪超武
 
 ### 武器
 
@@ -160,7 +165,7 @@ Mental Omega ^3.3.0
 
 位于wcR-rules-adjustment.ini
 
-- 尖碑实验室、红堡实验室和心智升华室是AI可建造的实验室
+- 尖碑实验室、红堡实验室、心智升华室和飓风研究室是AI可建造的实验室
 - 即使满足科技树上所有建造条件，其他国家仍然无法建造本国实验室。但是在间谍单位渗透对应建筑+建造场后，其他国家可以建造原形车，展开成对应实验室
   - 原型车是原建筑的3倍价格，生命值0.75倍
   - 盟军：科技中心原型车
@@ -195,6 +200,9 @@ Mental Omega ^3.3.0
     - 斯特瑞克步兵战车
     - 执政官装甲步兵车
     - 长剑步兵装甲
+    - 玄武战斗要塞
+    - 灾厄坦克
+    - 豺狼突击载具
   - 所召唤单位击杀敌军获得经验的一半将分享给主人。
     - 伯劳防空鸟巢
     - 冰雹平台
