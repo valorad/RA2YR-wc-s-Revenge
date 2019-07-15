@@ -75,7 +75,7 @@ Mental Omega ^3.3.0
 焚风：
 - 光棱兵[vaIPrismS] F-超时空军团兵[CLEG] P-盟军科技中心[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2-  WO-光棱炮[vaWPrismCannon] WFV-光棱炮[vaWPrismCannon] WD-小型能量爆炸[vaWEnergyExplSM] N-对地对空
 - 坦途行者[vaIRoamer] F-同步浪人[SYNC] P- W1-[vaWForceBlade] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
-- （飞行兵）怒风术士[vaIGaleWielder] F-气压球晋升者[SYNC_N] P-飓风研究室[vaBCycloneLab] W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
+- （飞行兵）怒风术士[vaIGaleWielder] F-忍者浪人[SYNC_N] P-飓风研究室[vaBCycloneLab] W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-飓风研究室[vaBCycloneLab] N-移动迅速，对步兵伤害非常高。
 
 - ============ 英雄 ============
