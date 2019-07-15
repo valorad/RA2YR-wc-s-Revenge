@@ -18,6 +18,7 @@ Mental Omega ^3.3.0
 70=wcr-rules-infantries.ini
 
 100=wcr-rules-adjustments.ini
+110=wcr-rules-adjustments-cheats.ini
 
 ; artmd.ini
 [#include]
