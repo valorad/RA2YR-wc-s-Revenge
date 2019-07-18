@@ -50,7 +50,7 @@ Mental Omega ^3.3.0
 - （飞行兵）阿瑞斯之鹰[vaIAresEagle] F-火箭飞行兵[JUMPJET] P-尖碑实验室[vaBObelisk] W1-便携巨炮[vaWPortCannonLG] W2-航空炮[vaWA20mm] WO- WFV- WD-中型爆炸[vaWExplMD] N-重甲，飞行单位，飞行较慢
 - 重装精英[vaIHAElite] F-重装大兵[GGI] P-盟军作战实验室[GATECH] W1-M60Plus机枪[vaWM60Plus] W2-RPG[vaWRPG] WO-RPG[vaWRPG] WFV-RPG[vaWRPG] WD-小型爆炸[vaWExplSM] N-护甲很厚，移动慢，无法碾压
 - 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1-间谍伪装[] W2-冲锋枪[] WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N-不能被碾压，不能升级，视野很大，隐形，通过部署切换武器，冲锋枪是类似海豹部队的
-- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军科技中心 W1-猴子咬[] W2- WO- WFV- WD- N-两栖，可以抢劫敌方坦克，不会主动攻击也不会被主动攻击
+- 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军科技中心 W1-伽马击毙[vaWGammaInstantKill] W2- WO- WFV- WD- N-两栖，可以抢劫敌方坦克，不会主动攻击也不会被主动攻击，能够秒杀1个步兵，但需冷却很长时间
 - ============ 英雄 ============
 - 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-两栖，移动迅速，可以对空也可以对地
 - 戴斯蒙[vaIDesmond] F-终结者[ARND] N-超远程的狙击手，攻速很慢，射程很远，会击杀坦克的司机，隐形，对地，对空（仅飞行兵）
@@ -74,10 +74,10 @@ Mental Omega ^3.3.0
 - （飞行兵）芬雷[vaIFinley]  F-木乃伊[MUMY] P-心智升华室[vaBMindMutator] W1-病毒高爆弹 W2- WD- WO- WFV- N-发射病毒炮弹，炮弹高爆分裂，步兵死亡会变成毒雾
 
 焚风：
-- 光棱兵[vaIPrismS] F-超时空军团兵[CLEG] P-盟军科技中心[GATECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2-  WO-光棱炮[vaWPrismCannon] WFV-光棱炮[vaWPrismCannon] WD-小型能量爆炸[vaWEnergyExplSM] N-对地对空
-- 坦途行者[vaIRoamer] F-同步浪人[SYNC] P- W1-[vaWForceBlade] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
+- 光棱兵[vaIPrismS] F-超时空军团兵[CLEG] P-焚风扩展组[FOETECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2-  WO-光棱炮[vaWPrismCannon] WFV-光棱炮[vaWPrismCannon] WD-小型能量爆炸[vaWEnergyExplSM] N-对地对空
+- 坦途行者[vaIRoamer] F-同步浪人[SYNC] P-焚风扩展组[FOETECH] W1-力场刃[vaWForceBlade] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
 - （飞行兵）怒风术士[vaIGaleWielder] F-忍者浪人[SYNC_N] P-飓风研究室[vaBCycloneLab] W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
-- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-飓风研究室[vaBCycloneLab] N-移动迅速，对步兵伤害非常高。
+- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-雷达类 N-移动迅速，对步兵伤害非常高。
 
 - ============ 英雄 ============
 - 英霸[vaIImbart] F-长枪战士[COVE] P- W1-[vaWFierceASlash] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
