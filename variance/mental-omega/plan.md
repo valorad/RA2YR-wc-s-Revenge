@@ -48,8 +48,8 @@ Mental Omega ^3.3.0
 ---
 盟军：
 - （飞行兵）阿瑞斯之鹰[vaIAresEagle] F-火箭飞行兵[JUMPJET] P-尖碑实验室[vaBObelisk] W1-便携巨炮[vaWPortCannonLG] W2-航空炮[vaWA20mm] WO- WFV- WD-中型爆炸[vaWExplMD] N-重甲，飞行单位，飞行较慢
-- 重装精英[vaIHAElite] F-重装大兵[GGI] P-盟军作战实验室[GATECH] W1-M60Plus机枪[vaWM60Plus] W2-RPG[vaWRPG] WO-RPG[vaWRPG] WFV-RPG[vaWRPG] WD-小型爆炸[vaWExplSM] N-护甲很厚，移动慢，无法碾压
-- 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1-间谍伪装[] W2-冲锋枪[] WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N-不能被碾压，不能升级，视野很大，隐形，通过部署切换武器，冲锋枪是类似海豹部队的
+- 重装精英[vaIHAElite] F-重装大兵[GGI] P-盟军科技中心[GATECH] W1-M60Plus机枪[vaWM60Plus] W2-RPG[vaWRPG] WO-RPG[vaWRPG] WFV-RPG[vaWRPG] WD-小型爆炸[vaWExplSM] N-护甲很厚，移动慢，无法碾压
+- 王牌特工[vaISuperAgent] F-间谍[SPY] P-尖碑实验室[vaBObelisk] W1-间谍伪装[] W2-冲锋枪[] WO- WFV- WD-小型能量爆炸[vaWEnergyExplSM] N- 两栖，不能被碾压，不能升级，视野很大，隐形，通过部署切换武器，冲锋枪是类似海豹部队的
 - 伽马猴[vaIGammaApe] F-猴子[JOSH] P-盟军科技中心 W1-伽马击毙[vaWGammaInstantKill] W2- WO- WFV- WD- N-两栖，可以抢劫敌方坦克，不会主动攻击也不会被主动攻击，能够秒杀1个步兵，但需冷却很长时间
 - ============ 英雄 ============
 - 史蒂夫[vaISteve] F-海豹部队[GHOST] P-尖碑实验室[vaBObelisk] W1-激光机枪[vaWLaserGatling] W2- WO- MFV-激光机枪[vaWLaserGatling] WD-大型能量爆炸[vaWEnergyExplLG] N-两栖，移动迅速，可以对空也可以对地
@@ -57,7 +57,7 @@ Mental Omega ^3.3.0
 
 苏联：
 - 无辜小平民[vaIWuGuCiv] F-平民[CIV2] P-苏联实验室组[SOVTECH] W1-伊文炸药[IvanBomber] W2-  WO- MFV-迷你核弹[CRNuke] WD-伊文炸药[IvanBomber] N-两栖，武器和疯狂伊文完全相同，不会被主动攻击，视野很大
-- 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联实验室组[SOVTECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-可以对空又对地，无法碾压，重甲却有较快移动速度
+- 磁暴追猎者[vaIEShockStalker] F-磁暴步兵[SHK] P-苏联实验室组[SOVTECH] W1-改良磁暴枪[vaWAdvEShooter] W2-(充电枪)  WO- MFV-改良磁暴枪[vaWAdvEShooter] WD-小型能量爆炸[vaWEnergyExplSM] N-两栖，可以对空又对地，无法碾压，重甲却有较快移动速度
 - （飞行兵）战熊飞行兵[vaIBatBearJet] F-登月火箭员[LUNR] P-红堡实验室[vaBRedFort] W1-巨型电弧炮[vaWTslArcCannon] W2-  WO- MFV- WD-中型能量爆炸[vaWEnergyExplMD] N-飞行单位
 - 伞兵终结者[vaIParaTerminator] F-防空步兵[FLAKT] P-苏联实验室组[SOVTECH] W1-迫击炮[vaWMortar] W2-轻型防空炮（对空）[vaWLightFlakAA]  WO- MFV- WD-小型爆炸[vaWExplSM] N-重甲，无法碾压，移动慢，射程较远，范围伤害，对坦克伤害大
 - ============ 英雄 ============
@@ -75,9 +75,9 @@ Mental Omega ^3.3.0
 
 焚风：
 - 光棱兵[vaIPrismS] F-超时空军团兵[CLEG] P-焚风扩展组[FOETECH] W1-便携光棱柱（对空又对地）[vaWPortablePrism] W2-  WO-光棱炮[vaWPrismCannon] WFV-光棱炮[vaWPrismCannon] WD-小型能量爆炸[vaWEnergyExplSM] N-对地对空
-- 坦途行者[vaIRoamer] F-同步浪人[SYNC] P-焚风扩展组[FOETECH] W1-力场刃[vaWForceBlade] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 武器类似隐刀，远程，对地对空
+- 坦途行者[vaIRoamer] F-同步浪人[SYNC] P-焚风扩展组[FOETECH] W1-力场刃[vaWForceBlade] W2-  WO-[] WFV-[] WD-小型能量爆炸[vaWEnergyExplSM] N- 两栖，武器类似隐刀，远程，对地对空
 - （飞行兵）怒风术士[vaIGaleWielder] F-忍者浪人[SYNC_N] P-飓风研究室[vaBCycloneLab] W1-[] W2-  WO-[] WFV-[] WD-中型能量爆炸[vaWEnergyExplSM] N- 武器是一种能量波，远程，对地对空
-- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-雷达类 N-移动迅速，对步兵伤害非常高。
+- 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-雷达类 N-两栖，移动迅速，对步兵伤害非常高。
 
 - ============ 英雄 ============
 - 英霸[vaIImbart] F-长枪战士[COVE] P- W1-[vaWFierceASlash] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
