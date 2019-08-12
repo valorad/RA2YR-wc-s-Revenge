@@ -16,6 +16,7 @@ Mental Omega ^3.3.0
 50=wcr-rules-buildings.ini
 60=wcr-rules-vehicles.ini
 70=wcr-rules-infantries.ini
+80=wcr-rules-superweapons.ini
 
 100=wcr-rules-adjustments.ini
 110=wcr-rules-adjustments-cheats.ini
@@ -120,6 +121,8 @@ Mental Omega ^3.3.0
 公共：
 - 山寨钻油井[vaBShanzhaiOilD] F-科技钻油井[CAOILD] P-PROC W1- W2- WD-OilExplosion E-50 N-抢到中立的山寨钻油井会获得2000，钱增加速度为30/100，被毁不留残渣
 
+- 豪华飞机场[vaBLuxAirport] F-CALA05 P-TECH W1- W2- WD- E-100 N-后期建造的，超级武器：超级伞兵团，带雷达
+
 盟军：
 - 尖碑实验室[vaBObelisk] F-华盛顿纪念碑[CAWSH12] P-盟军科技中心[GATECH] W1-无 W2- WD-无 E-200 N-限造1, 步兵进入后升级
 - 粒子对撞炮[vaBMolColCannon]：F-巨炮[GTGCAN] P-尖碑实验室 W1-粒子对撞炮[vaWMolColCannon] W2- WD-中型爆炸 E-200 N-限造1，范围255，冷却1分钟，伪超级武器
@@ -161,6 +164,50 @@ Mental Omega ^3.3.0
 
 位于wcr-rules-warheads.ini
 
+### 超级武器
+
+---
+
+[ID] P-要求建筑 D-冷却分钟 C-花费 N-备注
+
+- 超级伞兵团[vaSSuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-12 C-2000 N-伞兵类型和数目如下：
+  - 盟军：
+重装精英[vaIHAElite]x2、
+王牌特工[vaISuperAgent]x1、
+伽马猴[vaIGammaApe]x3、
+海豹突击队[GHOST]x3、
+工程师[ENGINEER]x2、
+间谍[SPY]x3、
+盟军大兵[E1]x6
+
+  - 苏联：
+无辜小平民[vaIWuGuCiv]x3、
+磁暴追猎者[vaIEShockStalker]x2、
+伞兵终结者[vaIParaTerminator]x2、
+辐射工兵[DESO]x3、
+工程师[SENGINEER]x2、
+破坏者[SBTR]x3、
+苏联动员兵[E2]x8
+
+  - 厄普西隆：
+夜魔[vaINoctevo]x2、
+异场武士[vaIAlienWarrior]x1、
+怨灵[vaIEvlSpirit]x2、
+心灵精英[YURIPR] （心灵军团）或心灵专家[YURI]（其他厄普西隆）x5、
+工程师[YENGINEER]x2、
+渗透者[INTRUDER]x3、
+厄普西隆新兵[INIT]x5
+
+  - 焚风：
+光棱兵[vaIPrismS]x2、
+坦途行者[vaIRoamer]x2、
+凶凶熊[vaIXiongxiongBear]x5、
+同步忍者[SYNC_N]（狂鲨先锋）或 气压球晋升者[ZORB_N]（科洛尼亚侧翼）或 天神克星[BANE_N]（最后堡垒）x3、
+工程师[FENGINEER]x2、
+千里眼机器人[CLAIR]x3、
+铁骑兵[KNIGHT]x6
+---
+
 
 ### 全局调整
 
@@ -173,7 +220,7 @@ Mental Omega ^3.3.0
   - 苏联：苏联山寨实验室（像宫殿但没有任何附属技能）原型车
   - 厄普西隆：潘多拉枢纽原型车，非厄普西隆军国家继续建造空白兼容组件以和下一级科技接壤。
   - 焚风：
-    - 无需原型车，非焚风反抗军国家在渗透**带有扩展**的FOERADR类建筑（网络核心、穿云尖塔、纳米纤维织机）后，在**穿云尖塔**上继续建造空白兼容扩展，从而和下一级科技接壤。
+    - 无需原型车，非焚风反抗军国家在渗透穿云尖塔后，在**穿云尖塔**上继续建造空白兼容扩展，从而和下一级科技接壤。
     - （或）非焚风反抗军国家在宝箱中捡到穿云尖塔废弃原型，展开后建造废弃兼容扩展，从而和下一级科技接壤。废弃兼容扩展没有其他建造前提,可以展开后直接建造。
 - 建造场的生命值是5000，建造场、基地车造价是5000
 - 基地车不能被控制（但是主基地可以），这是为了避免中立单位控制基地车又想展开造成的游戏崩溃。
@@ -189,11 +236,6 @@ Mental Omega ^3.3.0
 - 运输机是不能击落的（生命值很高）
 - 箱子最少10个最多255个
 - 伞兵要电才肯投
-- 伞兵的时间和兵种有调整
-  <!-- - 美国：[12分钟]-王牌特工x1、重装精英x3、光棱兵x4、美国大兵x10、工程师*2
-  - 盟军：[7.5分钟]-王牌特工x1、伽马猴x1、光棱兵x1、重装大兵x2、美国大兵x3、工程师*1
-  - 苏联：[7.5分钟]-磁暴追猎者x1、渗透伊文x1、无辜小平民x1、防空步兵x4、动员兵x6、工程师*1
-  - 尤里：[7.5分钟]-异场武士x1、怨灵x1、夜魔x1、尤里复制人x2、尤里新兵x3、工程师*1 -->
 - 造兵列表最多可以点到99个
 - 建造速度加快到0.5
 - 经验值分配调整（[Ares文档](http://ares-developers.github.io/Ares-docs/new/customizableveterancy.html)）
@@ -216,13 +258,15 @@ Mental Omega ^3.3.0
     - 心灵精英
     - 心灵之主
     - 心灵控制塔
-- 尤里、心灵突击队、心灵控制塔、心灵感应器不能够反间谍，尤里反间谍单位为凶凶熊。
 - 以下单位升级为两栖单位
   - 工程师
   - 狂兽人
   - 间谍
+  - 破坏者
+  - 渗透者
 - 船厂可以占领，可以被间谍渗透
 - 空指部类建筑可以被间谍渗透（黑雷达 + 空军升级）
+- 科技机场可以建造 豪华舱模组 以获得 超级伞兵团
 
 
 
