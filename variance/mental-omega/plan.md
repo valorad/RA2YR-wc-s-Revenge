@@ -119,7 +119,7 @@ Mental Omega ^3.3.0
 
 ---
 公共：
-- 山寨钻油井[vaBShanzhaiOilD] F-科技钻油井[CAOILD] P-PROC W1- W2- WD-OilExplosion E-50 N-抢到中立的山寨钻油井会获得2000，钱增加速度为30/100，被毁不留残渣
+- 山寨钻油井[vaBShanzhaiOilD] F-科技钻油井[CAOILD] P-PROC W1- W2- WD-OilExplosion E-50 N-抢到中立的山寨钻油井会获得2000，钱增加速度为30/100，被毁不留残渣. 
 
 - 豪华飞机场[vaBLuxAirport] F-CALA05 P-TECH W1- W2- WD- E-100 N-后期建造的，超级武器：超级伞兵团，带雷达
 
@@ -170,43 +170,13 @@ Mental Omega ^3.3.0
 
 [ID] P-要求建筑 D-冷却分钟 C-花费 N-备注
 
-- 超级伞兵团[vaSSuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-12 C-2000 N-伞兵类型和数目如下：
-  - 盟军：
-重装精英[vaIHAElite]x2、
-王牌特工[vaISuperAgent]x1、
-伽马猴[vaIGammaApe]x3、
-海豹突击队[GHOST]x3、
-工程师[ENGINEER]x2、
-间谍[SPY]x3、
-盟军大兵[E1]x6
-
-  - 苏联：
-无辜小平民[vaIWuGuCiv]x3、
-磁暴追猎者[vaIEShockStalker]x2、
-伞兵终结者[vaIParaTerminator]x2、
-辐射工兵[DESO]x3、
-工程师[SENGINEER]x2、
-破坏者[SBTR]x3、
-苏联动员兵[E2]x8
-
-  - 厄普西隆：
-夜魔[vaINoctevo]x2、
-异场武士[vaIAlienWarrior]x1、
-怨灵[vaIEvlSpirit]x2、
-心灵精英[YURIPR] （心灵军团）或心灵专家[YURI]（其他厄普西隆）x5、
-工程师[YENGINEER]x2、
-渗透者[INTRUDER]x3、
-厄普西隆新兵[INIT]x5
-
-  - 焚风：
-光棱兵[vaIPrismS]x2、
-坦途行者[vaIRoamer]x2、
-凶凶熊[vaIXiongxiongBear]x5、
-同步忍者[SYNC_N]（狂鲨先锋）或 气压球晋升者[ZORB_N]（科洛尼亚侧翼）或 天神克星[BANE_N]（最后堡垒）x3、
-工程师[FENGINEER]x2、
-千里眼机器人[CLAIR]x3、
-铁骑兵[KNIGHT]x6
 ---
+
+- 超级伞兵团[vaSSuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-12 C-2000 N-伞兵类型和数目如下：
+  - 盟军：重装精英[vaIHAElite]x2、王牌特工[vaISuperAgent]x1、伽马猴[vaIGammaApe]x3、海豹突击队[GHOST]x3、工程师[ENGINEER]x2、间谍[SPY]x3、盟军大兵[E1]x6
+  - 苏联：无辜小平民[vaIWuGuCiv]x3、磁暴追猎者[vaIEShockStalker]x2、伞兵终结者[vaIParaTerminator]x2、辐射工兵[DESO]x3、工程师[SENGINEER]x2、破坏者[SBTR]x3、苏联动员兵[E2]x8
+  - 厄普西隆：夜魔[vaINoctevo]x2、异场武士[vaIAlienWarrior]x1、怨灵[vaIEvlSpirit]x2、心灵精英[YURIPR] （心灵军团）或心灵专家[YURI]（其他厄普西隆）x5、工程师[YENGINEER]x2、渗透者[INTRUDER]x3、厄普西隆新兵[INIT]x5
+  - 焚风：光棱兵[vaIPrismS]x2、坦途行者[vaIRoamer]x2、凶凶熊[vaIXiongxiongBear]x5、同步忍者[SYNC_N]（狂鲨先锋）或 气压球晋升者[ZORB_N]（科洛尼亚侧翼）或 天神克星[BANE_N]（最后堡垒）x3、工程师[FENGINEER]x2、千里眼机器人[CLAIR]x3、铁骑兵[KNIGHT]x6
 
 
 ### 全局调整
@@ -232,7 +202,7 @@ Mental Omega ^3.3.0
   - （或）拥有 特定的**建造厂**+任意RADAR类建筑（例如：**厄普西隆建造场**+盟军空军指挥部=>地狱热能塔）
 - 1阶英雄（即谭雅、沃尔科夫、天秤 等等）的生命值提高
 - 1阶英雄可以反隐
-<!-- - 磁暴步兵、防空步兵、海豹部队、辐射工兵、守卫大兵、狂兽人 可以进入建筑，会给他们定义全新的驻防武器。 -->
+- 磁暴步兵、海豹部队、辐射工兵、狂兽人 可以进入建筑，会给他们定义全新的驻防武器。
 - 运输机是不能击落的（生命值很高）
 - 箱子最少10个最多255个
 - 伞兵要电才肯投
@@ -267,6 +237,6 @@ Mental Omega ^3.3.0
 - 船厂可以占领，可以被间谍渗透
 - 空指部类建筑可以被间谍渗透（黑雷达 + 空军升级）
 - 科技机场可以建造 豪华舱模组 以获得 超级伞兵团
-
+- 被间谍入侵 三级经济建筑（即 矿石提纯器、工业工厂、克隆缸、资源再生室） 后会损失75%的资金。
 
 
