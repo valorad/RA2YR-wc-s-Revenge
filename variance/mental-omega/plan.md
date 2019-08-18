@@ -19,7 +19,8 @@ Mental Omega ^3.3.0
 80=wcr-rules-superweapons.ini
 
 100=wcr-rules-adjustments.ini
-110=wcr-rules-adjustments-cheats.ini
+
+200=cheats.ini ; local copy will not sync
 
 ; artmd.ini
 [#include]

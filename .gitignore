@@ -254,4 +254,3 @@ paket-files/
 # Site Specific
 /.vscode/*
 dist/**
-**/cheats/current.ini
