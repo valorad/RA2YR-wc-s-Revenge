@@ -82,8 +82,8 @@ Mental Omega ^3.3.0
 - 凶凶熊[vaIXiongxiongBear] F-北极熊[POLARB] P-雷达类 N-两栖，移动迅速，对步兵伤害非常高。
 
 - ============ 英雄 ============
-- 英霸[vaIImbart] F-长枪战士[COVE] P- W1-[vaWFierceASlash] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
-- （飞行兵）盖索克斯[vaIGarzoks] F-天神克星[] P- W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 天神克星
+- 英霸[vaIImbart] F-长枪战士[COVE] P-飓风研究室[vaBCycloneLab] W1-狂野能量刃[vaWFierceASlash] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 长枪战士，近战，攻击有范围emp效果
+- （飞行兵）盖索克斯[vaIGarzoks] F-天神克星[] P-飓风研究室[vaBCycloneLab] W1-[] W2-  WO-[] WFV-[] WD-大型能量爆炸[vaWEnergyExplLG] N- 天神克星
 
 
 ### 战车（包括战车工厂飞行器与海军）
@@ -95,6 +95,32 @@ Mental Omega ^3.3.0
 [ID] F-形象 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 Dp-展开为 N-备注
 
 ---
+盟军：
+- 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
+- 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
+- ============ 英雄 ============
+- (飞行物) 战鹰[vaVBattleEagle] F-武装直升机[SCHP] P-尖碑实验室 W1-光棱机枪[vaWPrismGatling] W2-小型粒子对撞炮[vaWMolColCannonSM] WD-大型能量爆炸[vaWEnergyExplLG] N-光棱直升机
+
+苏联：
+- 低调的挖掘机[vaVLowKeyExcavator] F-挖掘机[CONA] P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- N-侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野大 RadarInvisible=yes
+- 菜油榴弹炮 [vaVCaiyouHowitzer] F-榴弹炮[HOWI] P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-中型爆炸 N-远程火力加强榴弹炮
+- ============ 英雄 ============
+- 克里姆林天启[vaVKremlinApoc] F-天启坦克[APOC] P-红堡实验室 W1-克里姆林天启炮[vaWKremlinApocCannon] （1级像3级的普通天启炮，3级是炮带菜油榴弹炮效果）W2-克里姆林天启飞弹[] WD-大型核爆[vaWNukeExplLG] （1级像爱国者飞弹，3级带菜油榴弹炮效果） N-生命高，移动中速，可以碾压其他坦克
+
+厄普西隆：
+- 迷你小巴士[vaVMiniBus] F-巴士[DDBX] P-[YAWEAP] W1-无 W2- WD-无 N-中速的侦察车，可以载5人 视野大，不主动被攻击
+- 傻x洲际火箭车[vaVShaChaICRocket] F-V3火箭发射车[V3] P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
+- ============ 英雄 ============
+- （飞行物）泽洛克母舰[vaVZeroc] F-航空母舰[CARRIER] P-心智升华室 N-可以大范围无限控制单位，移动慢
+
+焚风：
+- 蜜蜂侦察机[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-中速的侦察机 视野非常大，不主动被攻击
+- 广盘修护仪[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-全图修理单位
+
+- ============ 英雄 ============
+- 陷阵者[vaVFormPiercer] F-Megalodon[MEGA] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-无 N-生命高，移动快速，可以碾压其他坦克
+Formation
+
 
 
 
@@ -104,7 +130,7 @@ Mental Omega ^3.3.0
 
 ---
 
-[ID] F-形象 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 Dp-展开为 N-备注
+[ID] F-形象 P-建造要求 W1-主武器 W2-副武器 WD-死亡武器 N-备注
 
 ---
 
@@ -173,9 +199,9 @@ Mental Omega ^3.3.0
 
 ---
 
-- 超级伞兵团[vaSSuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-12 C-2000 N-伞兵类型和数目如下：
+- 超级伞兵团[vaESuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-12 C-2000 N-伞兵类型和数目如下：
   - 盟军：重装精英[vaIHAElite]x2、王牌特工[vaISuperAgent]x1、伽马猴[vaIGammaApe]x3、海豹突击队[GHOST]x3、工程师[ENGINEER]x2、间谍[SPY]x3、盟军大兵[E1]x6
-  - 苏联：无辜小平民[vaIWuGuCiv]x3、磁暴追猎者[vaIEShockStalker]x2、伞兵终结者[vaIParaTerminator]x2、辐射工兵[DESO]x3、工程师[SENGINEER]x2、破坏者[SBTR]x3、苏联动员兵[E2]x8
+  - 苏联：无辜小平民[vaIWuGuCiv]x3、磁暴追猎者[vaIEShockStalker]x2、伞兵终结者[vaIParaTerminator]x2、辐射根除者[DESOR]（中国） 或 辐射工兵[DESO]（其他苏联）x3、工程师[SENGINEER]x2、破坏者[SBTR]x3、苏联动员兵[E2]x8
   - 厄普西隆：夜魔[vaINoctevo]x2、异场武士[vaIAlienWarrior]x1、怨灵[vaIEvlSpirit]x2、心灵精英[YURIPR] （心灵军团）或心灵专家[YURI]（其他厄普西隆）x5、工程师[YENGINEER]x2、渗透者[INTRUDER]x3、厄普西隆新兵[INIT]x5
   - 焚风：光棱兵[vaIPrismS]x2、坦途行者[vaIRoamer]x2、凶凶熊[vaIXiongxiongBear]x5、同步忍者[SYNC_N]（狂鲨先锋）或 气压球晋升者[ZORB_N]（科洛尼亚侧翼）或 天神克星[BANE_N]（最后堡垒）x3、工程师[FENGINEER]x2、千里眼机器人[CLAIR]x3、铁骑兵[KNIGHT]x6
 
