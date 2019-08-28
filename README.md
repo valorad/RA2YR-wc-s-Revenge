@@ -4,7 +4,7 @@ Red Alert 2 : Yuri's Revenge mod - WC's Revenge
 
 “WC的复仇” 是室长版的后续作品，相较室长版，“WC的复仇”在保持娱乐性的同时尽最大可能进行了平衡。
 
-“WC的复仇”保留了室长版的绝大多数单位与玩法，也从室长版移植了改进一些经典地图。
+“WC的复仇”保留了室长版的绝大多数单位与玩法，也从室长版移植改进了一些经典地图。
 
 wcR的设计风格是“嵌入”型的，因此安装之前您需要准备好能够 **正常进游戏** 的原版游戏或第三方mod。
 
@@ -15,6 +15,9 @@ _地图：《盟友》(AlliesSBMega)_
 
 ![Naval Rage](https://i.imgur.com/tI5FPyt.png)
 _地图：《海之狂怒》(Naval Rage)，图中为芬蕾的武器爆炸效果_
+
+![Laughter Lab](https://i.imgur.com/829JErF.png)
+_地图：《欢笑实验室（标准版）》(Laughter Lab - Standard) (心灵终结)(开发中)_
 
 ## 原版尤里安装
 安装好能够玩的[《红色警戒2：尤里的复仇》](https://www.origin.com/usa/en-us/store/command-and-conquer/command-and-conquer-the-ultimate-collection#store-page-section-description)，或者第三方mod。
