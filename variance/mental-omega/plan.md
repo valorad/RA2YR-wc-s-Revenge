@@ -98,25 +98,28 @@ Mental Omega ^3.3.0
 盟军：
 - 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
+- （海军）核动力驱逐舰[vaVNukePoweredDest] F-驱逐舰[DEST] P-尖碑实验室 W1-集聚舰炮[vaWConCannon] (一次发3颗的155mm)，有范围伤害 W2-[ASWLauncher] WD-核弹[NukePayload] N-
 - ============ 英雄 ============
 - (飞行物) 战鹰[vaVBattleEagle] F-武装直升机[SCHP] P-尖碑实验室 W1-光棱机枪[vaWPrismGatling] W2-小型粒子对撞炮[vaWMolColCannonSM] WD-大型能量爆炸[vaWEnergyExplLG] N-光棱直升机
 
 苏联：
 - 低调的挖掘机[vaVLowKeyExcavator] F-挖掘机[CONA] P-苏联战车工厂[NAWEAP] W1-[20mmRapid] W2- WD- N-侦查车，武器与武装采矿车[HARV]相同，不主动攻击，不主动被攻击 视野大 RadarInvisible=yes
 - 菜油榴弹炮 [vaVCaiyouHowitzer] F-榴弹炮[HOWI] P-红堡实验室 W1-远程榴弹[vaWLRHowitzer] W2- WD-中型爆炸 N-远程火力加强榴弹炮
+- (海军)收割者[vaVReaper] F-无畏级战舰[DRED] P-红堡实验室 W1-无畏导弹[vaWOvDredLauncher] W2- WD-核弹[NukePayload] N-移动速度快，护甲高，发射6枚飞弹的无畏级
 - ============ 英雄 ============
 - 克里姆林天启[vaVKremlinApoc] F-天启坦克[APOC] P-红堡实验室 W1-克里姆林天启炮[vaWKremlinApocCannon] （1级像3级的普通天启炮，3级是炮带菜油榴弹炮效果）W2-克里姆林天启飞弹[] WD-大型核爆[vaWNukeExplLG] （1级像爱国者飞弹，3级带菜油榴弹炮效果） N-生命高，移动中速，可以碾压其他坦克
 
 厄普西隆：
 - 迷你小巴士[vaVMiniBus] F-巴士[DDBX] P-[YAWEAP] W1-无 W2- WD-无 N-中速的侦察车，可以载5人 视野大，不主动被攻击
 - 傻x洲际火箭车[vaVShaChaICRocket] F-V3火箭发射车[V3] P-心智升华室 W1-洲际火箭[vaWICRocket] W2- WD-中型爆炸 N-超远程火箭发射车
+- （海军）神速雷鸣潜艇[vaVSupBSubmarine] F-雷鸣攻击潜艇[BSUB] P-心智升华室 W1-急速水雷[vaWFastBoomer] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-快速的潜艇
 - ============ 英雄 ============
 - （飞行物）泽洛克母舰[vaVZeroc] F-航空母舰[CARRIER] P-心智升华室 N-可以大范围无限控制单位，移动慢
 
 焚风：
-- 蜜蜂侦察机[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-中速的侦察机 视野非常大，不主动被攻击
+- (飞行物) 蜜蜂侦察机[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-中速的侦察机 视野非常大，不主动被攻击
 - 广盘修护仪[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-全图修理单位
-
+- （海军）离子切割舰[vaVIonDisShip] F-[] P-飓风研究室 W1-离子切割射线[vaWIonDisRay] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-射程远，对空对地
 - ============ 英雄 ============
 - 陷阵者[vaVFormPiercer] F-Megalodon[MEGA] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-无 N-生命高，移动快速，可以碾压其他坦克
 Formation
