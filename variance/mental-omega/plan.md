@@ -97,7 +97,7 @@ Mental Omega ^3.3.0
 ---
 盟军：
 - 豪华飞车[vaVLimoRaceCar] F-豪华轿车[LIMO] P-盟军战车工厂[GAWEAP] W1-无 W2-无 WD-无 N-侦察车，无武器，不主动被攻击，视野大
-- 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
+- 杜莎大导弹[vaVDusaMissile] F-出租车[TAXI] P-盟军作战实验室 W1-美杜莎飞弹[vaWMedusa] W2- WD-小型爆炸[vaWExplSM] N- 专业对空导弹车，只能对空，移动速度慢
 - （海军）核动力驱逐舰[vaVNukePoweredDest] F-驱逐舰[DEST] P-尖碑实验室 W1-集聚舰炮[vaWConCannon] (一次发3颗的155mm)，有范围伤害 W2-[ASWLauncher] WD-核弹[NukePayload] N-
 - ============ 英雄 ============
 - (飞行物) 战鹰[vaVBattleEagle] F-武装直升机[SCHP] P-尖碑实验室 W1-光棱机枪[vaWPrismGatling] W2-小型粒子对撞炮[vaWMolColCannonSM] WD-大型能量爆炸[vaWEnergyExplLG] N-光棱直升机
@@ -117,15 +117,16 @@ Mental Omega ^3.3.0
 - （飞行物）泽洛克母舰[vaVZeroc] F-航空母舰[CARRIER] P-心智升华室 N-可以大范围无限控制单位，移动慢
 
 焚风：
-- (飞行物) 蜜蜂侦察机[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-中速的侦察机 视野非常大，不主动被攻击
-- 广盘修护仪[vaVReconBee] F-DiverBee[DIVER] P-[FAWEAP] W1-无 W2- WD-无 N-全图修理单位
+- (飞行物) 蜜蜂侦察机[vaVReconBee] F-DiverBee[DIVER] P-[FOEWEAP] W1-无 W2- WD-无 N-中速的侦察机 视野非常大，不主动被攻击
+- 广盘修护仪[vaVOmniRepairer] F-Orcinus[ORCIN] P-焚风扩展组[FOETECH] W1-无 W2- WD-无 N-移动极慢，全图修理单位
 - （海军）离子切割舰[vaVIonDisShip] F-[] P-飓风研究室 W1-离子切割射线[vaWIonDisRay] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-射程远，对空对地
 - ============ 英雄 ============
 - 陷阵者[vaVFormPiercer] F-Megalodon[MEGA] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-无 N-生命高，移动快速，可以碾压其他坦克
 Formation
 
-
-
+其他：（兼容原版wcR的单位，不能建造）
+- 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
+- 刷屏干扰车[vaVSJammer] F-宣传车[PROPA] P-盟军作战实验室 W1-刷屏干扰波[vaWSJamBeam] W2- WD- N-骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿
 
 ### 飞机
 
