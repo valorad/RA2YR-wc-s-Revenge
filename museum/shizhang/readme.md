@@ -28,6 +28,11 @@
 70=shizhang-art-infantries.ini
 
 100=shizhang-art-adjustments.ini
+
+; aimd.ini
+[#include]
+100=shizhang-ai-adjustments.ini
+
 ```
 ## Rules
 
