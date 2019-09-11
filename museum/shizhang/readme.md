@@ -9,29 +9,29 @@
 ``` ini
 ; rulesmd.ini
 [#include]
-10=shizhang-rules-animations.ini
-20=shizhang-rules-warheads.ini
-30=shizhang-rules-projectiles.ini
-40=shizhang-rules-weapons.ini
-50=shizhang-rules-buildings.ini
-60=shizhang-rules-vehicles.ini
-70=shizhang-rules-infantries.ini
-90=shizhang-rules-aircrafts.ini
+15=shizhang-rules-animations.ini
+25=shizhang-rules-warheads.ini
+35=shizhang-rules-projectiles.ini
+45=shizhang-rules-weapons.ini
+55=shizhang-rules-buildings.ini
+65=shizhang-rules-vehicles.ini
+75=shizhang-rules-infantries.ini
+95=shizhang-rules-aircrafts.ini
 
-100=shizhang-rules-adjustments.ini
-110=shizhang-rules-adjustments-conflicts.ini
+105=shizhang-rules-adjustments.ini
+115=shizhang-rules-adjustments-conflicts.ini
 
 ; artmd.ini
 [#include]
-10=shizhang-art-animations.ini
-50=shizhang-art-buildings.ini
-70=shizhang-art-infantries.ini
+15=shizhang-art-animations.ini
+55=shizhang-art-buildings.ini
+75=shizhang-art-infantries.ini
 
-100=shizhang-art-adjustments.ini
+105=shizhang-art-adjustments.ini
 
 ; aimd.ini
 [#include]
-100=shizhang-ai-adjustments.ini
+105=shizhang-ai-adjustments.ini
 
 ```
 ## Rules
