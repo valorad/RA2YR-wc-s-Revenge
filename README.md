@@ -47,6 +47,9 @@ v3 不再兼容原版《红色警戒2》（Ra2.exe）。如果您想游玩原版
 ## 工具
 [Unit Batch Modifier](utils/unit-batch-modifier)
 
+## 博物馆
+[红警2与尤里复仇完美室长版](museum/shizhang)
+
 ## License
 
     GPL v3
