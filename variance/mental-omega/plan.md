@@ -203,7 +203,7 @@ Formation
 
 ---
 
-- 超级伞兵团[vaESuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-12 C-2000 N-伞兵类型和数目如下：
+- 超级伞兵团[vaESuperParaDropInf] P-豪华飞机场[vaBLuxAirport] 或 豪华舱升级模组[vaBLuxUpgrade]  D-10 C-2000 N-伞兵类型和数目如下：
   - 盟军：重装精英[vaIHAElite]x2、王牌特工[vaISuperAgent]x1、伽马猴[vaIGammaApe]x3、海豹突击队[GHOST]x3、工程师[ENGINEER]x2、间谍[SPY]x3、盟军大兵[E1]x6
   - 苏联：无辜小平民[vaIWuGuCiv]x3、磁暴追猎者[vaIEShockStalker]x2、伞兵终结者[vaIParaTerminator]x2、辐射根除者[DESOR]（中国） 或 辐射工兵[DESO]（其他苏联）x3、工程师[SENGINEER]x2、破坏者[SBTR]x3、苏联动员兵[E2]x8
   - 厄普西隆：夜魔[vaINoctevo]x2、异场武士[vaIAlienWarrior]x1、怨灵[vaIEvlSpirit]x2、心灵精英[YURIPR] （心灵军团）或心灵专家[YURI]（其他厄普西隆）x5、工程师[YENGINEER]x2、渗透者[INTRUDER]x3、厄普西隆新兵[INIT]x5
