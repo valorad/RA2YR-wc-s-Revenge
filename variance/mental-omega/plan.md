@@ -122,7 +122,6 @@ Mental Omega ^3.3.0
 - （海军）离子切割舰[vaVIonDisShip] F-[] P-飓风研究室 W1-离子切割射线[vaWIonDisRay] W2-(导弹) WD-大型核爆[vaWNukeExplLG] N-射程远，对空对地
 - ============ 英雄 ============
 - 陷阵者[vaVFormPiercer] F-Megalodon[MEGA] P-飓风研究室[vaBCycloneLab] W1-无 W2- WD-无 N-生命高，移动快速，可以碾压其他坦克
-Formation
 
 其他：（兼容原版wcR的单位，不能建造）
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
