@@ -126,6 +126,20 @@ Mental Omega ^3.3.0
 其他：（兼容原版wcR的单位，不能建造）
 - 太空轨道快递[vaVSpDelivery] F-坦克杀手[TNKD] P-尖碑实验室 W1-远程中子炮[vaWLRNeutrCannon] W2-无 WD-中型能量爆炸  N-远程超时空“冻结”炮攻击车，射程与巨炮相同，不能对空
 - 刷屏干扰车[vaVSJammer] F-宣传车[PROPA] P-盟军作战实验室 W1-刷屏干扰波[vaWSJamBeam] W2- WD- N-骚扰型的战车，EMP武器，没有伤害，指哪儿打哪儿
+- (飞行物) 医疗直升机[vaVMedicHeli] F-夜莺直升机[SHAD] P-尖碑实验室 W1-治疗波[vaWHealingBeam] W2- WD- N-
+- （海军）乌贼王[vaVKingSquid] F-巨形乌贼[SQD] P-尖碑实验室 W1-乌贼王撞击[vaWKingSquidPunch] W2-[VirtualScanner] WD-小型心灵震爆 N-生命护甲很高的但移动略慢的巨形乌贼，自愈
+- （海军）干扰碰碰船[vaVSJamBumperShip] F-海蝎[HYD] P-NATECH W1-EMP炸弹[vaWEMPBomb] W2- WD-EMP炸弹[vaWEMPBomb] N-EMP武器有伤害，干扰时间长，冲撞后自爆，自爆效果类似于超时空传走
+- 迅雷蜘蛛[vaVThunderSpider] F-恐怖机器人[DRON] P-苏联作战实验室[NATECH] W1-超级寄生[vaWSuperDroneJump] W2-[VirtualScanner] WD-无 N-速度极快的恐怖机器人,可以寄生空中单位
+- 辐照防空台[vaVDesAAPlatform] F-卡车[TRUCKA] P-苏联作战实验室[NATECH] W1-辐照防空束[vaWDesAABeam] W2- WD- 
+- (飞行物)克里姆林基洛夫[vaVKremlinKirov] F-基洛夫空艇[ZEP] P-红堡实验室 W1-大型核爆[vaWNukeExplLG] W2- WD-大型核爆[vaWNukeExplLG] N-发动自毁，部署自毁
+- (海军)奇异海豚[vaVAmzDolphin] F-海豚[DLPH] P-红堡实验室 W1-海豚激光[vaWAmzDolphinLaser] W2- WD-小型心灵震爆 V-15 N-快速快攻的海豚，可以浮出水面攻击地面部队，自愈
+- (海军)伏特加战舰[vaVVoldkaVessel] F-宙斯盾巡洋舰[AEGIS] P-苏联作战实验室[NATECH] W1-感应伊文炸药[vaWIvanBomberSen] W2- WD-伊文炸药[IvanBomber] N-较远的疯狂伊文的武器
+- 纵火狂[vaVPyromania] F-神经突击车[CAOS] P-尤里作战实验室[YATECH] W1-火枪[vaWFireThrower] W2- WD-小型心灵震爆 N-近程喷火车，可以对空对地
+- 病毒狙击车[vaVVirusSniper] F-救护车[AMBU] P-尤里作战实验室[YATECH] W1-无 W2- WD-无 N-可以对空对地、射速很慢，射程较远，移动慢，生命高
+- 心灵控制塔安装器[vaVMindCTMCV] F-尤里基地车[PCV] Dp-心灵控制塔[YAPSYT] P-（类似二级基地防御的建造条件） W1-心灵控制[MindControl] W2- WD-小型心灵震爆 N-生命值为心灵控制塔的80%
+- （飞行物）泰坦直升机[vaVTitanHeli] F-雌鹿运输直升机[HIND] P-尤里战车工厂[YAWEAP] W1-[BlackHawkCannon] W2- WD-无 N-运16个人支持载具
+- （海军）盖特小船[vaVGatVessel] F-[TUG] P-(RADAR) W1-[AGGattling] W2-[AAGattling] WD-无 N-
+- (海军)心灵控制船[vaVMindCtrlVessel] F-游轮[CRUISE] P-尤里作战实验室[YATECH] W1-MindControl W2-MultipleMindControlTower WD-小型心灵震爆[vaWPsyDetonatorSM] N-
 
 ### 飞机
 
