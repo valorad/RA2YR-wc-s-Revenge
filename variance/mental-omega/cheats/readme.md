@@ -14,6 +14,7 @@
 
 [#include]
 100=cheats/wcr-lchv.ini
+105=cheats/wcr-vanilla-enable.ini
 110=cheats/no-tech-barrier.ini
 115=cheats/MCVGauge.ini
 120=cheats/allied-lchv.ini
