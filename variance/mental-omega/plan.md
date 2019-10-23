@@ -16,7 +16,8 @@ Mental Omega ^3.3.0
 50=wcr-rules-buildings.ini
 60=wcr-rules-vehicles.ini
 70=wcr-rules-infantries.ini
-80=wcr-rules-superweapons.ini
+80=wcr-rules-aircrafts.ini
+90=wcr-rules-superweapons.ini
 
 100=wcr-rules-adjustments.ini
 
@@ -28,6 +29,7 @@ Mental Omega ^3.3.0
 50=wcr-art-buildings.ini
 60=wcr-art-vehicles.ini
 70=wcr-art-infantries.ini
+80=wcr-art-aircrafts.ini
 
 
 ; soundmd.ini
