@@ -4576,7 +4576,7 @@ YURITRI178-G=yes
 [Basic]
 Name=AlliesSB - Gamma
 Percent=0
-GameMode=Standard,Unholy Alliance,No Bases,Tech Share,Infantry Only
+GameMode=standard
 HomeCell=98
 InitTime=10000
 Official=no
@@ -6766,7 +6766,7 @@ DestroyableBridges=yes
 26=Neutral,NANRCT,256,91,190,64,None,1,0,1,0,0,None,None,None,0,0
 27=Neutral,NANRCT,256,192,94,64,None,1,0,1,0,0,None,None,None,0,0
 28=Neutral,vaBMayanPyramid,256,62,75,64,20001001,1,0,1,0,0,None,None,None,0,0
-29=Neutral,vaBYuriStatue,256,117,74,64,20001013,1,0,1,0,0,None,None,None,0,0
+29=Neutral,vaBYuriStatue,256,117,74,64,20001009,1,0,1,0,0,None,None,None,0,0
 30=Neutral,vaBSCompShelter,256,134,92,64,20001015,1,0,1,0,0,None,None,None,0,0
 31=Neutral,vaBTechDefHouse,256,75,114,64,20001003,1,0,1,0,0,None,None,None,0,0
 32=Neutral,vaBCommCenter,256,94,133,64,20001007,1,0,1,0,0,None,None,None,0,0
