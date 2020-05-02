@@ -1910,6 +1910,8 @@ Bounty.Value=2000
 Cost=7500
 Strength=2500
 Bounty.Value=1750
+CanPassiveAquire=yes
+CanRetaliate=yes
 
 [vaIXiongxiongBear]
 Cost=1750
