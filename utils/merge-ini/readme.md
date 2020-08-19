@@ -1,4 +1,4 @@
-# Merge INI @ @ RA2_YR_WC_S_Revenge
+# Merge INI @ RA2_YR_WC_S_Revenge
 
 Merge INI files into 1.
 

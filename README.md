@@ -39,6 +39,30 @@ v3 不再兼容原版《红色警戒2》（Ra2.exe）。如果您想游玩原版
 
 如果一些地图有语言文件，请使用`RA2CStrEditor`自行合并。（例如：合并到`stringtable30.csf`，因为使用Ares，不需要合并到ra2md.csf)
 
+## 优化体验
+`variance/[mod]/cheats/`文件夹下存有针对本mod设计的优化体验。如需加载，请将整个`cheats`文件夹拷贝至游戏目录，并在`rulesmd.ini`（等规则文件）中的[#include]字段中填入所需文件的路径。例如：
+``` ini
+[#include]
+100=cheats/wcr-lchv.ini
+105=cheats/wcr-vanilla-enable.ini
+110=cheats/no-tech-barrier.ini
+115=cheats/MCVGauge.ini
+120=cheats/allied-lchv.ini
+130=cheats/sov-lchv.ini
+140=cheats/eps-lchv.ini
+150=cheats/fon-lchv.in
+175=cheats/d2vehicle0cost.ini
+180=cheats/fsw-0cd.ini
+190=cheats/no-build-limit.ini
+191=cheats/no-build-limit-anticheat.ini
+201=cheats/sw-0cd.ini
+
+230=cheats/blackout.ini
+231=cheats/oddyssey.ini
+232=cheats/fallout.ini
+233=cheats/treasure-hunt.ini
+```
+
 ## 计划
 [wcR@原版YR的计划](variance/yuri-vanilla/plan.md)
 
@@ -47,6 +71,8 @@ v3 不再兼容原版《红色警戒2》（Ra2.exe）。如果您想游玩原版
 ## 工具
 [Unit Batch Modifier](utils/unit-batch-modifier)
 
+[Merge INI](utils/merge-ini)
+
 ## 博物馆
 [红警2与尤里复仇完美室长版](museum/shizhang)
 
@@ -54,4 +80,4 @@ v3 不再兼容原版《红色警戒2》（Ra2.exe）。如果您想游玩原版
 
     GPL v3
     Red Alert 2 : Yuri's Revenge mod - WC's Revenge
-    Copyright  2016-2019  valorad/@xmj-alliance
+    Copyright  2016-2020  valorad/@xmj-alliance
